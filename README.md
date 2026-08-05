@@ -24,21 +24,21 @@ commitments; firm up exact dates as the cycle progresses.
 
 ### Meetings & Planning
 - [ ] Hold recurring internal Data Day team meetings
-  - [ ] Internal Data Day team meeting — Jul 2026
+  - [x] Internal Data Day team meeting — Jul 2026
   - [ ] Internal Data Day team meeting — Sep 2026
   - [ ] Internal Data Day team meeting — Nov 2026
   - [ ] Internal Data Day team meeting — Jan 2027
   - [ ] Internal Data Day team meeting — Feb 2027
 - [ ] Provide Data Day updates at quarterly RDR meetings
-  - [ ] RDR Q3 update — Jul 2026
+  - [x] RDR Q3 update — Jul 2026
   - [ ] RDR Q4 update — Oct 2026
   - [ ] RDR Q1 update — Feb 2027
 - [ ] Maintain ongoing planning, documentation, and timeline upkeep
 
 ### Logistics and Venue
-- [x] Select a date for the event — **Tue, Feb 16, 2027**
+- [ ] Select a date for the event — **TENTATIVE, Tue, Feb 16, 2027**
 - [ ] Secure the venue
-  - [x] Select a venue — **Ohio State University, Vitria on the Square, 14 E. 15th Ave., Columbus, OH 43201**
+  - [] Select a venue
   - [ ] Book the venue
 - [ ] Select a theme for the event _(target: Sep 2026 — gates the CFP, keynotes, and marketing)_
 - [ ] Prepare day-of logistics _(after agenda + registration are set)_
