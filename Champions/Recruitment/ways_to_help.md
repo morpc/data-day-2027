@@ -68,7 +68,7 @@ Below are five ways to help.
 
 ## 5. Take a day-of role
 
-**What it is:** Help the event run smoothly on February 16. There are several roles to choose from: facilitating a breakout is the anchor role, and there are other ways to pitch in too.
+**What it is:** Help the event run smoothly. There are several roles to choose from: facilitating a breakout is the anchor role, and there are other ways to pitch in too.
 
 **What we'd ask of you (pick a role):**
 
@@ -78,7 +78,7 @@ Below are five ways to help.
 - **Social / photo:** capture and share moments throughout the day.
 
 **When:** Roles are assigned in January; facilitators connect with their speaker in early February; everything happens on event day.  
-**Time:** A short prep touchpoint plus your time on February 16.  
+**Time:** A short prep touchpoint plus your time on event day.  
 **What you'll have:** Your assignment, a one-page facilitator cheat sheet (intro template, time cues, sample Q&A prompts, and who to call for AV), the run-of-show, speaker bios, pre-loaded slides, and a day-of contact list.  
 
 ## Ready to help?

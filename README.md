@@ -54,8 +54,8 @@ commitments; firm up exact dates as the cycle progresses.
   - [ ] Recruit and onboard a diverse Champion pool — broad open call + targeted asks _(Jul–Aug 2026)_
   - [ ] Build the sign-up form with the checkbox menu of the five asks _(Jul 2026)_
 - [ ] Build resource kits _(kit-before-ask gate)_
-  - [ ] Keynote criteria one-pager + "suggest a keynote" form _(Aug 2026)_
-  - [ ] Sponsorship brochure + one-line tier/benefit summary _(Aug 2026)_
+  - [x] Keynote criteria one-pager + "suggest a keynote" form _(Aug 2026)_
+  - [x] Sponsorship brochure + one-line tier/benefit summary _(Aug 2026)_
   - [ ] CFP promo kit (slide, social graphic, copy, "why present" blurb, key dates) _(Sep 2026)_
   - [ ] Registration promo kit (email + social copy/graphics per push) _(Oct 2026)_
   - [ ] Facilitator / day-of cheat sheet + run-of-show _(Dec 2026)_

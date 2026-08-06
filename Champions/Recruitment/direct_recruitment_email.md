@@ -2,7 +2,7 @@ Subject: An invitation to champion Data Day 2027
 
 Dear [Name],
 
-MORPC and the Regional Data Roundtable are planning the fifth annual Data Day (Tuesday, February 16, 2027), and you were one of the first people we thought of.
+MORPC and the Regional Data Roundtable are planning the fifth annual Data Day, and you were one of the first people we thought of.
 
 This year we're inviting a small group to serve as Data Day Champions: people who lend their expertise and connections at a few key moments in the planning process, rather than through standing meetings. Given your [past session on X / leadership in Y / work on Z], we'd be grateful for your help with [specific way to help, e.g., suggesting a keynote speaker or promoting the Call for Session Proposals in your network]. The commitment is small and entirely up to you: a handful of time-bound opportunities between now and February, and you take on the ones that fit. Champions help:
 
@@ -10,7 +10,7 @@ This year we're inviting a small group to serve as Data Day Champions: people wh
 - Promote the Call for Session Proposals across their networks (late September–October)
 - Introduce us to organizations that might sponsor Data Day (fall)
 - Encourage registration around the region (winter)
-- Facilitate a session or welcome attendees on event day (February 16)
+- Facilitate a session or welcome attendees on event day
 
 For more on each one, see the attached Ways to Help.
 

@@ -2,7 +2,7 @@ Subject: Become a Data Day Champion
 
 Dear [First Name],
 
-On Tuesday, February 16, 2027, MORPC and the Regional Data Roundtable will host the fifth annual Data Day, Central Ohio's signature event for the people who create, analyze, and use data. We'd like your help to make it happen.
+MORPC and the Regional Data Roundtable will host the fifth annual Data Day, Central Ohio's signature event for the people who create, analyze, and use data. We'd like your help to make it happen.
 
 Data Day Champions are members of our data community who pitch in at a few key moments during the year. There's no committee and no recurring meetings. Just a handful of specific, time-bound ways to help you choose from based on your interests and time. Champions help:
 
@@ -10,7 +10,7 @@ Data Day Champions are members of our data community who pitch in at a few key m
 - Promote the Call for Session Proposals across their networks (late September–October)
 - Introduce us to organizations that might sponsor Data Day (fall)
 - Encourage registration around the region (winter)
-- Facilitate a session or welcome attendees on event day (February 16)
+- Facilitate a session or welcome attendees on event day
 
 Most take an hour or two, so you can take on as many or as few as you like. In return, you'll help strengthen the partnerships and shared learning that move data practice forward across the region, and grow your own connections within it. For more on each one, see the attached Ways to Help.
 
