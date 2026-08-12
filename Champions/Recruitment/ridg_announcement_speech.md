@@ -4,15 +4,13 @@
 
 ---
 
-Thanks, everyone. Quick announcement, and then an email that's landing in your inbox in a day or two. I'd rather you hear it from me first.
+Thanks, Ethan. I just have a quick announcement about an email that's will be landing in your inbox in a day or two. 
 
-Data Day 2027 is our fifth annual Data Day. Tuesday, February 16, at Ohio State's Vitria on the Square, which is a new venue for us. Five years of this region's data community in one room, and we'd like the fifth one to be the best one.
+We are preparing for our fifth annual Data Day. Five years of this region's data community in one room, and we'd like the fifth one to be the best one.
 
-In past years, Data Day was planned by a working group that met monthly for about a year. That model got us four good events, but it asks for a big commitment up front. A lot of people who have something valuable to offer Data Day can't give a year of monthly meetings.
+So for 2027 we're a new way that you can get involved in the best Data event in Central Ohio. We're calling Data Day Champions.
 
-So for 2027 we're replacing the working group with something we're calling Data Day Champions.
-
-A Champion helps at a few specific moments during the year. No committee, no recurring meetings, no year-long commitment. There are five ways to help, and you pick the ones that fit.
+A Data Day Champion helps at a few specific moments during the year. No committee, no recurring meetings, no year-long commitment. There are five ways to help, and you pick the ones that work for you.
 
 One. Connect us with potential keynote speakers, in early fall. You surface a name and why they'd be good in front of this crowd.
 
@@ -22,7 +20,7 @@ Three. Introduce us to potential sponsors, in the fall. Introductions only.
 
 Four. Encourage registration over the winter, once it opens. Tell your team, tell your peers.
 
-Five. Take a day-of role on February 16. Facilitating a session is the main one, plus greeting, room hosting, and helping with workshops.
+Five. Take a day-of role. Facilitating a session is the main one, plus greeting, room hosting, and helping with workshops.
 
 Most of these take an hour or two. Sign up for one or for all five.
 
@@ -34,4 +32,4 @@ The email comes in the next day or two. It has a short sign-up form, a one-page 
 
 Questions, grab me afterward or email me.
 
-Fifth annual Data Day, February 16. We'd appreciate your help. Thank you.
+Fifth annual Data Day, Help us plot what comes next for Central Ohio's Best Data Community. We'd appreciate your help. Thank you.
