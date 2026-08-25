@@ -24,8 +24,8 @@ and lunch all run from the same round-table setup, so there is never a seating f
 |---|---|---|
 | **400 Ballroom A-B-C (full)** | 300 (dining/rounds) | Plenary, both keynotes, Intern Showcase; **lecture + panel** breakouts |
 | **Room 420** | 64 (classroom) | **Technical workshop** sessions (hands-on) |
-| **Room 412** | 120 (theatre) | Standard **lecture** breakouts |
-| **Room 414** | 120 (theatre) | Standard **lecture** breakouts |
+| **Room 412** | 84 (classroom) | Standard **lecture** breakouts |
+| **Room 414** | 84 (classroom) | Standard **lecture** breakouts |
 
 **Non-session spaces (active all day):** the **415 Gallery** hosts **vendor & organization
 tabling**, and **poster presentations** are displayed throughout the venue's circulation areas.
@@ -47,7 +47,7 @@ These run continuously and are not scheduled as sessions — see *Throughout the
 
 ## Schedule
 
-| Time | 400 Ballroom (300) | Room 420 (64) | Room 412 (120) | Room 414 (120) |
+| Time | 400 Ballroom (300) | Room 420 (64) | Room 412 (84) | Room 414 (84) |
 |---|---|---|---|---|
 | 8:00–9:00 | Registration & coffee | — | — | — |
 | 9:00–9:15 | **Welcome & opening** (plenary) | — | — | — |
@@ -108,7 +108,7 @@ not the four session rooms.
 - **All day:** vendor/organization tabling in the 415 Gallery + poster presentations (intern
   projects not selected for lightning talks, plus student-CFP posters) throughout the venue
 
-**Peak concurrent breakout capacity:** 300 + 64 + 120 + 120 = **604 seats** across 4 rooms per
+**Peak concurrent breakout capacity:** 300 + 64 + 84 + 84 = **532 seats** across 4 rooms per
 block — well above 250 attendance, leaving headroom for popular-session overflow.
 
 **Workshop alignment:** each 90-min workshop spans both blocks in its half-day and ends exactly
