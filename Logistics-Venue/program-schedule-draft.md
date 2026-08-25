@@ -125,8 +125,7 @@ informal in-room break.
 3. **Lunch ordering:** Intern Showcase during eating → Lunch Keynote as closer → thank-yous/extras.
 4. **Closing:** **no separate closing plenary**; recognition folded into the end of the lunch keynote.
 5. **Morning start:** registration runs **8:00–9:00**; the morning plenary (welcome + keynote)
-   starts at **9:00**. The closing adjourn/networking block is shortened (3:50–4:00) to absorb
-   the later start and keep the day ending at 4:00.
+   starts at **9:00**.
 
 ## Remaining venue confirmations
 
