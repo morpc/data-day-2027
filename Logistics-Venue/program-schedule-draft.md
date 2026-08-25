@@ -13,21 +13,23 @@
 
 ## Rooms & capacities
 
-The four rooms are **fixed for the whole conference** — the Grand Ballroom divider stays in place
-all day, so every room is available continuously with no reconfiguration. The **Grand Ballroom is
-set in banquet rounds the entire day** (full rounds): keynotes, ballroom breakouts, the Intern
-Showcase, and lunch all run from the same round-table setup, so there is never a seating flip.
+Rooms are at Columbus State's Conference Center (315 Cleveland Avenue, 4th floor) — see
+[venue-details.md](venue-details.md) for the full room list. The four rooms below are **fixed for
+the whole conference** — the **400 Ballroom's internal A/B/C dividers stay open** all day, so every
+room is available continuously with no reconfiguration. The **400 Ballroom (full) is set in
+banquet rounds the entire day** (full rounds): keynotes, ballroom breakouts, the Intern Showcase,
+and lunch all run from the same round-table setup, so there is never a seating flip.
 
 | Room | Capacity | Role in the program |
 |---|---|---|
-| **Grand Ballroom** | 250 | Plenary, both keynotes, Intern Showcase; **lecture + panel** breakouts |
-| **Grand Ballroom B** | 70 | **Technical workshop** sessions (hands-on) |
-| **Terrace A** | 100 | Standard **lecture** breakouts |
-| **Terrace B** | 60 | Standard **lecture** breakouts |
+| **400 Ballroom A-B-C (full)** | 300 (dining/rounds) | Plenary, both keynotes, Intern Showcase; **lecture + panel** breakouts |
+| **Room 420** | 64 (classroom) | **Technical workshop** sessions (hands-on) |
+| **Room 412** | 120 (theatre) | Standard **lecture** breakouts |
+| **Room 414** | 120 (theatre) | Standard **lecture** breakouts |
 
-**Non-session spaces (active all day):** the **Gallery** hosts **vendor & organization tabling**,
-and **poster presentations** are displayed throughout the venue's circulation areas. These run
-continuously and are not scheduled as sessions — see *Throughout the day* below.
+**Non-session spaces (active all day):** the **415 Gallery** hosts **vendor & organization
+tabling**, and **poster presentations** are displayed throughout the venue's circulation areas.
+These run continuously and are not scheduled as sessions — see *Throughout the day* below.
 
 ---
 
@@ -35,17 +37,17 @@ continuously and are not scheduled as sessions — see *Throughout the day* belo
 
 | Type | Length | Room(s) | Notes |
 |---|---|---|---|
-| Keynote | 45–50 min | Grand Ballroom | Morning + lunch |
-| Lecture | 45 min | Grand Ballroom, Terrace A, Terrace B | Standard breakout |
-| Panel | 45 min | Grand Ballroom | Moderated, multi-speaker |
-| Workshop | 90 min | Grand Ballroom B | Hands-on/technical; spans 2 breakout blocks |
-| Lightning / Intern Showcase | ~5–7 min each | Grand Ballroom | Plenary, during lunch |
+| Keynote | 45–50 min | 400 Ballroom (full) | Morning + lunch |
+| Lecture | 45 min | 400 Ballroom (full), Room 412, Room 414 | Standard breakout |
+| Panel | 45 min | 400 Ballroom (full) | Moderated, multi-speaker |
+| Workshop | 90 min | Room 420 | Hands-on/technical; spans 2 breakout blocks |
+| Lightning / Intern Showcase | ~5–7 min each | 400 Ballroom (full) | Plenary, during lunch |
 
 ---
 
 ## Schedule
 
-| Time | Grand Ballroom (250) | Grand Ballroom B (70) | Terrace A (100) | Terrace B (60) |
+| Time | 400 Ballroom (300) | Room 420 (64) | Room 412 (120) | Room 414 (120) |
 |---|---|---|---|---|
 | 8:00–8:45 | Registration & coffee | — | — | — |
 | 8:45–9:00 | **Welcome & opening** (plenary) | — | — | — |
@@ -70,10 +72,10 @@ fold in at the end of the keynote. (No separate end-of-day closing plenary.)
 
 ## Throughout the day — exhibits & posters
 
-These run continuously alongside the session grid and use the Gallery and circulation areas, not
-the four session rooms.
+These run continuously alongside the session grid and use the 415 Gallery and circulation areas,
+not the four session rooms.
 
-- **Vendor & organization tabling — the Gallery.** Open all day; naturally trafficked during
+- **Vendor & organization tabling — the 415 Gallery.** Open all day; naturally trafficked during
   registration (8:00–8:45), every break, and lunch.
 - **Poster presentations — throughout the venue.** Displayed all day. Suggest designating
   **attended poster times** (authors stand by their posters) during the long lunch block and the
@@ -98,15 +100,15 @@ the four session rooms.
 - **2 keynotes** (morning + lunch)
 - **1 Intern Showcase** lightning round (plenary, over lunch)
 - **14 breakout sessions:**
-  - Grand Ballroom: 4 (lecture/panel mix)
-  - Terrace A: 4 lectures
-  - Terrace B: 4 lectures
-  - Grand Ballroom B: 2 workshops (90 min each — one morning, one afternoon)
+  - 400 Ballroom (full): 4 (lecture/panel mix)
+  - Room 412: 4 lectures
+  - Room 414: 4 lectures
+  - Room 420: 2 workshops (90 min each — one morning, one afternoon)
 - **4 concurrent breakout choices** in every block
-- **All day:** vendor/organization tabling in the Gallery + poster presentations (intern projects
-  not selected for lightning talks, plus student-CFP posters) throughout the venue
+- **All day:** vendor/organization tabling in the 415 Gallery + poster presentations (intern
+  projects not selected for lightning talks, plus student-CFP posters) throughout the venue
 
-**Peak concurrent breakout capacity:** 250 + 70 + 100 + 60 = **480 seats** across 4 rooms per
+**Peak concurrent breakout capacity:** 300 + 64 + 120 + 120 = **604 seats** across 4 rooms per
 block — well above 250 attendance, leaving headroom for popular-session overflow.
 
 **Workshop alignment:** each 90-min workshop spans both blocks in its half-day and ends exactly
@@ -126,11 +128,14 @@ informal in-room break.
 
 ## Remaining venue confirmations
 
-- **Ballroom B (workshops):** confirm laptop/classroom tables, power drops, and AV support for
+- **Room 420 (workshops):** confirm laptop/classroom tables, power drops, and AV support for
   hands-on content.
-- **Divider reset:** none required — confirm the divider can simply stay in place all day.
+- **Divider reset:** none required — confirm the 400 Ballroom's A/B/C dividers can simply stay
+  open all day.
 - **Catering timing:** confirm lunch can be served into rounds at the 11:50 transition without
   disrupting the 12:05 program start.
+- **Parking, detailed catering options, and AV rental costs:** not yet confirmed with the venue —
+  see [venue-details.md](venue-details.md).
 
 ---
 
@@ -141,4 +146,4 @@ informal in-room break.
 - **5-block dense version:** add a breakout block (~20 sessions) if the call for proposals
   over-subscribes; trades slack for volume.
 - **Uniform-45-min fallback:** if 90-min workshops prove hard to fill, run **45-min** workshops
-  in Ballroom B (4 total) for a fully uniform grid.
+  in Room 420 (4 total) for a fully uniform grid.
