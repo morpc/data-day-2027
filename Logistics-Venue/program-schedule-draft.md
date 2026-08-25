@@ -3,7 +3,7 @@
 **Theme:** Plotting What's Next — *Five years forward for Central Ohio's data community*
 **Event:** Data Day 2027 — 5th annual
 **Date:** Tuesday, February 16, 2027
-**Venue:** OSU Vitria on the Square, 14 E. 15th Ave., Columbus, OH 43201
+**Venue:** Columbus State Community College, The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215
 **Window:** 8:00 AM – 4:00 PM (program content ~8:45 AM – 3:35 PM)
 
 > Status: **Working draft for discussion.** Layout decisions resolved; remaining venue

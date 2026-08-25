@@ -14,7 +14,7 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 
 ### Quick facts
 - **Date:** Tuesday, February 16, 2027.
-- **Venue:** Ohio State University, Vitria on the Square, 14 E. 15th Ave., Columbus, OH 43201 (selected; booking pending). Note: this is a new venue for 2027 — the 2026 event was at Columbus State Community College Workforce Development Center.
+- **Venue:** Columbus State Community College, The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215 (locked in).
 - **Format:** ~8:30 AM–4:00 PM; morning keynote, breakout sessions, lunch keynote, more breakouts. Sessions ~45 min with significant Q&A/engagement.
 - **Planning cycle:** ~13 months. The 2026 cycle ran Jan 2025 → Feb 2026; by that cadence the 2027 cycle began ~Jan 2026 and is ~5 months in as of mid-2026.
 
@@ -44,7 +44,6 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 ---
 
 ## Open decisions / placeholders to resolve
-- **Venue** selected (OSU Vitria on the Square); complete the booking.
 - **Sign-up mechanism** — recommend a Microsoft/Google Form with a checkbox menu of the five asks.
 - **Registration comp for Champions?** (feeds the FAQ)
 - **Champion recognition** approach — program credit, website, event thank-you (feeds the FAQ + checklist).
