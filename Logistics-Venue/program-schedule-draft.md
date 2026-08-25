@@ -63,9 +63,13 @@ These run continuously and are not scheduled as sessions — see *Throughout the
 | 3:00–3:15 | *Break* | *(workshop continues)* | *Break* | *Break* |
 | 3:15–4:00 | Block 4 — Lecture/Panel | **Workshop B** (cont.) | Block 4 — Lecture | Block 4 — Lecture |
 
-**Lunch block (105 min) flow:** food served + **Intern Showcase** lightning round while people
-eat → **Lunch Keynote** as the focused closer → **thank-yous / sponsor recognition / 2028 teaser**
-fold in at the end of the keynote. (No separate end-of-day closing plenary.)
+**Lunch block (105 min) flow:**
+
+- **Food served + Intern Showcase** lightning round while people eat — 30 min
+- **Lunch Keynote** as the focused closer — 60 min
+- **Thank-yous / sponsor recognition / 2028 teaser** fold in at the end of the keynote — 15 min
+
+(No separate end-of-day closing plenary.)
 
 ---
 
