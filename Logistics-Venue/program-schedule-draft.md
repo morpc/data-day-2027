@@ -4,7 +4,7 @@
 **Event:** Data Day 2027 — 5th annual
 **Date:** Tuesday, February 16, 2027
 **Venue:** Columbus State Community College, The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215
-**Window:** 8:00 AM – 4:00 PM (program content ~9:00 AM – 3:45 PM)
+**Window:** 8:00 AM – 4:00 PM (program content ~9:00 AM – 4:00 PM)
 
 > Status: **Working draft for discussion.** Layout decisions resolved; remaining venue
 > confirmations noted at the bottom.
@@ -57,14 +57,13 @@ These run continuously and are not scheduled as sessions — see *Throughout the
 | 11:00–11:15 | *Break* | *(workshop continues)* | *Break* | *Break* |
 | 11:15–12:00 | Block 2 — Lecture/Panel | **Workshop A** (cont.) | Block 2 — Lecture | Block 2 — Lecture |
 | 12:00–12:15 | *Break / transition to lunch* | | | |
-| 12:15–1:45 | **Lunch + Intern Showcase + Lunch Keynote + thank-yous/extras** (plenary) | — | — | — |
-| 1:45–2:00 | *Break / transition* | | | |
-| 2:00–2:45 | Block 3 — Lecture/Panel | **Workshop B** (90 min, → 3:45) | Block 3 — Lecture | Block 3 — Lecture |
-| 2:45–3:00 | *Break* | *(workshop continues)* | *Break* | *Break* |
-| 3:00–3:45 | Block 4 — Lecture/Panel | **Workshop B** (cont.) | Block 4 — Lecture | Block 4 — Lecture |
-| 3:45–4:00 | Adjourn / informal networking | | | |
+| 12:15–2:00 | **Lunch + Intern Showcase + Lunch Keynote + thank-yous/extras** (plenary) | — | — | — |
+| 2:00–2:15 | *Break / transition* | | | |
+| 2:15–3:00 | Block 3 — Lecture/Panel | **Workshop B** (90 min, → 4:00) | Block 3 — Lecture | Block 3 — Lecture |
+| 3:00–3:15 | *Break* | *(workshop continues)* | *Break* | *Break* |
+| 3:15–4:00 | Block 4 — Lecture/Panel | **Workshop B** (cont.) | Block 4 — Lecture | Block 4 — Lecture |
 
-**Lunch block (90 min) flow:** food served + **Intern Showcase** lightning round while people
+**Lunch block (105 min) flow:** food served + **Intern Showcase** lightning round while people
 eat → **Lunch Keynote** as the focused closer → **thank-yous / sponsor recognition / 2028 teaser**
 fold in at the end of the keynote. (No separate end-of-day closing plenary.)
 
