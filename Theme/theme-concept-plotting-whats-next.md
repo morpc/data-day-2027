@@ -1,7 +1,8 @@
 # Data Day 2027 — Theme Concept: "Plotting What's Next" (DRAFT)
 
 > **Status:** **SELECTED — lead theme for Data Day 2027.** Anniversary-based and
-> forward-looking, with a strong, ownable visual hook. Visual identity in progress (see
+> forward-looking, with a strong, ownable visual hook. Palette and subhead are locked (see
+> below); visual identity otherwise in progress (see
 > [design brief](../Design/design-brief.md)). Voice: outward MORPC/RDR —
 > mission-forward and inviting.
 
@@ -9,7 +10,7 @@
 
 ## Theme: **Plotting What's Next**
 
-***Data Day 2027 · Five years forward for Central Ohio's data community***
+### Subhead (locked): **Five years forward for Central Ohio's data community**
 
 **The idea in one line:** After five years of gathering the data, we can finally see the
 trend line — and now we plot the course ahead. "Plotting" works two ways at once: we
@@ -54,12 +55,14 @@ path forward — together.
 
 ---
 
-## Subhead options
+## Subhead
 
-1. **"Five years forward for Central Ohio's data community."** *(working default)* —
-   states the milestone and the forward gaze plainly.
-2. **"Five years in, mapping the road ahead."** — leans into the route/GIS reading.
-3. **"From five years of data to what comes next."** — spells out the points-to-trajectory idea.
+**Locked: "Five years forward for Central Ohio's data community."** States the milestone
+and the forward gaze plainly. Two alternates were considered and set aside:
+"Five years in, mapping the road ahead" (leaned too hard into the route/GIS reading) and
+"From five years of data to what comes next" (over-explained the points-to-trajectory idea).
+Use the locked subhead verbatim in all outward materials — website, brochures, slides,
+signage.
 
 > Guardrail for all derived copy: keep the tone forward-looking. Lean on the *plot-a-course*
 > sense, not just *plot-the-points* — the point of the concept is momentum, not a retrospective
@@ -75,16 +78,22 @@ scatter-plot** — small rising points with a smooth curved trend line ending in
 paired with the "Data Day 2027" wordmark. See the [design brief](../Design/design-brief.md)
 for the full logo prompt and art-direction decisions.
 
-The palette is locked (see [palette.md](../Design/palette.md)): a dark-first **"Magenta
-Signal"** system — Signal Magenta hero, Route Indigo secondary, Plot Gold as the
-forward-motion accent for the plotted trend line. Deliberately distinct from MORPC's
-blue/green, so the "plot the points, plot the course" motif reads as its own ownable mark.
+The palette is locked (see [palette.md](../Design/palette.md)): **"Data Day Classic"** —
+design review chose continuity over a rebrand, so 2027 keeps the established Data Day /
+MORPC palette and logo rather than introducing a new system. Built **light-first**: Fog
+(a very light grey) and white cards are the default stage, with Dark Blue (`#073451`)
+carrying structure and headlines, Blue (`#0977BC`) as the interactive/working color, and
+Teal (`#00A79D`) and Green (`#7CB46A`) held back as accents — including the plotted
+points and trend line in the momentum visuals. Ink (`#171C21`) anchors body text and
+reversed hero bands. The audience already recognizes this palette after five years; the
+anniversary framing carries the "what's changed" weight instead of competing with a
+rebrand.
 
 ---
 
 ## Open items / to verify
 
-- **Pick the subhead** from the options above (or refine).
 - **Then-and-now stats:** attendance/session counts across the five years, to render as the
-  rising data points in the momentum visuals.
+  rising data points in the momentum visuals. Attendance stat is now **200+ attendees**
+  each of the last two years (see [what-people-are-saying.md](../Marketing/what-people-are-saying.md)).
 - **Design brief:** sync the motif and CONTEXT block once the concept is final.
