@@ -19,7 +19,7 @@ For more information regarding Data Day, please email jinskeep@morpc.org
 ## Master timeline / TODO
 
 This task list is the working master timeline for Data Day 2027, anchored to the
-**Tuesday, February 16, 2027** event date. Target months are planning guides, not hard
+**Thursday, February 18, 2027** event date. Target months are planning guides, not hard
 commitments; firm up exact dates as the cycle progresses.
 
 ### Meetings & Planning
@@ -36,7 +36,7 @@ commitments; firm up exact dates as the cycle progresses.
 - [ ] Maintain ongoing planning, documentation, and timeline upkeep
 
 ### Logistics and Venue
-- [ ] Select a date for the event — **TENTATIVE, Tue, Feb 16, 2027**
+- [ ] Select a date for the event — **TENTATIVE, Thu, Feb 18, 2027**
 - [ ] Secure the venue
   - [] Select a venue
   - [ ] Book the venue
@@ -44,7 +44,7 @@ commitments; firm up exact dates as the cycle progresses.
 - [ ] Prepare day-of logistics _(after agenda + registration are set)_
   - [ ] Order event signage _(early Feb 2027)_
   - [ ] Build slides for breaks, session intros, and keynote intros _(Feb 2027)_
-  - [ ] Stage laptops for session rooms, loaded with slides _(Feb 14, 2027)_
+  - [ ] Stage laptops for session rooms, loaded with slides _(Feb 16, 2027)_
   - [ ] Finalize catering _(by Jan 2027)_
   - [ ] Set up registration / name tags _(event day)_
 
@@ -64,7 +64,7 @@ commitments; firm up exact dates as the cycle progresses.
   - [ ] Ask 2 — Share the CFP & recruit session speakers _(late Sep–early Nov 2026)_
   - [ ] Ask 3 — Solicit sponsors (open to all Champions; shared contact log) _(Sep–Nov 2026)_
   - [ ] Ask 4 — Encourage registration _(Nov 2026–late Jan 2027)_
-  - [ ] Ask 5 — Take a day-of role _(assign Jan, execute Feb 16, 2027)_
+  - [ ] Ask 5 — Take a day-of role _(assign Jan, execute Feb 18, 2027)_
 - [ ] Recognize & evaluate
   - [ ] Recognize Champions at and after the event _(Feb 2027)_
   - [ ] Collect Champion feedback and run program evaluation _(Feb–Mar 2027)_
@@ -111,7 +111,7 @@ commitments; firm up exact dates as the cycle progresses.
 - [ ] Open registration _(Nov 2026; supported by Champions Ask 4)_
   - [ ] Stand up the Eventbrite site
   - [ ] Update the website with registration
-- [ ] Close registration _(Feb 5, 2027)_
-- [ ] Send final attendee email / final instructions _(Feb 10–11, 2027)_
+- [ ] Close registration _(Feb 7, 2027)_
+- [ ] Send final attendee email / final instructions _(Feb 12–13, 2027)_
 
 

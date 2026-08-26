@@ -15,7 +15,7 @@ In 2027, the standing monthly Working Group is replaced by **Data Day Champions*
 2. **Share the CFP & recruit session speakers** (late Sep–early Nov). Amplify the Call for Proposals and personally nudge strong presenters; staff review/select.
 3. **Solicit sponsors** (Sep–Nov). Treated like any other ask — open to all Champions. Introductions only; staff own package/pricing/ask/invoicing. A shared contact log remains good practice to avoid collisions.
 4. **Encourage registration** (Nov–late Jan). Amplification and peer/team invitation once registration opens.
-5. **Take a day-of role** (assign Jan, execute Feb 16). Facilitator is the anchor role; also workshop session assistant, greeter, room host, social/photo.
+5. **Take a day-of role** (assign Jan, execute Feb 18). Facilitator is the anchor role; also workshop session assistant, greeter, room host, social/photo.
 
 ---
 

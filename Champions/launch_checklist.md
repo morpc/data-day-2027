@@ -65,7 +65,7 @@ For each ask: confirm the kit is ready, make the right ask to the right Champion
 - [ ] **CFP promotion & speaker recruiting** *(late Sep–early Nov)* — Champions share and nudge. **Staff fallback owner: ______.**
 - [ ] **Sponsor solicitation** *(Sep–Nov)* — open to all Champions, same as every other ask; introductions only, financials routed to staff. **Staff fallback owner: ______.**
 - [ ] **Registration drive** *(Nov–late Jan, ramping after the agenda publishes)* — Champions share and invite teams. **Staff fallback owner: ______.**
-- [ ] **Day-of roles** *(assign in Jan; execute Feb 16)* — facilitators connect with speakers in early February; brief all roles before the event. **Staff fallback owner: ______.**
+- [ ] **Day-of roles** *(assign in Jan; execute Feb 18)* — facilitators connect with speakers in early February; brief all roles before the event. **Staff fallback owner: ______.**
 - [ ] **Thank Champions after each completed ask** — quick, specific, and showing impact ("your intro landed us this keynote").
 
 ---

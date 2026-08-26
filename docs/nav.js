@@ -70,3 +70,37 @@
     if (!e.target.closest(".navitem--menu")) { closeAll(null); }
   });
 })();
+
+/* Data Day 2027 — minimizable site announcement banner.
+   Minimized state is remembered per banner via its data-banner-id, so
+   swapping in a new announcement (new id) shows expanded again for everyone. */
+(function () {
+  "use strict";
+
+  var banner = document.getElementById("announceBanner");
+  if (!banner) return;
+
+  var id = banner.getAttribute("data-banner-id") || "default";
+  var minKey = "dd-banner-min-" + id;
+
+  var minimized = false;
+  try { minimized = !!localStorage.getItem(minKey); } catch (e) {}
+
+  var toggleBtn = banner.querySelector(".announce-banner__toggle");
+
+  function setMinimized(state) {
+    banner.classList.toggle("is-minimized", state);
+    toggleBtn.setAttribute("aria-expanded", state ? "false" : "true");
+    toggleBtn.setAttribute("aria-label", state ? "Expand announcement" : "Minimize announcement");
+  }
+
+  setMinimized(minimized);
+
+  toggleBtn.addEventListener("click", function () {
+    var state = !banner.classList.contains("is-minimized");
+    setMinimized(state);
+    try {
+      if (state) { localStorage.setItem(minKey, "1"); } else { localStorage.removeItem(minKey); }
+    } catch (e) {}
+  });
+})();

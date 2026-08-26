@@ -13,7 +13,7 @@
 
 - **Title:** Suggest a Keynote Speaker — Data Day 2027
 - **Description (shown under the title):**
-  > Help us find the voices that will headline Data Day 2027, our fifth annual gathering of Central Ohio's data community (Tuesday, February 16, 2027). Suggest someone whose work would inspire the room — a leader, practitioner, or storyteller working at the frontier of how the public sector uses data. You're a scout: just surface the name and why they'd be great. MORPC staff handle the invitation and the rest. Takes about 3 minutes.
+  > Help us find the voices that will headline Data Day 2027, our fifth annual gathering of Central Ohio's data community (Thursday, February 18, 2027). Suggest someone whose work would inspire the room — a leader, practitioner, or storyteller working at the frontier of how the public sector uses data. You're a scout: just surface the name and why they'd be great. MORPC staff handle the invitation and the rest. Takes about 3 minutes.
 - **Settings to enable:**
   - *Record name* — automatically collect the respondent's name and email (Settings → "Record name"). This lets staff follow up, so name/email questions below are not needed for internal respondents. *If the form is shared outside the organization, turn this off and use Q1–Q2 below instead.*
   - *One response per person:* off (a Champion may suggest more than once).

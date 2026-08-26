@@ -20,7 +20,7 @@
   > Data Day brings together Central Ohio's data community (across local governments,
   > nonprofits, educational institutions, and civic-minded businesses) to advance how
   > our region uses data. As a Champion, you help make our fifth annual event
-  > (Tuesday, February 16, 2027) happen at a few key moments through the year, in the
+  > (Thursday, February 18, 2027) happen at a few key moments through the year, in the
   > ways that fit you best. It's light, opt-in, and you choose what you take on. There's
   > no committee and no recurring meetings. Tell us a little about you and which ways
   > you'd like to help, and we'll follow up with the details and timing for each. Takes
@@ -62,7 +62,7 @@ Options:
 - **Share the Call for Proposals and recruit speakers** (late Sep–early Nov): spread the CFP and nudge strong presenters to submit.
 - **Help solicit sponsors** (Sep–Nov): suggest organizations and make warm introductions; staff handle the package and the ask.
 - **Encourage registration** (Nov–late Jan): invite your network and colleagues once registration opens.
-- **Take a day-of role** (Feb 16): session facilitator, workshop session assistant, greeter, or social/photo.
+- **Take a day-of role** (Feb 18): session facilitator, workshop session assistant, greeter, or social/photo.
 - **I'm interested: help me find the right fit.**
 
 **Q6. Anything else you'd like us to know?** *[Long answer]* *(Optional)*
