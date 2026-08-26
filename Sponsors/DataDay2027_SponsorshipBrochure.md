@@ -13,7 +13,7 @@ Data Day is the RDR's annual one-day event, where attendees learn how the region
 
 Sponsoring Data Day puts your organization in front of the people who create, analyze, and use data across Central Ohio, and backs a community that has grown for five years.
 
-- **A targeted audience.** Roughly 200 data leaders, practitioners, and analysts from local government, nonprofits, education, and civic-minded business, together in one room for a full day.
+- **A targeted audience.** 200+ data leaders, practitioners, and analysts from local government, nonprofits, education, and civic-minded business, together in one room for a full day.
 - **Fifth-anniversary visibility.** Year five brings heightened attention across the region. Your logo appears on event promotional material, and higher tiers put your team on the plenary stage and in front of every attendee.
 - **Direct engagement.** Host or moderate a breakout session, staff an exhibitor table, and connect face-to-face with prospective partners, clients, and talent throughout the day.
 - **Support the next generation.** Sponsor scholarships that bring college students into the regional data community and into conversation with your organization.

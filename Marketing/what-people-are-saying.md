@@ -5,7 +5,7 @@
 ## By the numbers
 
 - **4.4 out of 5** — overall attendee satisfaction in 2026, and **4.3 in 2025** — consistently high, two years running.
-- **~200 attendees** each year — more than **400** across the last two events.
+- **200+ attendees** each year — 400+ across the last two events.
 - **75+ organizations** represented, from the City of Columbus and Ohio State University to suburbs, counties, and nonprofits across the region.
 - **5.0 out of 5** — the rating earned by top breakout sessions, with many others scoring well above 4.5.
 
@@ -22,6 +22,6 @@
 
 ## Who's in the room
 
-A cross-sector audience of roughly 200 data professionals and decision-makers gathers for the day — from local governments, nonprofits, universities, and civic-minded businesses. Recent attendees came from the City of Columbus, Ohio State University, Ohio EPA, JobsOhio, COTA, United Way of Central Ohio, Smart Columbus, and CMHA, alongside dozens of suburbs, counties, and nonprofits.
+A cross-sector audience of 200+ data professionals and decision-makers gathers for the day — from local governments, nonprofits, universities, and civic-minded businesses. Recent attendees came from the City of Columbus, Ohio State University, Ohio EPA, JobsOhio, COTA, United Way of Central Ohio, Smart Columbus, and CMHA, alongside dozens of suburbs, counties, and nonprofits.
 
 **Want to be part of it?** Present a session or sponsor the 5th annual Data Day — contact Jordan Inskeep at **jinskeep@morpc.org**.
