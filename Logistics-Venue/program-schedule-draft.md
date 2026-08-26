@@ -2,7 +2,7 @@
 
 **Theme:** Plotting What's Next — *Five years forward for Central Ohio's data community*
 **Event:** Data Day 2027 — 5th annual
-**Date:** Tuesday, February 16, 2027
+**Date:** Thursday, February 18, 2027
 **Venue:** Columbus State Community College, The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215
 **Window:** 8:00 AM – 4:00 PM (program content ~9:00 AM – 4:00 PM)
 

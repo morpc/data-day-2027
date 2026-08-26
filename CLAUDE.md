@@ -13,7 +13,7 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 **Data Day 2027** will be the **5th annual** event (2026 was the 4th). Treat the 5th-anniversary milestone as a narrative anchor across program, marketing, and sponsorship.
 
 ### Quick facts
-- **Date:** Tuesday, February 16, 2027.
+- **Date:** Thursday, February 18, 2027.
 - **Venue:** Columbus State Community College, The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215 (locked in).
 - **Format:** ~8:30 AM–4:00 PM; morning keynote, breakout sessions, lunch keynote, more breakouts. Sessions ~45 min with significant Q&A/engagement.
 - **Planning cycle:** ~13 months. The 2026 cycle ran Jan 2025 → Feb 2026; by that cadence the 2027 cycle began ~Jan 2026 and is ~5 months in as of mid-2026.

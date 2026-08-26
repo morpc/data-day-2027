@@ -10,7 +10,7 @@
 ## Plotting What's Next
 ### *Five years forward for Central Ohio's data community*
 
-Data Day returns for its **fifth year** on **Tuesday, February 16, 2027** — and this milestone is
+Data Day returns for its **fifth year** on **Thursday, February 18, 2027** — and this milestone is
 a launch pad, not a look back. Across five years, Data Day has convened Central Ohio's public-sector
 data community — **local governments, nonprofits, educational institutions, and civic-minded
 businesses** — around a shared vision: **to make Central Ohio a leader in using data to improve
@@ -204,7 +204,7 @@ MORPC staff understand and balance the program — they aren't printed in the ag
 | Call for Proposals opens (lectures, workshops, student posters) | **[TBD]** |
 | Proposal deadline | **[TBD]** |
 | Notifications | **[TBD]** |
-| Data Day 2027 | **Tuesday, February 16, 2027** |
+| Data Day 2027 | **Thursday, February 18, 2027** |
 
 **Submit / suggest:** **[CFP link — TBD]** · [Suggest a keynote](https://forms.cloud.microsoft/r/mYmz1bctPH) · **[contact email — TBD]**
 
