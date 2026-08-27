@@ -19,8 +19,14 @@ For more information regarding Data Day, please email jinskeep@morpc.org
 ## Master timeline / TODO
 
 This task list is the working master timeline for Data Day 2027, anchored to the
-**Thursday, February 18, 2027** event date. Target months are planning guides, not hard
-commitments; firm up exact dates as the cycle progresses.
+**Thursday, February 18, 2027** event date at the **Center for Workforce Development** at
+Columbus State Community College. This is our third straight year at this facility. (CSCC's
+official address for the space: The Conference Center, 315 Cleveland Avenue, 4th floor,
+Columbus, OH 43215.) Target months are planning guides, not hard commitments; firm up
+exact dates as the cycle progresses.
+
+> **Maintenance note:** After every pull request merges, review this schedule and update
+> task status, dates, and checkboxes to reflect what changed.
 
 ### Meetings & Planning
 - [ ] Hold recurring internal Data Day team meetings
@@ -36,10 +42,10 @@ commitments; firm up exact dates as the cycle progresses.
 - [ ] Maintain ongoing planning, documentation, and timeline upkeep
 
 ### Logistics and Venue
-- [ ] Select a date for the event — **TENTATIVE, Thu, Feb 18, 2027**
+- [x] Select a date for the event — **Thu, Feb 18, 2027**
 - [ ] Secure the venue
-  - [] Select a venue
-  - [ ] Book the venue
+  - [x] Select a venue — **Center for Workforce Development at CSCC** (third straight year at this facility)
+  - [ ] Book the venue _(booking pending)_
 - [ ] Select a theme for the event _(target: Sep 2026 — gates the CFP, keynotes, and marketing)_
 - [ ] Prepare day-of logistics _(after agenda + registration are set)_
   - [ ] Order event signage _(early Feb 2027)_
