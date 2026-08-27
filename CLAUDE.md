@@ -14,7 +14,7 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 
 ### Quick facts
 - **Date:** Thursday, February 18, 2027. (Moved from Tuesday, February 16; near-event logistics dates shifted by the same 2-day offset.)
-- **Venue:** The Center for Workforce Development at Columbus State Community College (locked in). This is the third straight year at this facility, so most attendees know it. Naming: use "the Center for Workforce Development" in public-facing copy; use "The Conference Center" only where an official address is given, since that is how CSCC addresses the space (official address: The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215).
+- **Venue:** The Center for Workforce Development at Columbus State Community College (locked in). This is the third straight year at this facility, so most attendees know it. Official address: The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215. For how to name the venue in copy, see the "Venue naming" section of [voice-style.md](voice-style.md).
 - **Format:** ~8:30 AM–4:00 PM; morning keynote, breakout sessions, lunch keynote, more breakouts. Sessions ~45 min with significant Q&A/engagement.
 - **Planning cycle:** ~13 months. The 2026 cycle ran Jan 2025 → Feb 2026; by that cadence the 2027 cycle began ~Jan 2026 and is ~5 months in as of mid-2026.
 
