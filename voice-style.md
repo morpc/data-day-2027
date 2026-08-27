@@ -23,6 +23,13 @@ Direct, operational.
 
 ---
 
+## Venue naming
+
+- **Public-facing and general reference:** "the Center for Workforce Development" at Columbus State Community College. It is our third straight year at this facility, so most attendees know it.
+- **"The Conference Center":** use only where an official address is given, since that is how CSCC addresses the space. Official address: The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215.
+
+---
+
 ## Format default
 
 Markdown unless a designed/branded output (one-pager, slide, brochure) or a spreadsheet is explicitly requested.
