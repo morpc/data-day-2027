@@ -1,9 +1,11 @@
 # Data Day 2027 — Session Tagging & Skill Levels (DRAFT)
 
-> **Audience:** mixed. The **skill scale** is attendee-facing (agenda + brochure). The **focus
-> area, action pillar, and reflection prompt** are **internal CFP metadata** for MORPC staff
-> curation — captured at submission, **not printed or used for scheduling/tracks**.
+> **Audience:** mixed. The **topic tags and skill scale** are attendee-facing (agenda +
+> brochure). The **focus area, action pillar, and reflection prompt** are **internal CFP
+> metadata** for MORPC staff curation — captured at submission, **not printed or used for
+> scheduling/tracks**.
 > **Status:** working draft of the tagging model that feeds the CFP and the program.
+> Topic-tag layer added 2026-09-14.
 
 ---
 
@@ -38,7 +40,44 @@ balance across the Agenda. None of these three appear in attendee-facing materia
 
 ---
 
-## What attendees see: the technical skill scale (0–3)
+## What attendees see, part 1: topic tags
+
+Speakers pick **up to two** topic tags at submission. These are printed in the agenda and
+brochure so attendees can find the sessions they came for.
+
+| # | Topic tag | Icon |
+|---|---|---|
+| 1 | Data Governance & Stewardship | `data-governance` |
+| 2 | Data Management & Quality | `data-management` |
+| 3 | Data Infrastructure & Engineering | `data-infrastructure` |
+| 4 | Data Analysis & Statistical Methods | `data-analysis` |
+| 5 | Data Visualization & Storytelling | `data-visualization` |
+| 6 | AI & Machine Learning | `ai-machine-learning` |
+| 7 | GIS & Spatial Analysis | `gis-mapping` |
+| 8 | Open Data & Transparency | `open-data` |
+| 9 | Privacy, Ethics & Security | `privacy-ethics` |
+| 10 | Program Evaluation & Research Methods | `program-evaluation-research` |
+| 11 | Data Literacy & Workforce | `data-literacy` |
+
+Icons live in [`Design/icons/topic/`](../../Design/icons/topic/).
+
+**Topic vs. focus area.** The topic tag says what the session is *about doing* (the practice).
+The focus area says what *subject* it applies to (the Agenda's domain). A session on cleaning
+parcel data for a housing study is topic *Data Management & Quality*, focus area *Housing &
+Community Development*. The first is public, the second is not.
+
+**Why a list this long, and why it replaces the GIS preference.** The 2026 CFP asked
+specifically for GIS sessions. The 2027 CFP does not single out any topic. Breadth does the
+work instead: a practitioner scanning this list sees their own work named, whatever it is.
+That includes GIS practitioners, who appear at #7 as an equal option rather than a stated
+preference. This is also the answer to a real piece of feedback — the 2025 post-event survey
+listed "more GIS" among suggested future topics — without making GIS the point of the
+conference.
+
+**Still not a track system.** Topic tags are labels, not scheduling. There are no topical
+tracks, no per-topic rooms, and no guarantee of coverage across all eleven.
+
+## What attendees see, part 2: the technical skill scale (0–3)
 
 A single skill tag appears on each session in the agenda and brochure, so attendees can choose
 sessions that match their comfort level.
@@ -58,6 +97,7 @@ Speakers self-select a level at submission; staff may adjust for consistency acr
 
 | Tag | Captured at | Visible to attendees? | Purpose |
 |---|---|---|---|
+| Topic tags (up to 2) | Submission (speaker self-selects) | **Yes** — agenda + brochure | Helps attendees find relevant sessions |
 | Focus area | Submission | No | Staff curation / program balance |
 | Action pillar | Submission | No | Staff curation / program balance |
 | Reflection answer | Submission | No (may quietly inform session descriptions) | Curation; helps staff understand intent |
@@ -67,12 +107,12 @@ Speakers self-select a level at submission; staff may adjust for consistency acr
 
 ## Which formats carry which tags
 
-| Format | Focus area | Action pillar | Reflection | Skill level (0–3, public) | Set by |
-|---|---|---|---|---|---|
-| **Lecture** (open CFP) | Yes | Yes | Yes | Yes | Speaker self-selects |
-| **Workshop** (open CFP) | Yes | Yes | Yes | Yes | Speaker self-selects |
-| **Panel** (curated) | Yes | Yes | No | Yes | **Staff-assigned** |
-| **Poster** (intern + student) | — | — | — | — | **No tags** |
+| Format | Topic tags (≤2, public) | Focus area | Action pillar | Reflection | Skill level (0–3, public) | Set by |
+|---|---|---|---|---|---|---|
+| **Lecture** (open CFP) | Yes | Yes | Yes | Yes | Yes | Speaker self-selects |
+| **Workshop** (open CFP) | Yes | Yes | Yes | Yes | Yes | Speaker self-selects |
+| **Panel** (curated) | Yes | Yes | Yes | No | Yes | **Staff-assigned** |
+| **Poster** (intern + student) | — | — | — | — | — | **No tags** |
 
 - **Panels** join the program-balance picture: staff assign the (internal) focus area + pillar and
   a (public) skill level, but there's no speaker reflection since panels are curated.
@@ -87,3 +127,10 @@ Speakers self-select a level at submission; staff may adjust for consistency acr
   public use.
 - **Skill-level consistency:** because self-selection drifts, staff should normalize levels once
   the program is assembled.
+- **Topic-tag consistency:** same drift applies. Staff should normalize topic tags across the
+  program, and may trim a third tag down to the two that fit best.
+- **Topic coverage as a curation signal:** the tags give staff a read on which practice areas
+  the program over- or under-covers. Useful for balance, but coverage across all eleven is not
+  a target.
+- **Brochure space:** two tags plus a skill level per session is three marks in the printed
+  agenda. Confirm with design that the layout carries them before the CFP locks.
