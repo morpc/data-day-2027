@@ -6,6 +6,8 @@ This checklist is for the staff launching and running the Data Day Champions pro
 
 **The one principle to hold throughout:** Champions *amplify* a plan that MORPC staff still fully own. Staff must be able to hit every critical milestone even if zero Champions deliver. Champion contributions are upside, never the plan itself.
 
+> **Status as of September 14, 2026:** Phase 1 complete. Phase 2 mostly complete, with the tracking sheet, sponsor-contact log, and three resource kits outstanding. Phase 3 is underway: the broad call is out and 7 Champions have signed up, but the targeted asks have not gone out. Phase 4 has not started, and no staff fallback owners are named yet.
+
 ---
 
 ## Phase 1 — Lock the foundations *(suggested: June–July 2026)*
@@ -15,7 +17,7 @@ Decisions to make before any materials go out.
 - [x] **Name a Champion Coordinator.** One staff member owns recruitment, asks, tracking, follow-up, and recognition. This cannot be "everyone's job." → **Jordan Inskeep.**
 - [x] **Confirm the deliberative core.** Decide who keeps the judgment calls the Working Group used to make — theme, program balance, gaps, year-over-year continuity (e.g., RDR or a small steering group). Champions are the hands; this body is the brain. → **RDR sets direction; the Coordinator handles between-meeting judgment.**
 - [x] **Set a target.** Aim for a manageable first-year pool (~12–20 Champions) so each ask has coverage without heavy coordination.
-- [ ] **Lock the open policy decisions:**
+- [x] **Lock the open policy decisions:**
   - [x] Is registration complimentary for Champions? → **No — Champions register normally, like other attendees.** (FAQ updated.)
   - [x] How will Champions be recognized? → **Program credit, website listing, and a thank-you at the event.** (FAQ updated.)
   - [x] Conflict-of-interest note (especially for vendor/consultant Champions and sponsor asks). → FAQ "Ground rules" section.
@@ -29,17 +31,17 @@ Decisions to make before any materials go out.
 
 The model rests on "every ask comes with a kit." Build the systems and the kits *before* recruiting.
 
-- [ ] **Sign-up mechanism** — a simple form (Microsoft/Google Forms) with a checkbox menu of the five asks so Champions self-select.
+- [x] **Sign-up mechanism** — built and live: [Become a Data Day 2027 Champion](https://forms.cloud.microsoft/r/7cFXhbQeMc). Content and settings are maintained in [signup-form.md](Recruitment/signup-form.md).
 - [ ] **Champion tracking sheet** — who signed up, which asks, status, and a critical-path coverage view that flags any high-stakes ask with no Champion attached.
 - [ ] **Shared sponsor-contact log** — a running list of who is being approached, so no two people (Champion or staff) collide on a prospect.
 - [ ] **Resource kits** — draft each before its ask window opens:
-  - [ ] Theme + keynote-criteria one-pager and "suggest a keynote" form
+  - [x] Theme + keynote-criteria one-pager and "suggest a keynote" form — [live form](https://forms.cloud.microsoft/r/mYmz1bctPH); spec in [keynote-suggestion-form.md](Engagements/keynote-suggestion-form.md)
   - [ ] Warm-intro templates (keynote and sponsor)
   - [ ] CFP promo kit (slide, social graphic, suggested copy, "why present" blurb, key dates)
-  - [ ] Sponsorship brochure + one-line tier/benefit summary
+  - [x] Sponsorship brochure + one-line tier/benefit summary — [DataDay2027_SponsorshipBrochure.md](../Sponsors/DataDay2027_SponsorshipBrochure.md)
   - [ ] Registration promo kit (email + social copy and graphics for each push moment)
   - [ ] Facilitator / day-of cheat sheet (intro template, time cues, Q&A prompts, AV contact, run-of-show)
-- [ ] **Finalize Champion-facing materials** — Ways to Help handout and FAQ (fill the bracketed placeholders once Phase 1 decisions are locked).
+- [x] **Finalize Champion-facing materials** — [Ways to Help](Recruitment/ways_to_help.md) and [FAQ](Recruitment/faq.md) are complete (md + PDF); all bracketed placeholders filled.
 
 > **Gate:** Do not send an ask until its kit exists. Recruitment can launch first, but each individual ask waits for its supporting materials.
 
@@ -47,12 +49,12 @@ The model rests on "every ask comes with a kit." Build the systems and the kits 
 
 ## Phase 3 — Recruit Champions *(suggested: August 2026, ahead of theme selection)*
 
-- [ ] **Build the recruit list** from past Data Day speakers and facilitators, the RDR network, partner organizations, and engaged past attendees.
+- [x] **Build the recruit list** from past Data Day speakers and facilitators, the RDR network, partner organizations, and engaged past attendees. — 205 contacts logged in the roster.
 - [ ] **Be intentional about diversity.** Personal-network recruiting tends to replicate existing networks; deliberately reach beyond them to support the representation pillar.
-- [ ] **Finalize the recruitment emails** (broad open call + personal targeted ask) in the Regional Data Agenda voice.
-- [ ] **Send the broad open call** to the wider community with the handout/FAQ attached.
+- [x] **Finalize the recruitment emails** (broad open call + personal targeted ask) in the Regional Data Agenda voice. — [broad](Recruitment/broad_recruitment_email.md) and [direct](Recruitment/direct_recruitment_email.md), both with PDFs.
+- [x] **Send the broad open call** to the wider community with the handout/FAQ attached. — sent Aug 2026 to 205 contacts; announced at RIDG.
 - [ ] **Send personalized asks** to high-value prospects (past keynotes, key partners).
-- [ ] **Confirm and log sign-ups** in the tracking sheet.
+- [ ] **Confirm and log sign-ups** in the tracking sheet. _(ongoing: 7 sign-ups logged to date, against the 12–20 target)_
 - [ ] **Send a short welcome/onboarding note** confirming what each Champion opted into and what to expect next.
 
 ---
