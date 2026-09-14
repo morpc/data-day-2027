@@ -21,10 +21,11 @@ In 2027, the standing monthly Working Group is replaced by **Data Day Champions*
 
 ## Deliverables produced
 
-- **Data_Day_2027_Champions_Ways_to_Help.md** — champion-facing handout; each ask in a consistent shape (what it is / what we'd ask of you / when / time / what you'll have). *Status: drafted; contains [sign-up link] placeholder.*
-- **Data_Day_2027_Champions_FAQ.md** — champion-facing FAQ grouped into role / time & commitment / who can help / the asks / logistics. *Status: drafted; placeholders for registration-comp policy, recognition approach, [sign-up link], [name]/[email].*
-- **Data_Day_2027_Champions_Launch_Checklist.md** — internal staff checklist in five phases (foundations / infrastructure / recruit / run the asks / recognize & evaluate) plus metrics and a critical-path coverage rule. *Status: drafted; placeholders for staff fallback owners and Phase 1 policy decisions.*
-- **Recruitment emails (two variants)** — "Broad open call" and "Personal targeted ask," written in the Regional Data Agenda voice. *Status: saved in `Champions/Recruitment/`.*
+- **`Recruitment/ways_to_help.md`** — champion-facing handout; each ask in a consistent shape (what it is / what we'd ask of you / when / time / what you'll have). *Status: final (md + PDF); sign-up link wired to the live form.*
+- **`Recruitment/faq.md`** — champion-facing FAQ grouped into role / time & commitment / who can help / the asks / logistics. *Status: final (md + PDF); all placeholders filled, including the registration-comp and recognition decisions.*
+- **`launch_checklist.md`** — internal staff checklist in five phases (foundations / infrastructure / recruit / run the asks / recognize & evaluate) plus metrics and a critical-path coverage rule. *Status: live working document, reviewed Sep 14, 2026. Phase 1 decisions all locked; staff fallback owners still unnamed.*
+- **Recruitment emails (two variants)** — "Broad open call" and "Personal targeted ask," written in the Regional Data Agenda voice. *Status: final (md + PDF). Broad call sent Aug 2026 to 205 contacts; targeted asks not yet sent.*
+- **Forms (built and live)** — [Champion sign-up](https://forms.cloud.microsoft/r/7cFXhbQeMc) and [suggest a keynote](https://forms.cloud.microsoft/r/mYmz1bctPH); specs in `Recruitment/signup-form.md` and `Engagements/keynote-suggestion-form.md`.
 
 ---
 

@@ -27,6 +27,8 @@ exact dates as the cycle progresses.
 
 > **Maintenance note:** After every pull request merges, review this schedule and update
 > task status, dates, and checkboxes to reflect what changed.
+>
+> **Last reviewed:** September 14, 2026.
 
 ### Meetings & Planning
 - [ ] Hold recurring internal Data Day team meetings
@@ -46,7 +48,7 @@ exact dates as the cycle progresses.
 - [ ] Secure the venue
   - [x] Select a venue — **Center for Workforce Development at CSCC** (third straight year at this facility)
   - [ ] Book the venue _(booking pending)_
-- [ ] Select a theme for the event _(target: Sep 2026 — gates the CFP, keynotes, and marketing)_
+- [x] Select a theme for the event — **"Plotting What's Next"** _(see [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md); subhead and palette locked)_
 - [ ] Prepare day-of logistics _(after agenda + registration are set)_
   - [ ] Order event signage _(early Feb 2027)_
   - [ ] Build slides for breaks, session intros, and keynote intros _(Feb 2027)_
@@ -56,9 +58,9 @@ exact dates as the cycle progresses.
 
 ### Champions
 - [ ] Stand up the Champions program _(Jul 2026)_
-  - [ ] Name a Champion Coordinator and the deliberative core (RDR / small steering group) _(Jul 2026)_
-  - [ ] Recruit and onboard a diverse Champion pool — broad open call + targeted asks _(Jul–Aug 2026)_
-  - [ ] Build the sign-up form with the checkbox menu of the five asks _(Jul 2026)_
+  - [x] Name a Champion Coordinator and the deliberative core (RDR / small steering group) _(Jul 2026)_ — **Coordinator: Jordan Inskeep. RDR sets direction; the Coordinator handles between-meeting judgment.**
+  - [ ] Recruit and onboard a diverse Champion pool — broad open call + targeted asks _(Jul–Aug 2026)_ _(in progress: broad call sent to 205 contacts; 7 sign-ups against the 12–20 target; targeted asks not yet sent)_
+  - [x] Build the sign-up form with the checkbox menu of the five asks _(Jul 2026)_ — [live form](https://forms.cloud.microsoft/r/7cFXhbQeMc); spec in [signup-form.md](Champions/Recruitment/signup-form.md)
 - [ ] Build resource kits _(kit-before-ask gate)_
   - [x] Keynote criteria one-pager + "suggest a keynote" form _(Aug 2026)_
   - [x] Sponsorship brochure + one-line tier/benefit summary _(Aug 2026)_
@@ -82,7 +84,7 @@ exact dates as the cycle progresses.
 - [ ] Communicate final details — confirm topic/session, send panel questions, collect slides _(Jan 2027)_
 
 ### Breakouts
-- [ ] Explore options for lightning rounds and shorter breakout sessions _(Aug 2026)_
+- [x] Explore options for lightning rounds and shorter breakout sessions _(Aug 2026)_ — resolved in [ways-to-participate-draft.md](Breakouts/ways-to-participate-draft.md): lecture, workshop, panel, intern lightning talks, posters
 - [ ] Prepare the Call for Proposals _(after theme is set)_
   - [ ] Update/finalize the call for session proposals _(Sep 2026)_
   - [ ] Convert the CFP to an online form _(Oct 2026)_
@@ -107,7 +109,7 @@ exact dates as the cycle progresses.
 - [ ] Collect lists of previous and potential sponsors _(Aug 2026)_
 - [ ] Integrate with MORPC-wide sponsor asks _(Aug 2026)_
 - [ ] Update/finalize the sponsorship package and tiers _(Sep 2026)_
-- [ ] Design the sponsorship brochure and update the website section _(Sep 2026)_
+- [ ] Design the sponsorship brochure and update the website section _(Sep 2026)_ _(in progress: [2027 brochure](Sponsors/DataDay2027_SponsorshipBrochure.md) drafted and site section live; brochure PDF not yet linked from the page)_
 - [ ] Recruit sponsors _(Sep–Nov 2026; supported by Champions Ask 3)_
 - [ ] Confirm sponsorships _(Jan 2027)_
 - [ ] Invoice sponsors _(by event)_
