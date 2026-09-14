@@ -28,11 +28,20 @@ infrastructure are absent.
 Content priorities for 2027 are **data governance, data management, data analysis, and the
 infrastructure side** of data work.
 
-**GIS is deliberately de-emphasized.** The 2026 CFP gave it first preference; 2027 does not.
-Ohio already has a large, established Ohio GIS Conference, run by the County Engineers
-Association of Ohio and held in Columbus each September. Data Day is not competing with it.
+**GIS is not privileged in 2027, and GIS people are still welcome.** The 2026 CFP gave GIS
+first preference; 2027 does not. Ohio already has a large, established Ohio GIS Conference, run
+by the County Engineers Association of Ohio and held in Columbus each September, and Data Day is
+not competing with it.
+
+The 2027 CFP is expected to drop the specific "we want GIS sessions" ask and instead offer a
+**longer list of applicable tags and topics**, with GIS as one option among many. That is
+inclusion by breadth rather than by preference, and it is also the answer to a real piece of
+feedback: the 2025 post-event survey listed "more GIS" among suggested future topics. It did not
+recur in 2026.
+
 Practical consequence for this list: we target **data governance leads, data management and
-reporting staff, analysts, and infrastructure operators**, not county auditor GIS shops.
+reporting staff, analysts, and infrastructure operators**. Nobody is excluded for working in
+GIS, but the county auditor GIS shop is not where we go looking first.
 
 ---
 
