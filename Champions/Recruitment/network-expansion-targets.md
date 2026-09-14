@@ -2,7 +2,9 @@
 
 > **Audience:** internal / staff. Strategic recruiting list for reaching data people who are
 > **not** already connected to Data Day, as a complement to
-> [direct-ask-target-list.md](direct-ask-target-list.md), which works the existing network.
+> `direct-ask-target-list.md`, which works the existing network. That file is kept locally
+> and is deliberately untracked, since it names individuals and records internal assessments
+> of them.
 > **Status:** built 2026-09-14 from attendee history in
 > `Archive/Data_Day_Historical_Reference.xlsx` plus public web research.
 > **Contacts here are official and organizational only.** No personal addresses, and no
