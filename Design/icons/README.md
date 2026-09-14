@@ -1,8 +1,8 @@
 # Data Day 2027 Icon Set ("A Consistent Line")
 
-22 icons drawn on one grid with one stroke weight, echoing the logo's rounded, humanist
-line. **11 topic/track** marks (`topic/`) for session tracks and the program, and **11
-UI/wayfinding** marks (`ui/`) for the site and signage.
+27 icons drawn on one grid with one stroke weight, echoing the logo's rounded, humanist
+line. **16 topic** marks (`topic/`) for the public session topic tags and the program, and
+**11 UI/wayfinding** marks (`ui/`) for the site and signage.
 
 ## Spec (lock this for any future icons)
 
@@ -27,10 +27,22 @@ selected/active state, set `color` to Teal `#00A79D` or Green `#7CB46A`. On the 
 
 ## Files
 
-**`topic/`**: gis-mapping · ai-machine-learning · data-visualization ·
-housing-community-dev · transportation-mobility · infrastructure-econ-dev ·
-energy-sustainability · program-evaluation-research · open-data · privacy-ethics ·
-workshops-hands-on
+**`topic/`** (16). The eleven public session topic tags, in the order the CFP lists them:
+data-governance · data-management · data-infrastructure · data-analysis ·
+data-visualization · ai-machine-learning · gis-mapping · open-data · privacy-ethics ·
+program-evaluation-research · data-literacy
+
+Plus five that are not topic tags: the four Regional Data Agenda focus areas
+(housing-community-dev · transportation-mobility · infrastructure-econ-dev ·
+energy-sustainability), which are internal CFP metadata, and workshops-hands-on, which marks
+a session *format* rather than a topic. See
+[session-tagging-model-draft.md](../../Breakouts/CFP/session-tagging-model-draft.md).
+
+> **Known issue:** seven of the original topic icons (those whose `<title>` contains `&`)
+> use a raw ampersand rather than `&amp;`, so they are not well-formed XML. They render
+> fine inlined into HTML, which is how this set is used, but they will not load as
+> standalone `.svg` files via `<img>` or CSS `url()`. The five icons added in 2026-09 escape
+> it correctly. Worth normalizing the older seven before any standalone-file use.
 
 **`ui/`**: calendar-date · location-venue · registration-ticket · keynote-microphone ·
 breakout-sessions · lunch · networking · schedule-agenda · sponsors · accessibility ·
