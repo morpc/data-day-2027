@@ -158,16 +158,11 @@ img, svg { max-width: 100%; }
 .topbar .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.35rem 1.25rem; padding-block: 0.85rem; }
 .topbar__brand { display: flex; align-items: center; gap: 0.6rem; color: var(--dd-white); text-decoration: none; font-weight: 700; white-space: nowrap; }
 .topbar__logo { width: clamp(104px, 18vw, 132px); height: auto; display: block; }
-.topbar__year {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 0.78rem; letter-spacing: 0.1em; font-weight: 500;
-  color: var(--dd-teal-300); padding-left: 0.6rem;
-  border-left: 1px solid var(--dd-border-band);
-}
 .topbar__nav { display: flex; align-items: center; flex-wrap: wrap; gap: 0.35rem clamp(1rem, 3vw, 1.75rem); }
 
 /* Top-level items: plain links and dropdown trigger buttons share one look */
 .navitem--menu { position: relative; display: inline-flex; }
+.navitem__home { display: inline-flex; align-items: center; }
 .navitem__link,
 .navitem__btn {
   color: var(--dd-white); text-decoration: none; font-weight: 600;
