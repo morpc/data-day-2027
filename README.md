@@ -47,7 +47,7 @@ exact dates as the cycle progresses.
 - [x] Select a date for the event — **Thu, Feb 18, 2027**
 - [ ] Secure the venue
   - [x] Select a venue — **Center for Workforce Development at CSCC** (third straight year at this facility)
-  - [ ] Book the venue _(booking pending)_
+  - [x] Book the venue
 - [x] Select a theme for the event — **"Plotting What's Next"** _(see [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md); subhead and palette locked)_
 - [ ] Prepare day-of logistics _(after agenda + registration are set)_
   - [ ] Order event signage _(early Feb 2027)_
