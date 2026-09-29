@@ -26,7 +26,7 @@ topics, which appear in the agenda so attendees can find the sessions they came 
 
 | | |
 |---|---|
-| **When** | Thursday, February 18, 2027 · 8:30 AM–4:00 PM |
+| **When** | Thursday, February 18, 2027 · 9:00 AM–3:45 PM |
 | **Where** | Center for Workforce Development, Columbus State Community College |
 | **Sessions** | 45 minutes, with significant time for Q&A and audience engagement |
 | **Submit** | Data Day 2027 Submission Form **[link]** |
