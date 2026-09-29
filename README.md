@@ -30,7 +30,7 @@ exact dates as the cycle progresses.
 > **Maintenance note:** After every pull request merges, review this schedule and update
 > task status, dates, and checkboxes to reflect what changed.
 >
-> **Last reviewed:** September 14, 2026.
+> **Last reviewed:** September 29, 2026.
 
 ### Meetings & Planning
 - [ ] Hold recurring internal Data Day team meetings
@@ -88,7 +88,7 @@ exact dates as the cycle progresses.
 ### Breakouts
 - [x] Explore options for lightning rounds and shorter breakout sessions _(Aug 2026)_ — resolved in [ways-to-participate-draft.md](Breakouts/ways-to-participate-draft.md): lecture, workshop, panel, intern lightning talks, posters
 - [ ] Prepare the Call for Proposals _(after theme is set)_
-  - [ ] Update/finalize the call for session proposals _(Sep 2026)_
+  - [ ] Update/finalize the call for session proposals _(Sep 2026)_ _(in progress: [2027 CFP draft](Breakouts/CFP/cfp-2027-draft.md) with topic tags and 9:00 AM–3:45 PM hours; still needs release date, deadline, form link, officer names, and the staff-only focus area / pillar / reflection questions)_
   - [ ] Convert the CFP to an online form _(Oct 2026)_
   - [ ] Design the CFP promotion slide _(Oct 2026)_
   - [ ] Update the CFP website section _(Oct 2026)_
