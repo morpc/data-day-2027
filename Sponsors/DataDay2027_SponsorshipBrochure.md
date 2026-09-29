@@ -1,7 +1,8 @@
 # Data Day 2027 — Sponsorship Opportunities
 
 **Theme: Plotting What's Next**
-Date and venue to be announced.
+
+Thursday, February 18, 2027 · Center for Workforce Development, Columbus State Community College
 
 ## About MORPC and Data Day
 

@@ -164,6 +164,7 @@ MORPC staff understand and balance the program — they aren't printed in the ag
 
 ### Workshop
 *Everything in the lecture list, plus the hands-on specifics:*
+
 - Learning goals — what participants will build or be able to do afterward
 - Tools and software used
 - Prerequisites — what attendees should already know
@@ -181,6 +182,7 @@ MORPC staff understand and balance the program — they aren't printed in the ag
 
 ### Intern Showcase — lightning talk or poster
 *One submission; the committee selects lightning talks, and remaining projects become posters.*
+
 - Intern name and contact
 - Internship host organization / placement
 - Project title
