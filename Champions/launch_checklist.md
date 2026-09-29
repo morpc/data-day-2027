@@ -35,8 +35,8 @@ The model rests on "every ask comes with a kit." Build the systems and the kits 
 - [ ] **Champion tracking sheet** — who signed up, which asks, status, and a critical-path coverage view that flags any high-stakes ask with no Champion attached.
 - [ ] **Shared sponsor-contact log** — a running list of who is being approached, so no two people (Champion or staff) collide on a prospect.
 - [ ] **Resource kits** — draft each before its ask window opens:
-  - [x] Theme + keynote-criteria one-pager and "suggest a keynote" form — [live form](https://forms.cloud.microsoft/r/mYmz1bctPH); spec in [keynote-suggestion-form.md](Engagements/keynote-suggestion-form.md)
-  - [x] Warm-intro templates (keynote and sponsor) — [keynote](Engagements/keynote-intro-template.md) and [sponsor](Engagements/sponsor-intro-template.md), both with PDFs
+  - [x] Theme + keynote-criteria one-pager and "suggest a keynote" form — [live form](https://forms.cloud.microsoft/r/mYmz1bctPH); spec in [keynote-suggestion-form.md](Engagements/Keynotes/keynote-suggestion-form.md)
+  - [x] Warm-intro templates (keynote and sponsor) — [keynote](Engagements/Keynotes/keynote-intro-template.md) and [sponsor](Engagements/Sponsors/sponsor-intro-template.md), both with PDFs
   - [ ] CFP promo kit (slide, social graphic, suggested copy, "why present" blurb, key dates)
   - [x] Sponsorship brochure + one-line tier/benefit summary — [DataDay2027_SponsorshipBrochure.md](../Sponsors/DataDay2027_SponsorshipBrochure.md)
   - [ ] Registration promo kit (email + social copy and graphics for each push moment)
