@@ -1,10 +1,12 @@
 # Data Day 2027
 
+ALL MATERIAL IN THIS REPOSITORY IS FOR MORPC STAFF PLANNING PURPOSES ONLY. DATES AND DETAILS ARE NOT FINAL. SEE (THE WEBSITE)[https://morpc.github.io/data-day-2027/] FOR OFFICIAL COMMUNICATION.
+
 ## Introduction
 
 Data Day as one of five MORPC signature events which focuses on convening data practitioners, data analysts, and data users from across the region. The event is a single data conference style event with 200+ attendees, 2 keynote sessions, and 16 breakouts sessions, along with ample time for networking and socializing. See more information at https://www.morpc.org/event/dataday
 
-[This repository](https://github.com/jinskeep-morpc/data-day-2027) is used to plan for Data Day 2027 and store documents and data about the event. It is accompanied by a [GitHub project](https://github.com/users/jinskeep-morpc/projects/3) for tracking issues and tasks
+[This repository](https://github.com/jinskeep-morpc/data-day-2027) is used to plan for Data Day 2027 and store documents and data about the event. 
 
 ## Folder structure
 
@@ -33,7 +35,7 @@ exact dates as the cycle progresses.
 ### Meetings & Planning
 - [ ] Hold recurring internal Data Day team meetings
   - [x] Internal Data Day team meeting — Jul 2026
-  - [ ] Internal Data Day team meeting — Sep 2026
+  - [x] Internal Data Day team meeting — Sep 2026
   - [ ] Internal Data Day team meeting — Nov 2026
   - [ ] Internal Data Day team meeting — Jan 2027
   - [ ] Internal Data Day team meeting — Feb 2027
@@ -45,7 +47,7 @@ exact dates as the cycle progresses.
 
 ### Logistics and Venue
 - [x] Select a date for the event — **Thu, Feb 18, 2027**
-- [ ] Secure the venue
+- [x] Secure the venue
   - [x] Select a venue — **Center for Workforce Development at CSCC** (third straight year at this facility)
   - [x] Book the venue
 - [x] Select a theme for the event — **"Plotting What's Next"** _(see [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md); subhead and palette locked)_
@@ -68,7 +70,7 @@ exact dates as the cycle progresses.
   - [ ] Registration promo kit (email + social copy/graphics per push) _(Oct 2026)_
   - [ ] Facilitator / day-of cheat sheet + run-of-show _(Dec 2026)_
 - [ ] Run the schedule of asks
-  - [ ] Ask 1 — Connect with potential keynote speakers _(Aug–Oct 2026)_
+  - [x] Ask 1 — Connect with potential keynote speakers _(Aug–Oct 2026)_
   - [ ] Ask 2 — Share the CFP & recruit session speakers _(late Sep–early Nov 2026)_
   - [ ] Ask 3 — Solicit sponsors (open to all Champions; shared contact log) _(Sep–Nov 2026)_
   - [ ] Ask 4 — Encourage registration _(Nov 2026–late Jan 2027)_
