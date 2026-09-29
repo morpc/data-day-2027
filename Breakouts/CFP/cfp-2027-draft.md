@@ -21,7 +21,8 @@ course for the next five.
 
 We are seeking session proposals that share the tools, analyses, projects, and lessons advancing data work in
 the region. This year, we especially encourage proposals on **data governance, data management, data analysis,
-and data infrastructure**.
+and data infrastructure**. Every data topic is welcome. New this year, you will tag your session with up to two
+topics, which appear in the agenda so attendees can find the sessions they came for.
 
 | | |
 |---|---|
@@ -79,13 +80,20 @@ Where does your session fit?
 | **2: Intermediate** | Assumes working knowledge; hands-on with specific tools or methods. |
 | **3: Advanced** | For experienced practitioners; deep or specialized technical content. |
 
-### Session audience
-Which attendees will benefit most?
+### Topic tags (select up to two)
+Which topics best describe your session? Tags appear in the agenda and brochure.
 
-- Decision-makers
-- Data professionals
-- Subject-matter experts
-- Other _______________
+- Data Governance & Stewardship
+- Data Management & Quality
+- Data Infrastructure & Engineering
+- Data Analysis & Statistical Methods
+- Data Visualization & Storytelling
+- AI & Machine Learning
+- GIS & Spatial Analysis
+- Open Data & Transparency
+- Privacy, Ethics & Security
+- Program Evaluation & Research Methods
+- Data Literacy & Workforce
 
 ### Audience engagement (limit: 100 words)
 How will you engage the audience and encourage participation during the session?
