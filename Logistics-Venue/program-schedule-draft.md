@@ -4,7 +4,7 @@
 **Event:** Data Day 2027 — 5th annual
 **Date:** Thursday, February 18, 2027
 **Venue:** Columbus State Community College, The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215
-**Window:** 8:00 AM – 4:00 PM (program content ~9:00 AM – 4:00 PM)
+**Window:** 8:30 AM – 3:45 PM (program content 9:00 AM – 3:45 PM)
 
 > Status: **Working draft for discussion.** Layout decisions resolved; remaining venue
 > confirmations noted at the bottom.
@@ -37,11 +37,11 @@ These run continuously and are not scheduled as sessions — see *Throughout the
 
 | Type | Length | Room(s) | Notes |
 |---|---|---|---|
-| Keynote | 45 min (morning); lunch keynote within lunch block | 400 Ballroom (full) | Morning + lunch |
+| Keynote | 50 min (morning); 55 min (lunch, within lunch block) | 400 Ballroom (full) | Morning + lunch |
 | Lecture | 45 min | 400 Ballroom (full), Room 412, Room 414 | Standard breakout |
 | Panel | 45 min | 400 Ballroom (full) | Moderated, multi-speaker |
 | Workshop | 90 min | Room 420 | Hands-on/technical; spans 2 breakout blocks |
-| Lightning / Intern Showcase | ~5–7 min each | 400 Ballroom (full) | Plenary, during lunch |
+| Lightning / Intern Showcase | ~5–7 min each (25 min total) | 400 Ballroom (full) | Plenary, during lunch |
 
 ---
 
@@ -49,25 +49,28 @@ These run continuously and are not scheduled as sessions — see *Throughout the
 
 | Time | 400 Ballroom (300) | Room 420 (64) | Room 412 (84) | Room 414 (84) |
 |---|---|---|---|---|
-| 8:00–9:00 | Registration & coffee | — | — | — |
-| 9:00–9:15 | **Welcome & opening** (plenary) | — | — | — |
-| 9:15–10:00 | **Morning Keynote** | — | — | — |
+| 8:30–9:00 | Registration & coffee | — | — | — |
+| 9:00–9:10 | **Welcome & opening** (plenary) | — | — | — |
+| 9:10–10:00 | **Morning Keynote** | — | — | — |
 | 10:00–10:15 | *Break / transition* | | | |
 | 10:15–11:00 | Block 1 — Lecture/Panel | **Workshop A** (90 min, → 12:00) | Block 1 — Lecture | Block 1 — Lecture |
 | 11:00–11:15 | *Break* | *(workshop continues)* | *Break* | *Break* |
 | 11:15–12:00 | Block 2 — Lecture/Panel | **Workshop A** (cont.) | Block 2 — Lecture | Block 2 — Lecture |
-| 12:00–12:15 | *Break / transition to lunch* | | | |
-| 12:15–2:00 | **Lunch + Intern Showcase + Lunch Keynote + thank-yous/extras** (plenary) | — | — | — |
-| 2:00–2:15 | *Break / transition* | | | |
-| 2:15–3:00 | Block 3 — Lecture/Panel | **Workshop B** (90 min, → 4:00) | Block 3 — Lecture | Block 3 — Lecture |
-| 3:00–3:15 | *Break* | *(workshop continues)* | *Break* | *Break* |
-| 3:15–4:00 | Block 4 — Lecture/Panel | **Workshop B** (cont.) | Block 4 — Lecture | Block 4 — Lecture |
+| 12:00–12:15 | *Break + pick up lunch* | | | |
+| 12:15–12:40 | **Intern Showcase** (plenary, while people eat) | — | — | — |
+| 12:40–1:35 | **Lunch Keynote** | — | — | — |
+| 1:35–1:45 | **Thank-yous / sponsor recognition / 2028 teaser** | — | — | — |
+| 1:45–2:00 | *Break / transition* | | | |
+| 2:00–2:45 | Block 3 — Lecture/Panel | **Workshop B** (90 min, → 3:30) | Block 3 — Lecture | Block 3 — Lecture |
+| 2:45–3:00 | *Break* | *(workshop continues)* | *Break* | *Break* |
+| 3:00–3:45 | Block 4 — Lecture/Panel | **Workshop B** (cont.) | Block 4 — Lecture | Block 4 — Lecture |
 
-**Lunch block (105 min) flow:**
+**Lunch block flow (12:00–1:45):**
 
-- **Food served + Intern Showcase** lightning round while people eat — 30 min
-- **Lunch Keynote** as the focused closer — 60 min
-- **Thank-yous / sponsor recognition / 2028 teaser** fold in at the end of the keynote — 15 min
+- **Break + pick up lunch** — 15 min
+- **Intern Showcase** lightning round while people eat — 25 min
+- **Lunch Keynote** as the focused closer — 55 min
+- **Thank-yous / sponsor recognition / 2028 teaser** fold in at the end of the keynote — 10 min
 
 (No separate end-of-day closing plenary.)
 
@@ -79,7 +82,7 @@ These run continuously alongside the session grid and use the 415 Gallery and ci
 not the four session rooms.
 
 - **Vendor & organization tabling — the 415 Gallery.** Open all day; naturally trafficked during
-  registration (8:00–9:00), every break, and lunch.
+  registration (8:30–9:00), every break, and lunch.
 - **Poster presentations — throughout the venue.** Displayed all day. Suggest designating
   **attended poster times** (authors stand by their posters) during the long lunch block and the
   mid-morning/mid-afternoon breaks so attendees know when to engage.
@@ -127,7 +130,7 @@ informal in-room break.
 2. **Workshops:** **continuous 90 min** with classroom tables + power and an informal in-room break.
 3. **Lunch ordering:** Intern Showcase during eating → Lunch Keynote as closer → thank-yous/extras.
 4. **Closing:** **no separate closing plenary**; recognition folded into the end of the lunch keynote.
-5. **Morning start:** registration runs **8:00–9:00**; the morning plenary (welcome + keynote)
+5. **Morning start:** registration runs **8:30–9:00**; the morning plenary (welcome + keynote)
    starts at **9:00**.
 
 ## Remaining venue confirmations
@@ -136,8 +139,8 @@ informal in-room break.
   hands-on content.
 - **Divider reset:** none required — confirm the 400 Ballroom's A/B/C dividers can simply stay
   open all day.
-- **Catering timing:** confirm lunch can be served into rounds at the 12:00 transition without
-  disrupting the 12:15 program start.
+- **Catering timing:** confirm attendees can pick up lunch during the 12:00–12:15 break and be
+  seated for the 12:15 Intern Showcase.
 - **Parking, detailed catering options, and AV rental costs:** not yet confirmed with the venue —
   see [venue-details.md](venue-details.md).
 
