@@ -8,35 +8,33 @@
 
 [October 2026]
 
-## DATA DAY 2027: Call for Proposals
-
-**Deadline: [Friday, November 13, 2026]**
-
-The Regional Data Roundtable (RDR) is organizing the 5th annual Data Day event. Data Day brings together
-Central Ohio's data creators, innovators, analysts, and end users to share their experiences, tools, analyses, and
-creative projects that are advancing data in the region. By fostering connections and collaboration, the event
-facilitates existing data communities' ability to benefit the region's human and technological capabilities. This
-notification requests session proposals for Data Day 2027. Proposed sessions should reflect the identified theme for
-the event:
-
-**Plotting What's Next**
+## Data Day 2027: Call for Proposals
+### Plotting What's Next
 *Five years forward for Central Ohio's data community*
 
-This year, we especially encourage proposals which include significant aspects of data governance, data management,
-data analysis, or data infrastructure.
+**Proposals due [Friday, November 13, 2026]**
 
-Data Day 2027 will be held at the Center for Workforce Development at Columbus State Community College (CSCC) on
-Thursday, February 18, 2027, from approximately 8:30 AM to 4:00 PM. All sessions should anticipate being roughly
-forty-five (45) minutes in length and include a significant amount of time for audience engagement and/or Q&A.
+For five years, Data Day has convened Central Ohio's data community: the local governments, nonprofits,
+educational institutions, and civic-minded businesses working to make Central Ohio a leader in using data to
+improve the quality of life for all residents. The Regional Data Roundtable (RDR) invites you to help plot the
+course for the next five.
 
-Below are detailed requirements for submitting a session proposal. All proposed sessions should be submitted
-through the Data Day 2027 Submission Form. Submittals will need to include a working title and session description
-(for use in promotional materials), a longer abstract and information regarding intended audience and session
-outcomes. Data Day 2027 seeks to facilitate engaging, practical sessions. All proposals must explain how the
-presenters will engage the audience and outline the session's main objectives or takeaways.
+We are seeking session proposals that share the tools, analyses, projects, and lessons advancing data work in
+the region. This year, we especially encourage proposals on **data governance, data management, data analysis,
+and data infrastructure**.
 
-Thank you for your interest in Data Day 2027. We look forward to your contribution and to the continued growth of
-the Central Ohio data community.
+| | |
+|---|---|
+| **When** | Thursday, February 18, 2027 · 8:30 AM–4:00 PM |
+| **Where** | Center for Workforce Development, Columbus State Community College |
+| **Sessions** | 45 minutes, with significant time for Q&A and audience engagement |
+| **Submit** | Data Day 2027 Submission Form **[link]** |
+
+Strong proposals are practical and interactive. Every submission should state clear takeaways for attendees
+and explain how presenters will engage the room.
+
+Thank you for your interest in Data Day 2027. We look forward to your contribution and to the continued growth
+of Central Ohio's data community.
 
 Sincerely,
 
@@ -50,41 +48,44 @@ The Regional Data Roundtable (RDR)
 
 ## Submission questions
 
-### Applicant Name and Contact
-The name and primary contact information of the person submitting the proposal. This individual will serve as the
-main point of contact for communications related to the proposal and the event.
+### Applicant name and contact
+The person submitting the proposal. This person will be our main point of contact for the proposal and the event.
 
-### Session Title (limit: 10 words)
-A concise, informative title for promoting the session in the event brochure. The title should clearly convey the main
-topics or purpose of the session.
+### Session title (limit: 10 words)
+A concise title for the event brochure that conveys the session's main topic or purpose.
 
-### Session Objectives (limit: 20 words each)
-Describe up to three objectives for the session. What will the audience gain, learn and/or nurture through attending
-your presentation?
+### Session objectives (limit: 20 words each)
+Up to three objectives. What will attendees learn, gain, or be able to do after your session?
 
-### Session Description (limit: 100 words)
-This description will appear in promotional materials and the event brochure. It should answer: "Why should I
-attend this session?" It must include the intended audience and the session's main takeaways or objectives. You may
-also describe relevant subject matter, data types, software, or skills that will be discussed or demonstrated.
+### Session description (limit: 100 words)
+Your "why attend this session?" pitch for the website and brochure. Include the intended audience and main
+takeaways. You may also name the subject matter, data types, software, or skills covered.
 
-### Session Abstract (limit: 300 words)
-Provide a detailed summary of the session, including how it connects to the event theme. Describe the session's
-format, content, topics, intended audience, and expected outcomes. Include any presentation technologies or
-elements that will be used, such as slides, audience surveys, interactive data visualizations, or handouts if applicable.
+### Session abstract (limit: 300 words)
+A fuller summary of the session: format, content, intended audience, expected outcomes, and how it connects to
+the theme. Note any presentation elements you plan to use, such as live polls, interactive visualizations, or
+handouts.
 
-### Session Speakers and Affiliations
-List all speakers/presenters and their primary organizational affiliations.
+### Speakers and affiliations
+All speakers and their primary organizational affiliations.
 
-### Session Technical Skill Level
-0 – All audiences · 1 – Beginner · 2 – Intermediate · 3 – Advanced
+### Technical skill level
+Where does your session fit?
 
-### Session Audience
-Select which types of attendees will benefit from the session:
+| Level | Who it's for |
+|---|---|
+| **0: All audiences** | No technical background needed; conceptual, strategic, or policy-oriented. |
+| **1: Beginner** | Some data familiarity helpful; introduces a tool or method. |
+| **2: Intermediate** | Assumes working knowledge; hands-on with specific tools or methods. |
+| **3: Advanced** | For experienced practitioners; deep or specialized technical content. |
+
+### Session audience
+Which attendees will benefit most?
 
 - Decision-makers
 - Data professionals
 - Subject-matter experts
 - Other _______________
 
-### Audience Engagement and Participation (limit: 100 words)
-Explain how the speakers plan to engage the audience and encourage participation throughout the session.
+### Audience engagement (limit: 100 words)
+How will you engage the audience and encourage participation during the session?
