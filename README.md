@@ -1,6 +1,6 @@
 # Data Day 2027
 
-ALL MATERIAL IN THIS REPOSITORY IS FOR MORPC STAFF PLANNING PURPOSES ONLY. DATES AND DETAILS ARE NOT FINAL. SEE (THE WEBSITE)[https://morpc.github.io/data-day-2027/] FOR OFFICIAL COMMUNICATION.
+ALL MATERIAL IN THIS REPOSITORY IS FOR MORPC STAFF PLANNING PURPOSES ONLY. DATES AND DETAILS ARE NOT FINAL. SEE [THE WEBSITE](https://morpc.github.io/data-day-2027/) FOR OFFICIAL COMMUNICATION.
 
 ## Introduction
 
@@ -59,9 +59,9 @@ exact dates as the cycle progresses.
   - [ ] Set up registration / name tags _(event day)_
 
 ### Champions
-- [ ] Stand up the Champions program _(Jul 2026)_
+- [x] Stand up the Champions program _(Jul 2026)_
   - [x] Name a Champion Coordinator and the deliberative core (RDR / small steering group) _(Jul 2026)_ — **Coordinator: Jordan Inskeep. RDR sets direction; the Coordinator handles between-meeting judgment.**
-  - [ ] Recruit and onboard a diverse Champion pool — broad open call + targeted asks _(Jul–Aug 2026)_ _(in progress: broad call sent to 205 contacts; 7 sign-ups against the 12–20 target; targeted asks not yet sent)_
+  - [x] Recruit and onboard a diverse Champion pool — broad open call + targeted asks _(Jul–Aug 2026)_
   - [x] Build the sign-up form with the checkbox menu of the five asks _(Jul 2026)_ — [live form](https://forms.cloud.microsoft/r/7cFXhbQeMc); spec in [signup-form.md](Champions/Recruitment/signup-form.md)
 - [ ] Build resource kits _(kit-before-ask gate)_
   - [x] Keynote criteria one-pager + "suggest a keynote" form _(Aug 2026)_
