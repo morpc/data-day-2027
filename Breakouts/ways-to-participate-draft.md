@@ -36,7 +36,7 @@ and we welcome proposals from across the four constituencies.
 - **Format:** 45 minutes, including Q&A.
 - **Rooms:** Terrace A, Terrace B, or the Grand Ballroom.
 - **Who can propose:** anyone — individuals or teams.
-- **What to tell us:** title, objectives, description, intended audience and skill level, and
+- **What to tell us:** title, objectives, description, topic tags and skill level, and
   speaker(s). *(Full question list under "What we'll ask you to submit" below.)*
 
 ### Hands-on workshops
@@ -154,7 +154,7 @@ MORPC staff understand and balance the program — they aren't printed in the ag
 - Up to three session objectives — what the audience will gain or learn
 - Session description (≤100 words) — the "why attend this session?" blurb for the brochure
 - Session abstract (longer) — content, topics, format, intended audience, expected outcomes
-- Intended audience (e.g., decision-makers, data professionals, subject-matter experts, other)
+- Topic tags (up to two, from the list of eleven in the CFP)
 - Technical skill level (0–3)
 - Regional Data Agenda **focus area** *(internal)*
 - Regional Data Agenda **action pillar** *(internal)*
@@ -177,7 +177,7 @@ MORPC staff understand and balance the program — they aren't printed in the ag
 - Why this topic matters to the region now
 - Key questions or angles the panel would explore
 - Suggested moderator and/or panelists with affiliations (optional)
-- *(Focus area, action pillar, and skill level are assigned by staff.)*
+- *(Topic tags, focus area, action pillar, and skill level are assigned by staff.)*
 
 ### Intern Showcase — lightning talk or poster
 *One submission; the committee selects lightning talks, and remaining projects become posters.*
@@ -193,7 +193,7 @@ MORPC staff understand and balance the program — they aren't printed in the ag
 - Institution and program; advisor (if any)
 - Poster title
 - Abstract — research/project summary: question, data and methods, findings or status
-- *(Posters carry no skill/focus tags; see poster specs for size and format.)*
+- *(Posters carry no topic, skill, or focus tags; see poster specs for size and format.)*
 
 ---
 
