@@ -1,10 +1,10 @@
-# Data Day Planning & Facilitation Plan
+# Data Day 2028 Planning & Facilitation Plan
 
-> **Audience:** internal / MORPC staff only. Dates and details are not final; see
-> [the website](https://morpc.github.io/data-day-2027/) for official communication.
-> **Owner:** Jordan Inskeep (Data Day Coordinator). **Last updated:** October 19, 2026.
-> **Purpose:** one document a new staff lead can use to run Data Day planning from kickoff
-> to post-event evaluation.
+> **Audience:** internal / MORPC staff only. Forward plan for the 2028 cycle; dates are
+> proposed targets, not commitments.
+> **Prepared by:** Jordan Inskeep (Data Day 2027 Coordinator). **Drafted:** October 19, 2026.
+> **Purpose:** give the next Data Day lead everything needed to run Data Day 2028 from
+> kickoff to post-event evaluation.
 
 ---
 
@@ -13,41 +13,32 @@
 ### Summary
 
 Data Day is MORPC's annual one-day conference for Central Ohio's public-sector data
-community. **Data Day 2027** is the **5th annual** event: **Thursday, February 18, 2027**, at
-the **Center for Workforce Development at Columbus State Community College**, under the theme
-**"Plotting What's Next: Five years forward for Central Ohio's data community."**
+community. **Data Day 2028 will be the 6th annual event.** This plan lays out how to run it:
+what each planning area needs to accomplish, what to reuse from 2027, which decisions come
+first, and a dated schedule for every task. All dates key off a **proposed event date of
+Thursday, February 17, 2028**; confirm it by April 30, 2027 and shift the schedule if it
+changes (see Appendix B).
 
-Planning runs on a ~13-month cycle and takes roughly **208 staff hours**, most of it from the
-Data team. This plan covers every planning area in one place: what it is, where its files
-live, a dated task schedule, and suggested AI prompts for producing or updating its
-materials. Section 2 is the single **master timeline**; the area sections break the same
-dates out by topic.
+Planning runs on a ~12-month cycle starting in March 2027, right after the 2027 debrief.
+Expect roughly **200–210 staff hours**, most of it from the Data team. The 2027 cycle built a
+reusable toolkit (the Champions program, resource kits, a design system, a website, a CFP
+with topic tags, and AI-assisted workflows), so 2028 should start earlier and spend less time
+building from scratch.
 
 ### Project overview
 
 **The event.** A single-day conference for data users, practitioners, and analysts across
-local governments, nonprofits, educational institutions, and civic-minded businesses. It
-offers keynotes, breakout sessions across skill levels, and time to network.
+local governments, nonprofits, educational institutions, and civic-minded businesses.
+Keynotes, breakout sessions across skill levels, posters, vendor tabling, and time to
+network.
 
 **The client.** The Mid-Ohio Regional Planning Commission (MORPC), a regional council of
 governments and MPO covering 95+ local governments in a 15-county region. MORPC convenes the
 **Regional Data Roundtable (RDR)**, which hosts Data Day. Data Day is a "Signature Event" in
-the RDR's [2026–2028 Regional Data Agenda](https://www.morpc.org/wp-content/uploads/2026/08/Regional-Data-Agenda-2026-2028.pdf) and supports its
-Education & Outreach pillar.
-
-**2027 quick facts**
-
-| Item | Detail |
-|---|---|
-| Date | Thursday, February 18, 2027 |
-| Hours | Registration 8:30 AM; program 9:00 AM–3:45 PM |
-| Venue | Center for Workforce Development at Columbus State Community College (3rd straight year). Official address: The Conference Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215 |
-| Theme | Plotting What's Next. Subhead (locked): *Five years forward for Central Ohio's data community* |
-| Program | 2 keynotes (morning + lunch), Intern Showcase, 14 breakouts (lecture, panel, 90-min workshop), posters, vendor tabling |
-| Target attendance | 200+ |
-| Volunteer model | Data Day Champions (replaces the monthly Working Group) |
-| Website | <https://morpc.github.io/data-day-2027/> |
-| Repository | <https://github.com/morpc/data-day-2027> |
+the RDR's
+[2026–2028 Regional Data Agenda](https://www.morpc.org/wp-content/uploads/2026/08/Regional-Data-Agenda-2026-2028.pdf).
+**2028 is the final year of that Agenda**, so Data Day 2028 is a natural place to report on
+it and to preview what comes next.
 
 **Event history** (from `Archive/Data_Day_Historical_Reference.xlsx`)
 
@@ -57,7 +48,45 @@ Education & Outreach pillar.
 | 2024 | 2nd | 152 | $4,000 | 4.31 / 5 |
 | 2025 | 3rd | 208 | $9,000 | 4.31 / 5 |
 | 2026 | 4th (Feb 10) | 196 | $10,000 | 4.41 / 5 |
-| 2027 | 5th (Feb 18) | target 200+ | target > $10,000 | target ≥ 4.4 |
+| 2027 | 5th (Feb 18, "Plotting What's Next") | _fill after debrief_ | _fill_ | _fill_ |
+
+### 2028 at a glance
+
+| Item | Starting assumption | Decide by |
+|---|---|---|
+| Date | Thursday, February 17, 2028 (proposed) | Fri, Apr 30, 2027 |
+| Venue | Center for Workforce Development at Columbus State Community College, if 2027 went well (would be the 4th year) | Fri, May 14, 2027 |
+| Format | Carry forward 2027: 8:30 registration, 9:00–3:45 program, 2 keynotes, Intern Showcase, ~14 breakouts, posters, tabling | Fri, Jun 25, 2027 |
+| Theme | Open. Lock by late August | Fri, Aug 20, 2027 |
+| Volunteer model | Data Day Champions, year 2 | Fri, May 28, 2027 |
+| Registration | Free vs. paid (carry 2027 decision unless the debrief says otherwise) | Fri, Oct 29, 2027 |
+| Repo and website | New `data-day-2028` repo and site, seeded from 2027 | Fri, Apr 9, 2027 |
+
+### Goals for 2028
+
+Set final targets at the April kickoff once 2027 results are in. Starting proposals:
+
+1. **Attendance:** 220+ registered attendees.
+2. **Sponsorship:** exceed the 2027 total; at least one returning Platinum or Gold sponsor.
+3. **Quality:** overall rating ≥ 4.4; close the gap between plenary and breakout ratings.
+4. **On-time pipeline:** CFP open by Oct 1 for six weeks; keynotes invited in September.
+5. **Champions:** 20 active Champions, half of them returning, every ask covered by a
+   Champion and a staff fallback.
+6. **Reach:** grow first-time attendees and organizations outside the usual networks
+   (the Agenda's representation pillar).
+
+### Lessons carried forward from 2027
+
+- **Start the CFP earlier.** In 2027 it slipped about four weeks behind 2026, leaving under
+  three weeks open. Release by Oct 1.
+- **Keynote outreach needs September, not late October.** Use the Champion suggestion form in
+  August and send invitations by late September.
+- **Kits before asks worked; build them all early.** Have every Champion kit drafted by
+  July 30, since most can be reused with new dates.
+- **Name staff fallbacks at kickoff,** not after asks are running.
+- **Sponsor prep slipped.** Start the prospect list and contact log in June.
+- **Check weekdays on every date.** "Friday, October 31" (a Saturday) went out in 2027.
+- _Add debrief findings here after Wed, Mar 24, 2027._
 
 ### Roles and owners
 
@@ -72,8 +101,8 @@ Owner codes match `Archive/master_timeline.xlsx`.
 | **RDR** | Regional Data Roundtable | Direction: theme, program balance, judgment calls (quarterly meetings) |
 | **Champions** | Volunteers | Connect, amplify, host. Never own a deadline |
 
-**Staff hours (2026 cycle baseline):** ~208 total. Data 161, shared team meetings 30,
-CE + Data 8, Events + Data 5, IT + Data 3, Events 1.
+**Staff hours (2026 baseline):** ~208 total. Data 161, shared team meetings 30, CE + Data 8,
+Events + Data 5, IT + Data 3, Events 1.
 
 ### Planning principles
 
@@ -81,122 +110,40 @@ CE + Data 8, Events + Data 5, IT + Data 3, Events 1.
    decisions, money, and commitments. Every milestone must be reachable even if zero
    Champions deliver.
 2. **Kit before ask.** Never send Champions an ask until its resource kit exists.
-3. **The theme drives everything downstream.** Lock it by late August; CFP, keynotes,
-   sponsorship, and marketing all key off it.
+3. **The theme drives everything downstream.** Lock it by late August.
 4. **Three audiences, three voices, separate files.** Outward (Regional Data Agenda voice),
    Champion-facing (warm, second person), internal (direct). See [voice-style.md](voice-style.md).
-5. **2027 content priorities:** data governance, management, analysis, and infrastructure.
-   GIS is welcome as one tag among many, not a stated preference (Data Day does not compete
-   with the Ohio GIS Conference).
+5. **Own Data Day's niche.** Lead with data governance, management, analysis, and
+   infrastructure. GIS is welcome as one topic among many; Data Day does not compete with
+   the Ohio GIS Conference.
 
 ### How to use this plan
 
-- **Section 2** is the dated schedule. Work from it week to week.
-- **Sections 3–10** explain each planning area, link its files, and repeat its tasks.
-- **[README.md](README.md)** keeps the status checklist. After every merged PR, update task
-  status in both the README checklist and Section 2 here.
-- **Prompts** in blockquotes are starting points for Claude (see Section 12). Paste them
-  into Claude Code from the repo root so it can read the referenced files.
+- **Sections 2–10** cover each planning area: goals, what to reuse, decisions, a detailed
+  task schedule, and AI prompts.
+- **Sections 11–12** cover the repo, website, and Claude.
+- **Appendix A** is the single master timeline with every dated task. Work from it week to
+  week and update statuses after each merged PR.
+- **Prompts** in blockquotes are starting points for Claude Code, run from the repo root so
+  it can read the referenced files (see Section 12).
 
-> **Prompt (weekly check-in):** "Read PROJECT_PLAN.md Section 2 and README.md. Today is
-> [date]. List what is overdue, what is due in the next two weeks, and any Champion ask whose
-> resource kit is not finished yet."
+> **Prompt (weekly check-in):** "Read PROJECT_PLAN.md Appendix A. Today is [date]. List what
+> is overdue, what is due in the next two weeks, and any Champion ask whose kit isn't
+> finished."
 
 ---
 
-## 2. Master timeline
+## 2. Planning phases at a glance
 
-Completed items are reconstructed from the repo's commit history. Upcoming dates follow the
-2026 cycle (`Archive/master_timeline.xlsx`, event Feb 10, 2026), shifted to the Feb 18, 2027
-event, and avoid weekends and federal holidays (MLK Day Jan 18; Presidents' Day Feb 15).
-**Status:** Done · Overdue · Next (within 2 weeks) · Planned · TBD (date to confirm).
-
-### Completed (April–October 2026)
-
-| Date | Area | Task | Owner | Status |
-|---|---|---|---|---|
-| Apr 21, 2026 | Repo | Create GitHub repo, folders, and Champions roster table | Data | Done |
-| May 5, 2026 | Planning | Draft 2027 task list in README; add folder READMEs | Data | Done |
-| Jun 15, 2026 | Champions | Lock Phase 1 decisions; draft Ways to Help, FAQ, recruitment emails, launch checklist | Data | Done |
-| Jun 18, 2026 | Theme / Program | Draft theme concepts, program schedule, breakout formats; keynote form spec | Data | Done |
-| Jun 22, 2026 | Champions | Champion sign-up form live; Ask 5 renamed "Take a day-of role" | Data | Done |
-| Jul 2026 | Planning | Internal team meeting; RDR Q3 update | Data | Done |
-| Jul 14, 2026 | Website | Design system (palette, logo, icons); launch site with Champions, Keynotes, Sponsors pages | Data, CE | Done |
-| Jul 15, 2026 | Marketing | "What People Say" page and speaker/sponsor one-pager | Data | Done |
-| Jul 21, 2026 | Theme / Sponsors | Select "Plotting What's Next"; keep classic palette; draft sponsorship brochure | Data, RDR | Done |
-| Aug 2026 | Champions | Broad recruitment call sent to 205 contacts | Data | Done |
-| Aug 12, 2026 | Champions | Announce Champions program at RIDG | Data | Done |
-| Aug 25, 2026 | Venue | Select CSCC; map program to rooms; set schedule | Data, Events | Done |
-| Aug 26, 2026 | Logistics | Move date to Thu, Feb 18, 2027; lock subhead and palette | Data | Done |
-| Sep 2026 | Planning | Internal team meeting | All | Done |
-| Sep 14, 2026 | Champions / CFP | Keynote and sponsor warm-intro kits; topic tag model; checklist refresh | Data | Done |
-| Sep 25, 2026 | Venue / Website | Book venue; add About page | Events, Data | Done |
-| Sep 29, 2026 | Champions / CFP | Send keynote request to Champions (Ask 1); CFP draft passes 1–3; retime to 9:00–3:45 | Data | Done |
-| Oct 8, 2026 | Keynotes | Lunch panel planning meeting | Data | Done |
-| Oct 16, 2026 | Keynotes | Morning keynote candidate research and scoring tracker | Data | Done |
-| Oct 19, 2026 | Champions | Draft keynote suggestion reminder email | Data | Done |
-
-### Upcoming (October 2026–April 2027)
-
-| Date | Area | Task | Owner | Status |
-|---|---|---|---|---|
-| Overdue (Aug–Sep) | Sponsors | Compile prior/potential sponsor list; align with MORPC-wide sponsor asks; start shared sponsor-contact log | Data, Events | Overdue |
-| Overdue (Sep) | Sponsors | Finalize package and tiers; link brochure PDF from Sponsors page | Data, CE | Overdue |
-| Overdue (Jul–Aug) | Champions | Champion tracking sheet with critical-path coverage view; name staff fallback owners | Data | Overdue |
-| Tue, Oct 20 | Keynotes | Verify current roles for Tier 1 candidates; pull Champion suggestions into tracker | Data | Next |
-| Tue, Oct 20 | Champions | Send keynote reminder email | Data | Next |
-| Thu, Oct 22 | CFP | Finalize CFP (fill placeholders); build online form; update CFP website section | Data, CE | Next |
-| Thu, Oct 22 | CFP / Champions | Finish CFP promo kit (slide, social graphic, copy, "why present" blurb, key dates) | Data, CE | Next |
-| Fri, Oct 23 | Keynotes | Invite first-choice morning keynote; hold backup | Data | Next |
-| Mon, Oct 26 | CFP | Release CFP: email list, website, Champions Ask 2 | Data, CE | Next |
-| Wed, Oct 28 | Planning | RDR Q4 update | Data | TBD |
-| Fri, Oct 30 | Keynotes | Follow up once; move to backup if no answer | Data | Next |
-| Fri, Oct 30 | Registration | Collect registration email list; decide free vs. paid | Events, Data | Next |
-| Sat, Oct 31 | Champions | Keynote suggestion form closes | Data | Next |
-| Mon, Nov 2 | Program | Open intern project and student poster call | Data | Planned |
-| Fri, Nov 6 | Registration | Registration promo kit done (email + social per push) | CE, Data | Planned |
-| Mon, Nov 9 | CFP | CFP reminder email; Champion nudge | Data | Planned |
-| Tue, Nov 10 | Registration | Stand up Eventbrite; open registration; update website; Champions Ask 4 | Events, CE | Planned |
-| Nov 2026 | Planning | Internal team meeting | All | TBD |
-| Fri, Nov 13 | CFP | CFP closes | Data | Planned |
-| Fri, Nov 13 | Keynotes | Finalize morning keynote and lunch panel | Data | Planned |
-| Mon, Nov 16–Fri, Dec 4 | CFP | Review and score proposals; draft program balance | Data, RDR | Planned |
-| Fri, Nov 20 | Keynotes | Collect bios and headshots; update Keynotes page | Data, CE | Planned |
-| Fri, Nov 20 | Sponsors | Close active recruiting; Champions Ask 3 window ends | Data | Planned |
-| Fri, Dec 4 | Venue | Confirm Room 420 setup and power, parking, catering options, AV costs | Events | Planned |
-| Fri, Dec 11 | CFP | Notify accepted and declined speakers | Data | Planned |
-| Fri, Dec 18 | CFP | Speaker acceptances confirmed; backfill from waitlist | Data | Planned |
-| Fri, Dec 18 | Champions | Facilitator / day-of cheat sheet and run-of-show (kit for Ask 5) | Data | Planned |
-| Fri, Jan 8 | Program | Finalize agenda, session schedule, room assignments | Data | Planned |
-| Fri, Jan 8 | Program | Intern project and student poster submissions due | Data | Planned |
-| Fri, Jan 8 | Sponsors | Confirm sponsorships; collect logos | Events, Data | Planned |
-| Mon, Jan 11–Fri, Jan 15 | Champions | Ask 5: assign day-of roles | Data | Planned |
-| Fri, Jan 15 | Website | Publish agenda; registration push 2 | CE, Data | Planned |
-| Fri, Jan 15 | Program | Select Intern Showcase talks and posters | Data | Planned |
-| Fri, Jan 15 | Sponsors | Invoice confirmed sponsors | Events | Planned |
-| Tue, Jan 19 | Keynotes | Final details: confirm topic, send panel questions, request slides | Data | Planned |
-| Fri, Jan 22 | Sessions | Collect session slide decks | Data | Planned |
-| Fri, Jan 22 | Logistics | Finalize catering with headcount estimate | Events | Planned |
-| Jan 2027 | Planning | Internal team meeting | All | TBD |
-| Fri, Jan 29 | Program | Program brochure to print (final sponsor logos) | CE | Planned |
-| Mon, Feb 1 | Logistics | Order signage | CE | Planned |
-| Mon, Feb 1–Fri, Feb 5 | Champions | Facilitators connect with their speakers | Champions, Data | Planned |
-| Fri, Feb 5 | Survey | Finalize post-event survey and QR code | Data | Planned |
-| Sun, Feb 7 | Registration | Close registration (last-call push Mon, Feb 1) | Events | Planned |
-| Fri, Feb 12 | Registration | Final attendee email with instructions | Events | Planned |
-| Fri, Feb 12 | Logistics | Slides for breaks, session intros, keynote intros, sponsor thanks, survey QR | CE, Data | Planned |
-| Tue, Feb 16 | Logistics | Load session laptops; brief day-of roles; print name tags | IT, Data, Events | Planned |
-| Wed, Feb 17 | Logistics | Final check with venue (rooms, AV, catering, signage) | Events | Planned |
-| **Thu, Feb 18** | **Event** | **Data Day 2027**; survey QR shown at lunch recognition | All | Planned |
-| Fri, Feb 19 | Survey | Email post-event survey | Data | Planned |
-| Mon, Feb 22–Fri, Feb 26 | Recognition | Thank speakers, sponsors, Champions; list Champions on website; send Champion survey | Data, CE | Planned |
-| Feb 2027 | Planning | RDR Q1 update; internal team meeting | Data | TBD |
-| Thu, Feb 25 | Survey | Survey reminder | Data | Planned |
-| Fri, Mar 5 | Survey | Close attendee and Champion surveys | Data | Planned |
-| Fri, Mar 19 | Survey | Results summary to RDR; send session ratings to speakers | Data | Planned |
-| Wed, Mar 24 | Evaluation | Internal debrief and lessons learned | All | Planned |
-| Fri, Mar 26 | Repo | Archive 2027 materials; update historical reference; roll this plan to 2028 | Data | Planned |
-| Fri, Apr 30 | 2028 | Select 2028 date and venue | Events, Data | Planned |
+| Phase | Window | Outcomes |
+|---|---|---|
+| 0. Close out 2027 & kick off | Mar–Apr 2027 | Debrief, archive, 2028 repo, goals, roles, date |
+| 1. Foundations | May–Jul 2027 | Venue booked, Champions re-recruited, save-the-date site, sponsor package, all early kits |
+| 2. Theme & outreach | Aug–Sep 2027 | Theme locked, keynote invitations out, sponsor asks underway, CFP ready |
+| 3. Calls & registration | Oct–Dec 2027 | CFP open six weeks, keynotes confirmed, registration open, sessions selected |
+| 4. Program build | Jan 2028 | Agenda live, day-of roles assigned, sponsors confirmed, materials to print |
+| 5. Event | Feb 2028 | Final logistics; Data Day on Thu, Feb 17 |
+| 6. Evaluate & roll forward | Feb–Apr 2028 | Survey, recognition, debrief, 2029 date |
 
 ---
 
@@ -204,41 +151,41 @@ event, and avoid weekends and federal holidays (MLK Day Jan 18; Presidents' Day 
 
 ### Overview
 
-The theme gives every downstream piece a shared story. 2027's theme, **Plotting What's
-Next**, plays on plotting data points and plotting a route forward, anchored on the 5th
-anniversary. The subhead is locked and used verbatim everywhere. Design kept the classic Data
-Day palette and logo so the anniversary carries the message instead of a rebrand.
+The theme gives every downstream piece one story. 2027's "Plotting What's Next" leaned on the
+5th anniversary. 2028 has no anniversary hook, but it does have the **close of the 2026–2028
+Regional Data Agenda**, which suggests a theme about results, impact, or the region's next
+agenda. Whatever the theme, keep a locked subhead used verbatim everywhere and a simple visual
+motif that works with the established Data Day palette.
 
-**Key files:** [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md) ·
-[Design/design-brief.md](Design/design-brief.md) · [Design/palette.md](Design/palette.md) ·
-[Design/icons/](Design/icons/) · [voice-style.md](voice-style.md)
+**Reuse from 2027:** [theme concept format](Theme/theme-concept-plotting-whats-next.md),
+[design brief](Design/design-brief.md), [palette](Design/palette.md),
+[icons](Design/icons/).
 
-**Rules of use:** keep the tone forward-looking (plot a course, not a retrospective chart).
-Sessions do not have to fit the theme; keynotes carry it.
+**Decisions:** theme and subhead; whether to keep the classic palette (recommended) or
+refresh it; how the theme frames the two keynotes.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Jun 18, 2026 | Draft theme concept options | Data | Done |
-| Jul 21, 2026 | Select theme with RDR input | Data, RDR | Done |
-| Aug 26, 2026 | Lock subhead and palette | Data | Done |
-| Ongoing | Use theme language in CFP, keynote framing, sponsorship, marketing | Data, CE | Ongoing |
-| Fri, Mar 26, 2027 | Record what worked for the 2028 theme discussion | Data | Planned |
-| **Late Aug (each cycle)** | **Hard deadline to lock next year's theme** | Data, RDR | Next cycle |
+| Date | Task | Owner |
+|---|---|---|
+| Wed, Mar 24, 2027 | Capture 2027 theme lessons in the debrief | Data |
+| Fri, Jun 11, 2027 | Draft three theme options with subheads and motifs | Data |
+| Fri, Jun 25, 2027 | Internal review; narrow to two | Data, CE |
+| Wed, Jul 28, 2027 | Present options at RDR Q3 | Data, RDR |
+| Fri, Aug 20, 2027 | **Lock theme, subhead, and palette** | Data, RDR |
+| Fri, Aug 27, 2027 | Update design brief, website hero, and templates | CE, Data |
 
 ### Prompts
 
-> **Prompt (new cycle):** "Read Theme/theme-concept-plotting-whats-next.md, the Regional
-> Data Agenda pillars in CLAUDE.md, and the last two years of survey topic suggestions in
-> Archive/Data_Day_Historical_Reference.xlsx. Propose three theme concepts for Data Day
-> [year], each with a one-line idea, a subhead, how it threads through program, Champions,
-> marketing, and sponsorship, and a visual motif. Use the outward MORPC voice and no em
+> **Prompt (theme options):** "Read the 2027 theme concept, the Regional Data Agenda pillars
+> and focus areas in CLAUDE.md, and the 2027 survey topic suggestions. Propose three Data Day
+> 2028 themes that speak to the final year of the 2026–2028 Regional Data Agenda. For each:
+> one-line idea, subhead, how it threads through program, Champions, marketing, and
+> sponsorship, and a visual motif that works with Design/palette.md. Outward voice, no em
 > dashes."
 
-> **Prompt (copy check):** "Check [file] against the locked theme and subhead in
-> Theme/theme-concept-plotting-whats-next.md and the rules in voice-style.md. List any
-> wording that drifts from the subhead, reads as backward-looking, or breaks venue naming."
+> **Prompt (copy check):** "Check [file] against the locked 2028 theme and subhead and the
+> rules in voice-style.md. List any wording that drifts or breaks venue naming."
 
 ---
 
@@ -246,58 +193,53 @@ Sessions do not have to fit the theme; keynotes carry it.
 
 ### Overview
 
-Two keynote slots: a **50-minute morning keynote** (9:10–10:00) and a **55-minute lunch
-keynote** (12:40–1:35), both in the 400 Ballroom. Past plenaries rated below the breakouts
-(2024: 3.74 morning, 3.72 lunch), so speaker fit and engagement matter more than profile.
-2027 is looking for **local, no-cost speakers**. The lunch slot is being developed as a
-moderated **program-evaluation panel** (planning notes in `Keynotes/Lunch/`).
+Two slots: a **50-minute morning keynote** and a **55-minute lunch keynote** (2027 used a
+moderated panel at lunch). Plenaries have rated below breakouts (2024: 3.74 morning, 3.72
+lunch), so pick for fit and engagement, not profile. Favor local, no-cost speakers. Champions
+**suggest and introduce** candidates (Ask 1); staff invite and negotiate.
 
-Champions help by **suggesting and introducing** candidates (Ask 1). Staff do all inviting
-and negotiating.
+**Reuse from 2027:**
+[keynote criteria one-pager](Champions/Engagements/Keynotes/keynote-criteria-one-pager.md),
+[suggestion form spec](Champions/Engagements/Keynotes/keynote-suggestion-form.md) and the
+[live form](https://forms.cloud.microsoft/r/mYmz1bctPH) (reset responses),
+[warm-intro template](Champions/Engagements/Keynotes/keynote-intro-template.md),
+[request](Champions/Engagements/Keynotes/keynote-request-email.md) and
+[reminder](Champions/Engagements/Keynotes/keynote-reminder-email.md) emails, the morning
+candidate research and scoring tracker (`Keynotes/Morning/`), and unused 2027 candidates as a
+head start.
 
-**Key files:** [Keynotes/](Keynotes/) (candidate research and scoring tracker in
-`Keynotes/Morning/`, currently on the `keynote-morning-shortlist` branch) ·
-[keynote criteria one-pager](Champions/Engagements/Keynotes/keynote-criteria-one-pager.md) ·
-[suggestion form spec](Champions/Engagements/Keynotes/keynote-suggestion-form.md) ·
-[warm-intro template](Champions/Engagements/Keynotes/keynote-intro-template.md) ·
-[request email](Champions/Engagements/Keynotes/keynote-request-email.md) ·
-[reminder email](Champions/Engagements/Keynotes/keynote-reminder-email.md) ·
-[Keynotes web page](docs/keynote.html)
+**Decisions:** keynote vs. panel at lunch; honorarium budget (if any); how keynotes frame the
+theme.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Jun 18, 2026 | Keynote suggestion form spec; form live | Data | Done |
-| Sep 14, 2026 | Keynote criteria one-pager and warm-intro kit | Data | Done |
-| Sep 29, 2026 | Champions Ask 1: keynote request email | Data | Done |
-| Oct 8, 2026 | Lunch panel planning meeting (format, moderator questions) | Data | Done |
-| Oct 16, 2026 | Morning candidate research and scoring tracker | Data | Done |
-| Tue, Oct 20 | Verify Tier 1 roles; pull Champion form responses into tracker; send reminder | Data | Next |
-| Fri, Oct 23 | Invite first choice; hold the second as backup (do not invite both) | Data | Next |
-| Fri, Oct 30 | Follow up once; move to backup if no reply | Data | Next |
-| Sat, Oct 31 | Suggestion form closes | Data | Next |
-| Fri, Nov 13 | Both keynotes confirmed | Data | Planned |
-| Fri, Nov 20 | Bios and headshots collected; Keynotes page updated; thank Champions whose leads landed | Data, CE | Planned |
-| Tue, Jan 19 | Confirm topic and title; send panel questions; request slides by Fri, Feb 5 | Data | Planned |
-| Fri, Feb 12 | Keynote intro slides built | CE, Data | Planned |
-| Mon, Feb 22 | Thank-you notes to keynote speakers | Data | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Jul 16, 2027 | Update criteria one-pager for the 2028 theme; reset suggestion form | Data |
+| Mon, Aug 2, 2027 | Champions Ask 1: suggestion request email | Data |
+| Fri, Aug 27, 2027 | Reminder email | Data |
+| Fri, Sep 10, 2027 | Suggestion form closes | Data |
+| Fri, Sep 17, 2027 | Score candidates; pick first choice and backup for each slot | Data |
+| Fri, Sep 24, 2027 | Invite first choices (one per slot; hold backups) | Data |
+| Fri, Oct 1, 2027 | Follow up once; move to backup if no reply | Data |
+| Fri, Nov 12, 2027 | Both keynotes confirmed | Data |
+| Fri, Nov 19, 2027 | Bios and headshots; Keynotes page updated; thank Champions whose leads landed | Data, CE |
+| Tue, Jan 18, 2028 | Confirm title and topic; send panel questions; request slides by Fri, Feb 4 | Data |
+| Fri, Feb 11, 2028 | Keynote intro slides | CE, Data |
+| Tue, Feb 22, 2028 | Thank-you notes | Data |
 
 ### Prompts
 
-> **Prompt (score candidates):** "Add these candidates to the morning keynote tracker:
-> [names, roles, links]. Score each 1–3 against every criterion in
-> keynote-criteria-one-pager.md, note public talks we can verify, and flag anyone outside the
-> region or likely to need an honorarium."
+> **Prompt (score candidates):** "Add these candidates to the keynote tracker: [names, roles,
+> links]. Score each 1–3 against the criteria in keynote-criteria-one-pager.md, list public
+> talks we can verify, and flag anyone outside the region or likely to need an honorarium."
 
-> **Prompt (invitation):** "Draft a keynote invitation to [name, role] for the Data Day 2027
-> morning keynote. Use the outward MORPC voice. Include date, venue, 50-minute slot, theme,
-> audience size (200+), why we thought of them, and a reply-by date of [date]. Under 200
-> words, no em dashes."
+> **Prompt (invitation):** "Draft a keynote invitation to [name, role] for the Data Day 2028
+> [morning/lunch] slot. Include date, venue, length, theme, audience size, why we thought of
+> them, and a reply-by date of [date]. Outward voice, under 200 words, no em dashes."
 
-> **Prompt (panel prep):** "Using Keynotes/Lunch/meeting_notes.md, draft a run sheet for the
-> lunch panel: timing for each speaker, moderator intro, eight moderator questions ordered
-> from concrete to big-picture, and a plan for audience Q&A."
+> **Prompt (panel run sheet):** "Draft a lunch panel run sheet: speaker timing, moderator
+> intro, eight moderator questions from concrete to big-picture, and audience Q&A."
 
 ---
 
@@ -305,70 +247,61 @@ and negotiating.
 
 ### Overview
 
-The CFP fills **14 breakouts** across four blocks (10:15, 11:15, 2:00, 3:00), plus the
-**Intern Showcase** (lightning talks at lunch) and **posters**. Formats: 45-min lecture,
-45-min panel, 90-min hands-on workshop (Room 420). There are no tracks. Speakers pick up to
-two public **topic tags** and a skill level; staff also capture internal metadata (Regional
-Data Agenda focus area, action pillar, reflection prompt) to balance the program. 2027 leads
-with governance, management, analysis, and infrastructure.
+The CFP fills about **14 breakouts** across four blocks, plus the **Intern Showcase**
+(lightning talks at lunch) and **posters**. Formats: 45-min lecture, 45-min panel, 90-min
+hands-on workshop. No tracks: speakers choose up to two public **topic tags** and a skill
+level, and staff capture internal Regional Data Agenda metadata to balance the program.
+Champions **share the CFP and nudge strong presenters** (Ask 2); staff review and select.
 
-Champions help by **sharing the CFP and nudging strong presenters** (Ask 2). Staff review
-and select.
+**Reuse from 2027:** [CFP](Breakouts/CFP/cfp-2027-draft.md),
+[tagging model](Breakouts/CFP/session-tagging-model-draft.md),
+[ways to participate](Breakouts/ways-to-participate-draft.md),
+[workshop format](Breakouts/workshop-format-draft.md),
+[program schedule grid](Logistics-Venue/program-schedule-draft.md), the 2027 CFP form and
+promo kit.
 
-**Key files:** [CFP draft](Breakouts/CFP/cfp-2027-draft.md) ·
-[tagging model](Breakouts/CFP/session-tagging-model-draft.md) ·
-[ways to participate](Breakouts/ways-to-participate-draft.md) ·
-[workshop format](Breakouts/workshop-format-draft.md) ·
-[program schedule](Logistics-Venue/program-schedule-draft.md) ·
-`Archive/2025/Data Day 2025 Session Proposals Submissions.xlsx` (past submissions)
-
-> **Note:** The CFP is about four weeks behind the 2026 cycle (released Oct 1, 2025). A
-> Nov 13 close gives under three weeks of open time. Consider moving the close to
-> **Fri, Nov 20** if submissions are thin by Nov 9. Also check `ways-to-participate-draft.md`
-> for stale room names (Terrace A/B, Grand Ballroom) before publishing.
+**Decisions:** topic tag list updates (use 2027 survey requests); number of blocks (4, or 5
+if over-subscribed); intern and student poster call details (deadlines, specs, selection
+committee); whether to give workshops their own call.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Aug 2026 | Decide session formats (lecture, workshop, panel, lightning, posters) | Data | Done |
-| Sep 14, 2026 | Topic tag model | Data | Done |
-| Sep 29, 2026 | CFP draft passes 1–3 | Data | Done |
-| Thu, Oct 22 | Fill CFP placeholders (release date, deadline, form link, officer names); build online form; CFP promo kit; website section | Data, CE | Next |
-| Mon, Oct 26 | Release: email list, website, Champions Ask 2 | Data, CE | Next |
-| TBD | Promote at the Summit on Sustainability and other partner events | Data | TBD |
-| Mon, Nov 2 | Open intern project and student poster call (size/format specs, display plan) | Data | Planned |
-| Mon, Nov 9 | Reminder email and Champion nudge; decide on deadline extension | Data | Planned |
-| Fri, Nov 13 | CFP closes | Data | Planned |
-| Nov 16–Dec 4 | Review and score; balance tags, skill levels, constituencies, formats | Data, RDR | Planned |
-| Fri, Dec 11 | Notify accepted and declined speakers | Data | Planned |
-| Fri, Dec 18 | Acceptances confirmed; backfill from waitlist | Data | Planned |
-| Fri, Jan 8 | Agenda and room assignments final; intern/poster submissions due | Data | Planned |
-| Fri, Jan 15 | Intern Showcase and poster selections; publish agenda | Data, CE | Planned |
-| Fri, Jan 22 | Collect session slide decks | Data | Planned |
-| Fri, Feb 12 | Session intro slides | CE, Data | Planned |
-| Tue, Feb 16 | Load decks onto session laptops | IT, Data | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Aug 27, 2027 | Update tag list and formats from 2027 survey results | Data |
+| Fri, Sep 17, 2027 | Finalize 2028 CFP text (theme, dates, RDR officers) | Data, RDR |
+| Fri, Sep 24, 2027 | Online form, CFP website section, CFP promo kit | Data, CE |
+| **Fri, Oct 1, 2027** | **Release CFP:** email list, website, Champions Ask 2 | Data, CE |
+| TBD (Oct 2027) | Promote at the Summit on Sustainability and partner events | Data |
+| Mon, Oct 4, 2027 | Open intern project and student poster call | Data |
+| Mon, Nov 1, 2027 | Reminder email and Champion nudge | Data |
+| Fri, Nov 12, 2027 | CFP closes | Data |
+| Mon, Nov 15–Fri, Dec 3, 2027 | Review and score; balance tags, skill levels, constituencies, formats | Data, RDR |
+| Fri, Dec 10, 2027 | Notify accepted and declined speakers | Data |
+| Fri, Dec 17, 2027 | Acceptances confirmed; backfill from waitlist | Data |
+| Fri, Jan 7, 2028 | Agenda and rooms final; intern/poster submissions due | Data |
+| Fri, Jan 14, 2028 | Intern Showcase and poster selections; publish agenda | Data, CE |
+| Fri, Jan 21, 2028 | Collect session slide decks | Data |
+| Fri, Feb 11, 2028 | Session intro slides | CE, Data |
+| Tue, Feb 15, 2028 | Load decks onto session laptops | IT, Data |
 
 ### Prompts
 
-> **Prompt (finalize CFP):** "Read Breakouts/CFP/cfp-2027-draft.md. List every bracketed
-> placeholder and every claim that needs verification. Then fill dates using PROJECT_PLAN.md
-> Section 2 and leave the rest flagged."
+> **Prompt (roll the CFP):** "Copy the 2027 CFP to Breakouts/CFP/cfp-2028-draft.md. Update
+> the theme, dates from PROJECT_PLAN.md Appendix A, and topic tags. List every placeholder and
+> claim that still needs verification."
 
-> **Prompt (CFP promo kit):** "Build the CFP promo kit for Champions: a two-sentence
-> 'why present' blurb, three social posts (LinkedIn length), a 100-word email Champions can
-> forward, and a key-dates block. Champion-facing voice, no em dashes. Source facts only from
-> cfp-2027-draft.md."
+> **Prompt (CFP promo kit):** "Build the 2028 CFP promo kit for Champions: a 'why present'
+> blurb, three LinkedIn posts, a 100-word forwardable email, and a key-dates block. Champion
+> voice, no em dashes, facts only from the 2028 CFP."
 
-> **Prompt (review submissions):** "Here is the CFP submission export [file]. Build a review
-> sheet: one row per proposal with format, tags, skill level, focus area, pillar, and
-> constituency. Then summarize gaps: which tags, skill levels, or constituencies are thin,
-> and which proposals overlap."
+> **Prompt (review submissions):** "From the CFP export [file], build a review sheet with
+> format, tags, skill level, focus area, pillar, and constituency per proposal. Summarize gaps
+> and overlaps."
 
-> **Prompt (build agenda):** "Using the accepted sessions [file] and
-> Logistics-Venue/program-schedule-draft.md, place sessions into the four blocks and four
-> rooms. Avoid putting same-tag sessions against each other, put panels opposite workshops,
-> and keep room capacity in mind. Show the grid as a table."
+> **Prompt (build agenda):** "Place accepted sessions [file] into the program grid. Keep
+> same-tag sessions apart, put panels opposite workshops, and respect room capacity. Show the
+> grid as a table."
 
 ---
 
@@ -376,78 +309,72 @@ and select.
 
 ### Overview
 
-Champions replace the monthly Working Group with opt-in, time-boxed asks. **Target pool:**
-12–20 (7 signed up as of Sep 14, 2026). **Coordinator:** Jordan Inskeep. **Direction:** RDR.
-Champions register like other attendees (no comp) and are recognized with program credit, a
-website listing, and an event thank-you.
+Champions replaced the monthly Working Group in 2027 with opt-in, time-boxed asks. Year 2 is
+about **retention and coverage**: re-recruit 2027 Champions early, recruit beyond existing
+networks, name a staff fallback for every ask on day one, and run each ask on time with a kit
+ready. Champions register like other attendees and are recognized with program credit, a
+website listing, and an event thank-you (revisit in the debrief).
 
-**The five asks**
+**The five asks (2028 windows)**
 
-| # | Ask | Window | Kit | Status |
-|---|---|---|---|---|
-| 1 | Connect with potential keynote speakers | Aug–Oct | Criteria one-pager, suggestion form, intro template | Running |
-| 2 | Share the CFP and recruit speakers | late Oct–Nov 13 | CFP promo kit | Kit not built |
-| 3 | Solicit sponsors (intros only) | Sep–Nov 20 | Brochure, sponsor intro template, contact log | Contact log not built |
-| 4 | Encourage registration | Nov 10–Feb 7 | Registration promo kit | Kit not built |
-| 5 | Take a day-of role (facilitator anchor) | Assign Jan, execute Feb 18 | Facilitator cheat sheet, run-of-show | Kit not built |
+| # | Ask | Window | Kit |
+|---|---|---|---|
+| 1 | Connect with potential keynote speakers | Aug 2–Sep 10 | Criteria one-pager, suggestion form, intro template |
+| 2 | Share the CFP and recruit speakers | Oct 1–Nov 12 | CFP promo kit |
+| 3 | Solicit sponsors (intros only) | Sep 1–Nov 19 | Brochure, sponsor intro template, contact log |
+| 4 | Encourage registration | Nov 2–Feb 6 | Registration promo kit |
+| 5 | Take a day-of role (facilitator anchor) | Assign Jan 10–14; execute Feb 17 | Facilitator cheat sheet, run-of-show |
 
-**Watch-outs:** facilitators have always been MORPC staff, so Champion facilitators are new
-in 2027 and need a staff backup in every room. Recruit beyond existing networks to support
-the Regional Data Agenda's representation pillar. The roster and direct-ask list contain
-personal contact data and are git-ignored.
+**Reuse from 2027:** [Champions/CLAUDE.md](Champions/CLAUDE.md),
+[launch checklist](Champions/launch_checklist.md),
+[Ways to Help](Champions/Recruitment/ways_to_help.md), [FAQ](Champions/Recruitment/faq.md),
+[recruitment emails](Champions/Recruitment/),
+[sign-up form spec](Champions/Recruitment/signup-form.md) and
+[live form](https://forms.cloud.microsoft/r/7cFXhbQeMc), [engagement kits](Champions/Engagements/),
+the Champion tracker, and the 2027 Champion survey results.
 
-**Key files:** [Champions/CLAUDE.md](Champions/CLAUDE.md) ·
-[launch checklist](Champions/launch_checklist.md) ·
-[Ways to Help](Champions/Recruitment/ways_to_help.md) · [FAQ](Champions/Recruitment/faq.md) ·
-[recruitment emails](Champions/Recruitment/) · [sign-up form spec](Champions/Recruitment/signup-form.md) ·
-[engagement kits](Champions/Engagements/) · forms:
-[sign-up](https://forms.cloud.microsoft/r/7cFXhbQeMc),
-[suggest a keynote](https://forms.cloud.microsoft/r/mYmz1bctPH)
+**Watch-outs:** facilitators were historically MORPC staff, so keep a staff backup in every
+room. The roster contains personal contact data and stays git-ignored.
+
+**Decisions:** Coordinator for 2028; staff fallback per ask; target pool size; any change to
+recognition or comp.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Jun 15, 2026 | Phase 1 decisions; Ways to Help, FAQ, emails, checklist | Data | Done |
-| Jun 22, 2026 | Sign-up form live | Data | Done |
-| Aug 2026 | Broad call to 205 contacts; RIDG announcement (Aug 12) | Data | Done |
-| Sep 14, 2026 | Keynote and sponsor warm-intro kits | Data | Done |
-| Sep 29, 2026 | Ask 1 sent | Data | Done |
-| Overdue | Tracking sheet with critical-path coverage view; staff fallback owner for each ask | Data | Overdue |
-| Overdue | Send personalized asks to high-value prospects; welcome note to signed-up Champions | Data | Overdue |
-| Tue, Oct 20 | Ask 1 reminder | Data | Next |
-| Thu, Oct 22 | CFP promo kit done (gate for Ask 2) | Data, CE | Next |
-| Mon, Oct 26 | Ask 2: share the CFP | Data | Next |
-| Fri, Nov 6 | Registration promo kit done (gate for Ask 4) | CE, Data | Planned |
-| Tue, Nov 10 | Ask 4: encourage registration | Data | Planned |
-| Fri, Nov 20 | Ask 3 window closes; thank Champions for leads | Data | Planned |
-| Fri, Dec 18 | Facilitator cheat sheet and run-of-show done (gate for Ask 5) | Data | Planned |
-| Jan 11–15 | Ask 5: assign day-of roles | Data | Planned |
-| Fri, Jan 15 | Registration push 2 (agenda live) | Data | Planned |
-| Mon, Feb 1 | Registration last call | Data | Planned |
-| Feb 1–5 | Facilitators connect with speakers | Champions | Planned |
-| Tue, Feb 16 | Day-of role briefing | Data | Planned |
-| Feb 22–26 | Recognize Champions; close the loop on impact; send Champion survey | Data, CE | Planned |
-| Fri, Mar 5 | Champion survey closes | Data | Planned |
-| Wed, Mar 24 | Review Champion metrics in debrief; flag returners for 2028 | Data | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Apr 9, 2027 | Name Coordinator and a staff fallback for each ask | Data |
+| Fri, May 28, 2027 | Update Ways to Help, FAQ, sign-up form for 2028; invite returning Champions | Data |
+| Tue, Jul 13, 2027 | Broad recruitment call; personalized asks to new prospects | Data |
+| Fri, Jul 30, 2027 | Kits for Asks 1–3 ready; welcome note to new Champions; tracker updated | Data, CE |
+| Mon, Aug 2, 2027 | Ask 1: keynote suggestions | Data |
+| Wed, Sep 1, 2027 | Ask 3: sponsor introductions | Data |
+| Fri, Oct 1, 2027 | Ask 2: share the CFP | Data |
+| Fri, Oct 29, 2027 | Registration promo kit ready (gate for Ask 4) | CE, Data |
+| Tue, Nov 2, 2027 | Ask 4: encourage registration | Data |
+| Fri, Nov 19, 2027 | Ask 3 closes; thank Champions for leads | Data |
+| Fri, Dec 17, 2027 | Facilitator cheat sheet and run-of-show ready (gate for Ask 5) | Data |
+| Mon, Jan 10–Fri, Jan 14, 2028 | Ask 5: assign day-of roles; registration push 2 | Data |
+| Mon, Jan 31–Fri, Feb 4, 2028 | Facilitators connect with speakers; registration last call | Champions, Data |
+| Tue, Feb 15, 2028 | Day-of role briefing | Data |
+| Tue, Feb 22–Fri, Feb 25, 2028 | Recognize Champions; close the loop on impact; send Champion survey | Data, CE |
+| Wed, Mar 22, 2028 | Review Champion metrics; flag returners for 2029 | Data |
 
-**Before every ask:** check the tracking sheet. Each critical-path ask needs both a Champion
-and a named staff fallback.
+**Before every ask:** check the tracker. Each ask needs both a Champion and a named staff
+fallback.
 
 ### Prompts
 
-> **Prompt (tracking sheet):** "Build Champions/champion-tracker.xlsx: one row per Champion
-> with asks opted into and status per ask, plus a coverage tab that flags any ask with no
-> Champion or no staff fallback. Leave names blank; I'll paste them from the roster."
+> **Prompt (year-2 refresh):** "Update Champions/Recruitment/ways_to_help.md, faq.md, and
+> signup-form.md for 2028 using the windows in PROJECT_PLAN.md Section 6. Change only dates,
+> theme, and anything the 2027 Champion survey says was unclear. List every change."
 
-> **Prompt (next ask email):** "Draft the Ask [n] email to Champions. Read
-> Champions/Recruitment/ways_to_help.md for the ask and match the shape and tone of
-> Champions/Engagements/Keynotes/keynote-request-email.md. Confirm the kit exists first and
-> stop if it doesn't."
+> **Prompt (returning Champion invite):** "Draft a short note inviting 2027 Champions back
+> for 2028. Thank them with one specific 2027 result, list the asks and windows, and link the
+> sign-up form. Champion voice, under 150 words."
 
-> **Prompt (facilitator kit):** "Build the facilitator cheat sheet: speaker intro template,
-> time cues (10, 5, 1 minutes), five Q&A prompts for a quiet room, what to do if AV fails,
-> survey QR reminder, and an AV contact placeholder. Champion-facing, one page."
+> **Prompt (ask email):** "Draft the Ask [n] email. Use ways_to_help.md for the ask and match
+> the tone of keynote-request-email.md. Confirm the kit exists first and stop if it doesn't."
 
 ---
 
@@ -455,44 +382,45 @@ and a named staff fallback.
 
 ### Overview
 
-Sponsorship revenue grew from $4,000 (2024) to $10,000 (2026). 2027 tiers: **Platinum
-$5,000, Gold $3,000, Silver $1,500, Bronze $500**; all include logo placement. The 5th
-anniversary is the main pitch ("invest in the trajectory"). Staff own package, pricing, ask,
-and invoicing. Champions make introductions only (Ask 3). Ask a prospect to sponsor first;
-invite them to be a Champion only after they decline.
+Revenue grew from $4,000 (2024) to $10,000 (2026). 2027 tiers were Platinum $5,000, Gold
+$3,000, Silver $1,500, and Bronze $500, all with logo placement. In 2028, start earlier
+(June), go back to every past sponsor first, and connect the pitch to the theme and the
+Regional Data Agenda's results. Staff own package, pricing, ask, and invoicing. Champions make
+introductions only (Ask 3). Ask a prospect to sponsor first; invite them to be a Champion
+only after they decline.
 
-**Key files:** [sponsorship brochure](Sponsors/DataDay2027_SponsorshipBrochure.md) ·
-[sponsor intro template](Champions/Engagements/Sponsors/sponsor-intro-template.md) ·
-[Sponsors web page](docs/sponsors.html) · `Archive/2026/Data Day 2026 Sponsorship Tracking.xlsx`
+**Reuse from 2027:** [sponsorship brochure](Sponsors/DataDay2027_SponsorshipBrochure.md),
+[sponsor intro template](Champions/Engagements/Sponsors/sponsor-intro-template.md),
+[Sponsors web page](docs/sponsors.html), sponsorship tracking files in `Archive/`.
+
+**Decisions:** tier prices and benefits; whether to add an in-kind or named-feature option
+(e.g. Intern Showcase sponsor); alignment with MORPC-wide sponsor asks.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Jul 21, 2026 | Draft sponsorship brochure | Data | Done |
-| Jul 14, 2026 | Sponsors web page live | Data, CE | Done |
-| Sep 14, 2026 | Sponsor warm-intro template | Data | Done |
-| Overdue | Prior/potential sponsor list; align with MORPC-wide asks; shared contact log | Data, Events | Overdue |
-| Overdue | Finalize tiers; link brochure PDF from Sponsors page | Data, CE | Overdue |
-| Oct–Nov 20 | Recruit sponsors (staff asks + Champion intros) | Data | Next |
-| Fri, Jan 8 | Confirm sponsorships; collect logos and tabling needs | Events, Data | Planned |
-| Fri, Jan 15 | Invoice confirmed sponsors | Events | Planned |
-| Fri, Jan 29 | Final logos into printed program | CE | Planned |
-| Fri, Feb 12 | Sponsor recognition slide | CE | Planned |
-| Thu, Feb 18 | Recognition at 1:35 PM; tabling in 415 Gallery | Data | Planned |
-| Mon, Feb 22 | Thank-you notes with attendance numbers | Data | Planned |
-| Fri, Mar 19 | Confirm all invoices paid | Events | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Jun 11, 2027 | Past and prospective sponsor list; start shared contact log | Data, Events |
+| Fri, Jun 25, 2027 | Update tiers and benefits; align with MORPC-wide asks | Data, Events |
+| Fri, Jul 30, 2027 | 2028 brochure (md + PDF) and Sponsors page | Data, CE |
+| Wed, Sep 1, 2027 | Start asks to returning sponsors; Champions Ask 3 | Data |
+| Fri, Nov 19, 2027 | Close active recruiting | Data |
+| Fri, Jan 7, 2028 | Confirm sponsorships; collect logos and tabling needs | Events, Data |
+| Fri, Jan 14, 2028 | Invoice sponsors | Events |
+| Fri, Jan 28, 2028 | Final logos into printed program | CE |
+| Fri, Feb 11, 2028 | Sponsor recognition slide | CE |
+| Thu, Feb 17, 2028 | Recognition after lunch keynote; tabling all day | Data |
+| Tue, Feb 22, 2028 | Thank-you notes with attendance numbers | Data |
+| Fri, Mar 17, 2028 | Confirm all invoices paid | Events |
 
 ### Prompts
 
-> **Prompt (prospect list):** "From Archive/2026/Data Day 2026 Sponsorship Tracking.xlsx
-> and the historical reference workbook, list every past sponsor with years and tier. Mark
-> lapsed sponsors and suggest which tier to ask each for. Keep the output in the git-ignored
-> Archive folder."
+> **Prompt (prospect list):** "From the sponsorship tracking files in Archive/, list every
+> past sponsor with years and tier, mark lapsed sponsors, and suggest a tier to ask each for.
+> Save the output inside Archive/ so it stays out of git."
 
-> **Prompt (sponsor ask):** "Draft a sponsorship ask to [organization] for the [tier] tier.
-> Lead with the 5th anniversary, 200+ attendees, and the four constituencies. Attach-ready
-> reference to the brochure. Outward MORPC voice, under 175 words."
+> **Prompt (brochure):** "Copy the 2027 sponsorship brochure to a 2028 version. Update the
+> theme, date, stats from the 2027 debrief, and tiers [details]. Then rebuild the PDF."
 
 ---
 
@@ -500,54 +428,48 @@ invite them to be a Champion only after they decline.
 
 ### Overview
 
-Marketing has historically been the lightest part of the process and is the biggest growth
-opportunity in the anniversary year. Channels: the website, MORPC email lists, partner
-newsletters, LinkedIn, Champions' networks, and partner events. Registration runs through
-**Eventbrite**, owned by Events. Three registration pushes: **open** (Nov 10), **agenda live**
-(Jan 15), **last call** (Feb 1).
+Marketing has been the lightest part of the process and is the biggest growth opportunity.
+For 2028, write a marketing calendar at kickoff instead of reacting to milestones. Channels:
+website, MORPC email lists, partner newsletters, LinkedIn, Champions' networks, and partner
+events. Registration runs on **Eventbrite** (Events). Three pushes: **open** (Nov 2),
+**agenda live** (Jan 14), **last call** (Jan 31).
 
-Social proof is ready: 4.4/5 satisfaction (2026), 200+ attendees each of the last two years,
-75+ organizations.
+**Reuse from 2027:** [What People Are Saying](Marketing/what-people-are-saying.md) (refresh
+with 2027 survey quotes), the registration promo kit, site banner, past attendee lists in
+`Archive/` (personal data, local only).
 
-**Key files:** [What People Are Saying](Marketing/what-people-are-saying.md) ·
-[website](docs/) · [Registration/](Registration/) ·
-`Archive/2026/Registration_Final.xlsx` and `Archive/Data_Day_Consolidated_Attendees.xlsx`
-(past attendee lists; contain personal data)
-
-**Open decision:** registration free or paid. This changes the marketing hooks and the
-Eventbrite setup.
+**Decisions:** free vs. paid; attendance target; new audiences to reach (students, smaller
+jurisdictions, organizations new to Data Day).
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Jul 14, 2026 | Save-the-date website | Data, CE | Done |
-| Jul 15, 2026 | Testimonials page and one-pager | Data | Done |
-| Aug 25, 2026 | Site banner (save the date, keynote suggestions) | Data | Done |
-| Fri, Oct 30 | Decide free vs. paid; collect registration email list | Events, Data | Next |
-| Fri, Nov 6 | Registration promo kit (email + social + graphics for each push) | CE, Data | Planned |
-| Tue, Nov 10 | Eventbrite live; website register button; push 1; Champions Ask 4 | Events, CE | Planned |
-| Fri, Jan 15 | Agenda on website; push 2 | CE, Data | Planned |
-| Mon, Feb 1 | Push 3: last call | CE, Data | Planned |
-| Sun, Feb 7 | Close registration | Events | Planned |
-| Fri, Feb 12 | Final attendee email (parking, check-in, agenda, Wi-Fi) | Events | Planned |
-| Tue, Feb 16 | Print name tags | Events | Planned |
-| Thu, Feb 18 | Photos and live social posts | CE / Champions | Planned |
-| Feb 22–26 | Recap post with photos and stats | CE | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Apr 9, 2027 | Draft 2028 marketing calendar and audience list | Data, CE |
+| Tue, Jun 15, 2027 | Save-the-date website and email | CE, Data |
+| Fri, Aug 27, 2027 | Theme rollout on site and social | CE |
+| Fri, Oct 29, 2027 | Decide free vs. paid; registration email list; registration promo kit | Events, Data, CE |
+| Tue, Nov 2, 2027 | Eventbrite live; register button; push 1; Champions Ask 4 | Events, CE |
+| Fri, Jan 14, 2028 | Agenda live; push 2 | CE, Data |
+| Mon, Jan 31, 2028 | Push 3: last call | CE, Data |
+| Sun, Feb 6, 2028 | Close registration | Events |
+| Fri, Feb 11, 2028 | Final attendee email (parking, check-in, agenda, Wi-Fi) | Events |
+| Tue, Feb 15, 2028 | Print name tags | Events |
+| Thu, Feb 17, 2028 | Photos and live posts | CE, Champions |
+| Tue, Feb 22–Fri, Feb 25, 2028 | Recap post with photos and stats | CE |
 
 ### Prompts
 
-> **Prompt (marketing plan):** "Draft a Data Day 2027 marketing plan for MORPC staff:
-> audiences (the four constituencies plus students), channels, one message per push, owners,
-> and a week-by-week calendar from Nov 10 to Feb 7. Use the dates in PROJECT_PLAN.md
-> Section 2. Internal voice."
+> **Prompt (marketing calendar):** "Draft the Data Day 2028 marketing calendar: audiences,
+> channels, one message per moment, owners, and a week-by-week plan from June 2027 to
+> February 2028 using Appendix A. Internal voice."
 
 > **Prompt (registration push):** "Write registration push [1/2/3]: a 120-word email, a
-> LinkedIn post, and a short version Champions can forward. Use the theme and subhead,
-> the 200+ attendees stat, and [new hook]. Outward voice, no em dashes."
+> LinkedIn post, and a forwardable Champion version. Use the 2028 theme and [hook]. Outward
+> voice, no em dashes."
 
-> **Prompt (attendance analysis):** "Using Archive/Data_Day_Consolidated_Attendees.xlsx,
-> show repeat vs. new attendees by year and the top 15 organizations. Report counts only, no
+> **Prompt (reach analysis):** "Using the consolidated attendee file in Archive/, show repeat
+> vs. new attendees by year and which constituencies are under-represented. Counts only, no
 > names."
 
 ---
@@ -556,48 +478,43 @@ Eventbrite setup.
 
 ### Overview
 
-The venue is booked: the Center for Workforce Development at CSCC (official address above),
-third straight year. Four rooms run all day with no reconfiguration: **400 Ballroom**
-(300, banquet rounds; keynotes, Intern Showcase, lunch, lecture/panel breakouts),
-**Room 420** (64; workshops), **Rooms 412 and 414** (84 each; lectures). The **415 Gallery**
-hosts vendor tabling; posters line the circulation areas.
+The 2027 setup at the Center for Workforce Development (official address: The Conference
+Center, 315 Cleveland Avenue, 4th floor, Columbus, OH 43215) used four rooms all day with no
+reconfiguration: the **400 Ballroom** (300, banquet rounds; keynotes, Intern Showcase, lunch,
+ballroom breakouts), **Room 420** (workshops), and **Rooms 412 and 414** (lectures), plus the
+**415 Gallery** for tabling. If the venue repeats, reuse the grid and fix what the 2027
+debrief flags.
 
-**Run of show:** 8:30 registration · 9:00 welcome · 9:10 morning keynote · 10:15 Block 1 ·
-11:15 Block 2 · 12:00 lunch pickup · 12:15 Intern Showcase · 12:40 lunch keynote ·
-1:35 recognition and 2028 teaser · 2:00 Block 3 · 3:00 Block 4 · 3:45 end.
+**Reuse from 2027:** [venue details and contacts](Logistics-Venue/venue-details.md),
+[program schedule and room grid](Logistics-Venue/program-schedule-draft.md), run-of-show,
+facilitator cheat sheet, signage list, slide templates.
 
-**Key files:** [venue details](Logistics-Venue/venue-details.md) ·
-[program schedule](Logistics-Venue/program-schedule-draft.md) · venue contacts in
-venue-details.md
-
-**Still to confirm with the venue:** Room 420 tables and power, divider staying open,
-lunch pickup timing, parking, catering options, AV rental costs.
+**Decisions:** date and venue (first); room plan; catering budget; AV needs.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Aug 25, 2026 | Select venue; map rooms; set schedule | Data, Events | Done |
-| Aug 26, 2026 | Date set to Feb 18, 2027 | Data | Done |
-| Sep 25, 2026 | Venue booked | Events | Done |
-| Fri, Dec 4 | Close out venue confirmations listed above | Events | Planned |
-| Fri, Dec 18 | Run-of-show and facilitator cheat sheet | Data | Planned |
-| Fri, Jan 22 | Finalize catering (dietary needs from registration) | Events | Planned |
-| Mon, Feb 1 | Order signage (rooms, directional, sponsor, poster areas) | CE | Planned |
-| Fri, Feb 12 | All event slides (breaks, intros, sponsor thanks, survey QR) | CE, Data | Planned |
-| Tue, Feb 16 | Laptops loaded; day-of role briefing; name tags printed | IT, Data, Events | Planned |
-| Wed, Feb 17 | Final venue check | Events | Planned |
-| Thu, Feb 18 | Event day: staff arrive 7:30 AM (proposed) | All | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Apr 30, 2027 | Pick date; request venue hold | Events, Data |
+| Fri, May 14, 2027 | Book venue; sign contract | Events |
+| Fri, Jun 25, 2027 | Confirm room plan and session grid | Data |
+| Fri, Dec 3, 2027 | Confirm workshop room setup, parking, catering options, AV costs | Events |
+| Fri, Dec 17, 2027 | Update run-of-show and facilitator cheat sheet | Data |
+| Fri, Jan 21, 2028 | Finalize catering (dietary needs from registration) | Events |
+| Mon, Jan 31, 2028 | Order signage | CE |
+| Fri, Feb 11, 2028 | All event slides (breaks, intros, sponsor thanks, survey QR) | CE, Data |
+| Tue, Feb 15, 2028 | Laptops loaded; day-of briefing; name tags printed | IT, Data, Events |
+| Wed, Feb 16, 2028 | Final check with venue | Events |
+| Thu, Feb 17, 2028 | **Data Day 2028** | All |
 
 ### Prompts
 
-> **Prompt (run-of-show):** "Turn Logistics-Venue/program-schedule-draft.md into a minute-by-
-> minute run-of-show for staff: who is where, what slide is up, cues for each room, and a
-> contact column. Start at 7:30 AM setup and end at 4:30 PM teardown."
+> **Prompt (run-of-show):** "Turn the program schedule into a minute-by-minute staff
+> run-of-show from 7:30 AM setup to 4:30 PM teardown: who is where, which slide is up, room
+> cues, and a contact column."
 
-> **Prompt (signage list):** "List every sign we need for Data Day 2027 based on the rooms,
-> sessions, sponsors, posters, and tabling in the program schedule. Give wording, size, and
-> location for each."
+> **Prompt (signage list):** "List every sign we need from the rooms, sessions, sponsors,
+> posters, and tabling in the 2028 program. Give wording, size, and location."
 
 ---
 
@@ -605,66 +522,57 @@ lunch pickup timing, parking, catering options, AV rental costs.
 
 ### Overview
 
-The attendee survey is the main evidence of Data Day's value and feeds next year's topics,
-speaker choices, and the "What People Say" materials. The 2024–2026 surveys used a
-consistent core, which makes year-over-year comparison possible. **Keep the core questions
-unchanged** and add 2027-specific items.
+The attendee survey is the main evidence of Data Day's value. It feeds next year's topics,
+speaker choices, and the "What People Say" materials. The 2024–2027 surveys share a core
+question set; **keep the core unchanged** for year-over-year comparison and add only what
+2028 needs.
 
-**Core questions (keep):** how did you hear about the event; overall rating (1–5); did it
-meet expectations (and why not); morning and lunch plenary ratings with comments; session
-attended and rating for each block; would you attend next year; what should MORPC change;
-suggested topics, speakers, or features; opt-in for future MORPC emails.
+**Core questions (keep):** how did you hear about the event (include "a Data Day Champion or
+colleague invited me"); overall rating (1–5); met expectations (and why not); morning and
+lunch plenary ratings with comments; session attended and rating for each block; Intern
+Showcase and poster ratings; would you attend next year; what should MORPC change; suggested
+topics, speakers, or features; topic tags you want more of; opt-in for future MORPC emails.
 
-**Add for 2027:**
-- Block times updated to 10:15, 11:15, 2:00, 3:00; include both workshops.
-- Rate the Intern Showcase and the posters.
-- "How did you hear" gains **"A Data Day Champion or colleague invited me"** (Champion
-  attribution metric).
-- One optional question on the theme's topic tags: which tags do you want more of next year.
+**Also run:** a short Champion survey (what worked, what was unclear, would you return) and a
+one-line feedback ask in speaker and sponsor thank-yous.
 
-**Also run:** a short **Champion survey** (what worked, what was unclear, would you return)
-and a speaker/sponsor thank-you that asks for one line of feedback.
-
-**Success metrics:** overall rating ≥ 4.4; plenaries closer to breakout ratings; ≥ 25%
-response rate; Champion metrics from the launch checklist (leads, intros, CFP submissions,
+**Measure against Section 1 goals:** attendance, sponsorship, overall and plenary ratings,
+response rate (target ≥ 25%), Champion metrics (leads, intros, CFP submissions,
 registrations, roles filled, retention).
 
-**Key files:** `Archive/2024/2024 Data Day Post-Event Survey(1-39).xlsx` (question set) ·
-`Archive/Data_Day_Historical_Reference.xlsx` (Survey Results sheet) ·
-[Marketing/what-people-are-saying.md](Marketing/what-people-are-saying.md)
+**Reuse:** the 2027 survey form (copy and update session lists), the Survey Results sheet in
+the historical reference workbook.
 
 ### Schedule
 
-| Date | Task | Owner | Status |
-|---|---|---|---|
-| Fri, Jan 22 | Draft survey in Microsoft Forms from the core + 2027 additions | Data | Planned |
-| Fri, Feb 5 | Finalize survey; session lists match the agenda; generate QR code | Data | Planned |
-| Fri, Feb 12 | QR code on lunch recognition slide and closing slides in every room | CE | Planned |
-| Thu, Feb 18 | Announce survey at 1:35 PM recognition and in the last block | Data, facilitators | Planned |
-| Fri, Feb 19 | Email survey to all registrants | Data | Planned |
-| Mon, Feb 22 | Send Champion survey | Data | Planned |
-| Thu, Feb 25 | Reminder email | Data | Planned |
-| Fri, Mar 5 | Close both surveys; export to `Archive/2027/` | Data | Planned |
-| Fri, Mar 19 | Results summary (ratings, comments themes, topic requests, YoY) to RDR; ratings to each speaker | Data | Planned |
-| Wed, Mar 24 | Internal debrief | All | Planned |
-| Fri, Mar 26 | Add 2027 to historical reference; refresh "What People Say" | Data | Planned |
+| Date | Task | Owner |
+|---|---|---|
+| Fri, Jan 21, 2028 | Copy 2027 survey; update for the 2028 agenda | Data |
+| Fri, Feb 4, 2028 | Finalize survey; generate QR code | Data |
+| Fri, Feb 11, 2028 | QR code on recognition slide and closing slides in every room | CE |
+| Thu, Feb 17, 2028 | Announce survey after lunch keynote and in the last block | Data, facilitators |
+| Fri, Feb 18, 2028 | Email survey to all registrants | Data |
+| Tue, Feb 22, 2028 | Send Champion survey | Data |
+| Thu, Feb 24, 2028 | Reminder | Data |
+| Fri, Mar 3, 2028 | Close surveys; export to `Archive/2028/` | Data |
+| Fri, Mar 17, 2028 | Results summary to RDR; ratings to each speaker | Data |
+| Wed, Mar 22, 2028 | Internal debrief; decisions for 2029 | All |
+| Fri, Mar 24, 2028 | Add 2028 to historical reference; refresh "What People Say" | Data |
 
 ### Prompts
 
-> **Prompt (build survey):** "Read the 2024 survey column headers in Archive/2024 and the
-> final 2027 agenda. Write the 2027 survey question list: keep the core questions verbatim,
-> update block times and session lists, and add the 2027 items in PROJECT_PLAN.md Section 10.
-> Output as a Forms-ready list with question types."
+> **Prompt (build survey):** "Using the 2027 survey questions and the final 2028 agenda,
+> write the 2028 survey: keep the core verbatim, update block times and session lists, and
+> output a Forms-ready list with question types."
 
-> **Prompt (analyze results):** "Analyze the 2027 survey export [file]. Report response
-> rate, overall and plenary ratings, every session's average with n, themes in open comments
-> (with counts), top requested topics, and comparisons to 2024–2026 from the historical
-> reference. Then write a one-page summary for the RDR in the outward voice. Don't quote
-> anyone by name."
+> **Prompt (analyze results):** "Analyze the 2028 survey export [file]: response rate,
+> overall and plenary ratings, every session's average with n, comment themes with counts,
+> top requested topics, and comparisons to 2024–2027. Then write a one-page RDR summary in the
+> outward voice. Don't quote anyone by name."
 
-> **Prompt (debrief agenda):** "Using the survey summary, Champion metrics, and the
-> launch checklist, draft a 60-minute internal debrief agenda: what worked, what didn't,
-> decisions for 2028, and owners."
+> **Prompt (debrief agenda):** "Using the survey summary, Champion metrics, and Section 1
+> goals, draft a 60-minute debrief agenda: what worked, what didn't, decisions for 2029, and
+> owners."
 
 ---
 
@@ -672,74 +580,78 @@ registrations, roles filled, retention).
 
 ### Repository
 
-**Repo:** <https://github.com/morpc/data-day-2027>. A no-code planning repo: Markdown
+**2027 repo:** <https://github.com/morpc/data-day-2027>. A no-code planning repo of Markdown
 documents, PDFs, spreadsheets, and the website source.
+
+**Recommended 2028 setup:** create `morpc/data-day-2028` from the 2027 repo at kickoff so
+2027 stays a clean record. Carry over `CLAUDE.md`, `voice-style.md`, `Design/`,
+`.claude/skills/`, `.github/workflows/`, `docs/` (as the site starting point), and the
+templates listed in Appendix C. Update `CLAUDE.md` quick facts for 2028 first.
 
 | Folder | Contents |
 |---|---|
-| `README.md` | Staff-only notice, overview, status checklist (update after every merged PR) |
+| `README.md` | Staff-only notice, overview, status checklist |
 | `PROJECT_PLAN.md` | This plan |
 | `CLAUDE.md`, `voice-style.md` | Context and style rules for Claude; read first |
 | `Theme/`, `Design/` | Theme concept, design brief, palette, logo, icons |
-| `Keynotes/` | Candidate research, tracker, lunch panel notes |
+| `Keynotes/` | Candidate research, tracker, panel notes |
 | `Breakouts/` | CFP, tagging model, formats |
 | `Champions/` | Program checklist, recruitment materials, engagement kits |
 | `Sponsors/`, `Registration/`, `Marketing/`, `Logistics-Venue/` | Area materials |
 | `docs/` | Website source (deployed automatically) |
 | `Assets/` | MORPC logos for PDFs |
-| `Archive/` | Past years' data (**git-ignored**; local only; contains personal data and dollar amounts) |
+| `Archive/` | Past years' data (**git-ignored**; personal data and dollar amounts) |
 | `.claude/skills/create-pdf/` | Branded PDF builder |
 
 **Workflow**
-1. Never commit to `main`. Create one short topic branch per change
-   (e.g. `cfp-2027-release`).
+1. Never commit to `main`. One short topic branch per change (e.g. `cfp-2028-release`).
 2. Commit in logical units with clear messages.
 3. Open a PR into `main`; merge when reviewed.
-4. After merge, update the README checklist and Section 2 of this plan.
-5. When a Markdown file has a PDF companion, rebuild the PDF in the same PR:
+4. After merge, update the README checklist and Appendix A statuses.
+5. Rebuild any PDF companion in the same PR:
    `python3 .claude/skills/create-pdf/build_pdf.py path/to/file.md`
 
-**Data handling:** the Champion roster (`champions-roster.csv`), the direct-ask target list,
-and everything in `Archive/` are git-ignored because they hold names, emails, or sponsorship
-figures. Keep it that way. Get these files from the Coordinator's machine or shared drive
-during handoff.
+**Data handling:** the Champion roster, direct-ask target lists, and everything in `Archive/`
+are git-ignored because they hold names, emails, or sponsorship figures. Keep it that way and
+hand these files over directly.
 
-**File conventions:** label each document's audience in a header blockquote (outward,
-Champion-facing, or internal); never mix audiences in one file. When a decision fills a
-placeholder, update every affected file in the same PR.
+**File conventions:** label each document's audience in a header blockquote; never mix
+audiences in one file. When a decision fills a placeholder, update every affected file in the
+same PR.
 
 ### Website
 
-**URL:** <https://morpc.github.io/data-day-2027/>. Static HTML in `docs/`, deployed to GitHub
-Pages by `.github/workflows/deploy-pages.yml` on every push to `main` that touches `docs/`.
-Shared styles in `docs/styles.css`; navigation in `docs/nav.js`; announcement banner on the
-homepage.
+The 2027 site (<https://morpc.github.io/data-day-2027/>) is static HTML in `docs/`, deployed
+to GitHub Pages by `.github/workflows/deploy-pages.yml` on every push to `main` that touches
+`docs/`. For 2028, copy it into the new repo, enable Pages (Settings → Pages → Source:
+GitHub Actions), and decide whether the 2027 site stays up as an archive.
 
-| Page | File | Update when |
-|---|---|---|
-| Home | `index.html` | Each milestone (CFP open, registration open, agenda live) |
-| About | `about.html` | RDR or Regional Data Agenda changes |
-| Keynotes | `keynote.html` | Speakers confirmed (Nov 20) |
-| Sponsors | `sponsors.html` | Brochure PDF link; confirmed sponsor logos (Jan) |
-| Champions, Ways to Help, FAQ | `champions.html`, `ways-to-help.html`, `faq.html` | Ask changes; post-event Champion recognition |
-| What People Say | `what-people-say.html` | After the survey (Mar) |
+| Page | Publish or update by |
+|---|---|
+| Home (save the date) | Tue, Jun 15, 2027 |
+| About (MORPC, RDR, Regional Data Agenda) | Tue, Jun 15, 2027 |
+| Champions, Ways to Help, FAQ | Fri, May 28, 2027 |
+| Keynotes (criteria, suggestion form) | Mon, Aug 2, 2027; speakers by Fri, Nov 19 |
+| Sponsors (brochure PDF link) | Fri, Jul 30, 2027; logos by Fri, Jan 14, 2028 |
+| Theme rollout | Fri, Aug 27, 2027 |
+| Call for Proposals | Fri, Oct 1, 2027 |
+| Register | Tue, Nov 2, 2027 |
+| Agenda | Fri, Jan 14, 2028 |
+| What People Say; Champion recognition | Fri, Feb 25 and Fri, Mar 24, 2028 |
 
-**Still to add:** CFP section (Oct 22), registration button (Nov 10), agenda page (Jan 15),
-Champion recognition (Feb 26). The footer notes the site was produced with the help of AI;
-keep it.
+Keep the footer note that the site was produced with the help of AI.
 
 ### Prompts
 
-> **Prompt (site update):** "On a new branch, update docs/index.html for [milestone]: change
-> the hero call to action and the announcement banner, match the existing style and voice,
-> and preview the page locally. Then open a PR."
+> **Prompt (new-year repo):** "We're starting Data Day 2028 in a new repo copied from
+> data-day-2027. Update CLAUDE.md, README.md, and voice-style.md for 2028 using Section 1 of
+> PROJECT_PLAN.md, and list every file that still says 2027."
 
-> **Prompt (agenda page):** "Create docs/agenda.html from the final agenda [file], using
-> the existing page template, styles.css classes, and topic icons from Design/icons/topic/.
-> Add it to nav.js. It must work at phone width."
+> **Prompt (site update):** "On a new branch, update docs/index.html for [milestone]: hero
+> call to action and banner, existing style and voice, works at phone width. Then open a PR."
 
-> **Prompt (post-merge upkeep):** "PR #[n] just merged. Update the README checklist and
-> PROJECT_PLAN.md Section 2 to reflect what changed, and bump the 'Last reviewed' dates."
+> **Prompt (post-merge upkeep):** "PR #[n] merged. Update the README checklist and Appendix A
+> statuses in PROJECT_PLAN.md."
 
 ---
 
@@ -747,91 +659,222 @@ keep it.
 
 ### How AI supports this project
 
-Most 2027 materials were drafted with **Claude Code** working directly in this repo:
-research, first drafts, copy editing, the website, PDFs, spreadsheets, and timeline upkeep.
-Staff make every decision and review every output before it goes out.
+Most 2027 materials were drafted with **Claude Code** working directly in the repo: research,
+first drafts, copy editing, the website, PDFs, spreadsheets, and timeline upkeep. Staff make
+every decision and review every output before it goes out. Plan on the same for 2028; the
+prompts in this plan are the starting set.
 
 **What Claude reads automatically**
 - `CLAUDE.md` (root) and `Champions/CLAUDE.md`: project facts, principles, open decisions.
+  Update these first each cycle; stale facts here spread into every draft.
 - `voice-style.md`: audience voices and venue naming.
-- Claude's memory for this project (user profile, style rules like "no em dashes," sponsor
-  ask sequencing, topic priorities). A new staff lead starts with no memory; tell Claude your
-  preferences and it will save them.
+- Claude's per-user memory. A new lead starts with none; tell Claude your preferences (for
+  example "no em dashes") and it will remember them.
 
-**Skills in this repo:** `create-pdf` renders any Markdown file to a MORPC-branded PDF.
+**Skills in the repo:** `create-pdf` renders any Markdown file to a MORPC-branded PDF.
 
 ### Good uses
 
 - First drafts of emails, CFP text, web copy, promo kits, and checklists.
-- Turning spreadsheets (submissions, survey exports, attendee lists) into summaries.
-- Consistency checks across files (dates, venue naming, theme wording, placeholders).
-- Keeping the README checklist and this plan current after each PR.
+- Rolling last year's materials forward (dates, theme, stats) with a list of changes.
+- Turning spreadsheets (submissions, surveys, attendee lists) into summaries.
+- Consistency checks across files: dates and weekdays, venue naming, theme wording, links.
+- Keeping the README and Appendix A current after each PR.
 - Candidate research with sources you then verify.
 
 ### Guardrails
 
-1. **Verify facts before outward use:** names, titles, dates, weekdays, dollar amounts, and
-   the current RDR name and officers. Claude can be confidently wrong.
+1. **Verify facts before outward use:** names, titles, dates and weekdays, dollar amounts,
+   RDR name and officers.
 2. **Human review for everything outward-facing.** Claude drafts; staff send.
-3. **Personal data stays local.** Don't paste rosters, attendee lists, or survey exports
-   into tools outside MORPC's approved setup, and don't commit them.
-4. **Don't let Claude make commitments.** Invitations, prices, and acceptances are staff
-   decisions.
-5. **Disclose AI help** where MORPC policy expects it (the website footer already does).
-6. **Keep it in the repo.** Ask Claude to save drafts as files on a branch so there's a
-   record and a review step.
+3. **Personal data stays local.** Keep rosters, attendee lists, and survey exports out of git
+   and out of tools outside MORPC's approved setup.
+4. **No commitments by AI.** Invitations, prices, and acceptances are staff decisions.
+5. **Disclose AI help** where MORPC policy expects it.
+6. **Keep work in the repo** on a branch so there's a record and a review step.
 
 ### Prompt library (general)
 
-> **Prompt (orientation for a new lead):** "I'm taking over Data Day planning. Read
-> CLAUDE.md, PROJECT_PLAN.md, README.md, and Champions/launch_checklist.md. Give me a
-> one-page brief: where we are, the next five deadlines, open decisions, and risks."
+> **Prompt (orientation for a new lead):** "I'm leading Data Day 2028. Read CLAUDE.md,
+> PROJECT_PLAN.md, and README.md. Give me a one-page brief: the next five deadlines, decisions
+> I need to make this month, reusable assets, and risks."
 
-> **Prompt (consistency audit):** "Check every Markdown file and docs/*.html for the event
+> **Prompt (consistency audit):** "Check every Markdown file and docs/*.html for the 2028
 > date, hours, venue naming, theme subhead, and form links. List mismatches with file and
 > line."
 
-> **Prompt (date check):** "List every date in [file] with its weekday and flag any that
-> fall on a weekend, a federal holiday, or conflict with PROJECT_PLAN.md Section 2."
+> **Prompt (date check):** "List every date in [file] with its weekday. Flag weekends, federal
+> holidays, and conflicts with Appendix A."
 
-> **Prompt (PDF):** "Rebuild the PDF for [file] with the create-pdf skill and check page 1
-> visually."
-
-> **Prompt (fill a decision everywhere):** "We decided [decision]. Find every file that has
-> a placeholder or statement about it, update them all on one branch, and list what changed."
+> **Prompt (fill a decision everywhere):** "We decided [decision]. Find every file with a
+> placeholder or statement about it, update them on one branch, and list what changed."
 
 ---
 
-## 13. Open decisions & handoff checklist
+## 13. Key decisions & handoff
 
-### Open decisions
+### Decisions to make, in order
 
-| Decision | Affects | Needed by |
+| Decision | Affects | Decide by |
 |---|---|---|
-| Registration free or paid | Eventbrite, marketing copy, FAQ | Fri, Oct 30 |
-| Staff fallback owner for each Champion ask | Launch checklist, critical path | Now (overdue) |
-| CFP deadline: Nov 13 or Nov 20 | CFP, promo kit, review schedule | Thu, Oct 22 |
-| Current RDR name (RDR vs. RDAC) and board officers | CFP, signed materials | Thu, Oct 22 |
-| Intern/poster call: deadlines, specs, selection committee | Program, signage | Mon, Nov 2 |
-| Catering menu and budget | Events, registration fee | Fri, Jan 22 |
+| 2028 Coordinator and staff fallbacks per Champion ask | Everything | Fri, Apr 9, 2027 |
+| 2028 goals and budget | Sponsorship, catering, marketing | Fri, Apr 9, 2027 |
+| Repo approach (new repo vs. reuse) | Repo, website | Fri, Apr 9, 2027 |
+| Event date | Every date in this plan | Fri, Apr 30, 2027 |
+| Venue | Program grid, logistics | Fri, May 14, 2027 |
+| Format and room plan | CFP, schedule | Fri, Jun 25, 2027 |
+| Sponsorship tiers | Brochure, Ask 3 | Fri, Jun 25, 2027 |
+| Theme and subhead | CFP, keynotes, marketing, design | Fri, Aug 20, 2027 |
+| Current RDR name and officers | CFP, signed materials | Fri, Sep 17, 2027 |
+| Intern/poster call details | Program, signage | Mon, Oct 4, 2027 |
+| Registration free vs. paid | Eventbrite, marketing | Fri, Oct 29, 2027 |
 
 ### Handoff checklist
 
-- [ ] Repo access (write) on `morpc/data-day-2027` and GitHub Pages settings
-- [ ] Copies of git-ignored files: `Archive/`, `champions-roster.csv`, direct-ask target list
-- [ ] Owner access to both Microsoft Forms (Champion sign-up, keynote suggestion) and the CFP form
-- [ ] Eventbrite account access (Events)
-- [ ] Venue contact at CSCC Conference Services (see venue-details.md)
-- [ ] Introductions to confirmed keynote speakers, sponsors, and active Champions
-- [ ] Spot on the RDR quarterly agenda
-- [ ] Walk through Section 2 together and agree on the next two weeks
+- [ ] Write access to the GitHub repo(s) and Pages settings
+- [ ] Copies of git-ignored files: `Archive/`, Champion roster, target lists
+- [ ] Owner access to the Microsoft Forms (Champion sign-up, keynote suggestion, CFP, survey)
+- [ ] Eventbrite access (Events)
+- [ ] CSCC Conference Services contact (see venue-details.md)
+- [ ] Introductions to returning sponsors, active Champions, and 2027 keynote leads not used
+- [ ] Standing spot on the RDR quarterly agenda
+- [ ] 2027 debrief notes and survey summary
 - [ ] Claude Code set up on the repo; run the orientation prompt in Section 12
 
-### Rolling the plan to the next year
+---
 
-1. After the March debrief, copy this file into the new year's repo (or a new branch).
-2. Shift every date by the gap between event dates, then fix weekends and holidays.
-3. Use these offsets from event day as the default: theme locked ~6 months out; CFP open
-   ~4.5 months out for 6 weeks; keynotes final ~3 months out; registration open ~3.5 months
-   out; agenda live ~5 weeks out; registration closes ~11 days out.
-4. Move completed rows to an archive and reset statuses to Planned.
+## Appendix A. Master timeline
+
+Proposed dates for Data Day 2028 on **Thursday, February 17, 2028**. "Wks out" counts weeks
+before the event (negative = after). Dates avoid weekends and federal holidays (Thanksgiving
+Nov 25, 2027; MLK Day Jan 17, 2028; Presidents' Day Feb 21, 2028), except registration
+closing on a Sunday. Add a **Status** column value (Done, Next, Overdue) as work progresses.
+
+| Date | Wks out | Area | Task | Owner | Status |
+|---|---|---|---|---|---|
+| Wed, Mar 24, 2027 | 47 | Evaluation | 2027 debrief; capture lessons for 2028 | All | |
+| Fri, Mar 26, 2027 | 46 | Repo | Archive 2027; create 2028 repo; update CLAUDE.md quick facts | Data | |
+| Fri, Apr 9, 2027 | 44 | Planning | Kickoff: goals, budget, Coordinator, staff fallbacks, marketing calendar | All | |
+| Wed, Apr 28, 2027 | 42 | Planning | RDR Q2: 2027 results and 2028 goals | Data, RDR | |
+| Fri, Apr 30, 2027 | 41 | Logistics | Pick event date; request venue hold | Events, Data | |
+| Fri, May 14, 2027 | 39 | Logistics | Book venue; sign contract | Events | |
+| Fri, May 28, 2027 | 37 | Champions | Refresh Ways to Help, FAQ, sign-up form; invite returning Champions | Data | |
+| Fri, Jun 11, 2027 | 35 | Theme | Draft three theme options | Data | |
+| Fri, Jun 11, 2027 | 35 | Sponsors | Past and prospective sponsor list; start contact log | Data, Events | |
+| Tue, Jun 15, 2027 | 35 | Website | Save-the-date site and email | CE, Data | |
+| Fri, Jun 25, 2027 | 33 | Program | Confirm format, room plan, session grid | Data | |
+| Fri, Jun 25, 2027 | 33 | Sponsors | Update tiers and benefits; align with MORPC-wide asks | Data, Events | |
+| Fri, Jun 25, 2027 | 33 | Theme | Narrow theme options to two | Data, CE | |
+| Jul 2027 | ~30 | Planning | Internal team meeting | All | |
+| Tue, Jul 13, 2027 | 31 | Champions | Broad recruitment call; personalized asks | Data | |
+| Fri, Jul 16, 2027 | 30 | Keynotes | Update criteria one-pager; reset suggestion form | Data | |
+| Wed, Jul 28, 2027 | 29 | Theme | RDR Q3: theme options | Data, RDR | |
+| Fri, Jul 30, 2027 | 28 | Champions | Kits for Asks 1–3 ready; welcome note; tracker updated | Data, CE | |
+| Fri, Jul 30, 2027 | 28 | Sponsors | 2028 brochure and Sponsors page | Data, CE | |
+| Mon, Aug 2, 2027 | 28 | Keynotes | Champions Ask 1: keynote suggestions | Data | |
+| Fri, Aug 20, 2027 | 25 | Theme | **Lock theme, subhead, palette** | Data, RDR | |
+| Fri, Aug 27, 2027 | 24 | Theme | Theme rollout on site; design brief updated | CE, Data | |
+| Fri, Aug 27, 2027 | 24 | Keynotes | Suggestion reminder | Data | |
+| Fri, Aug 27, 2027 | 24 | CFP | Update tag list and formats from 2027 survey | Data | |
+| Wed, Sep 1, 2027 | 24 | Sponsors | Start sponsor asks; Champions Ask 3 | Data | |
+| Sep 2027 | ~22 | Planning | Internal team meeting | All | |
+| Fri, Sep 10, 2027 | 22 | Keynotes | Suggestion form closes | Data | |
+| Fri, Sep 17, 2027 | 21 | Keynotes | Score candidates; pick first choice and backup | Data | |
+| Fri, Sep 17, 2027 | 21 | CFP | Finalize CFP text; confirm RDR name and officers | Data, RDR | |
+| Fri, Sep 24, 2027 | 20 | Keynotes | Invite first choices | Data | |
+| Fri, Sep 24, 2027 | 20 | CFP | Online form, website section, CFP promo kit | Data, CE | |
+| Fri, Oct 1, 2027 | 19 | CFP | **Release CFP**; Champions Ask 2 | Data, CE | |
+| Fri, Oct 1, 2027 | 19 | Keynotes | Follow up; move to backup if needed | Data | |
+| Mon, Oct 4, 2027 | 19 | Program | Open intern project and student poster call | Data | |
+| TBD (Oct 2027) | ~18 | CFP | Promote at the Summit on Sustainability | Data | |
+| Wed, Oct 27, 2027 | 16 | Planning | RDR Q4 update | Data, RDR | |
+| Fri, Oct 29, 2027 | 15 | Registration | Free vs. paid; email list; registration promo kit | Events, Data, CE | |
+| Mon, Nov 1, 2027 | 15 | CFP | Reminder email and Champion nudge | Data | |
+| Tue, Nov 2, 2027 | 15 | Registration | **Open registration**; website; Champions Ask 4 | Events, CE | |
+| Nov 2027 | ~14 | Planning | Internal team meeting | All | |
+| Fri, Nov 12, 2027 | 13 | CFP | CFP closes | Data | |
+| Fri, Nov 12, 2027 | 13 | Keynotes | **Both keynotes confirmed** | Data | |
+| Mon, Nov 15–Fri, Dec 3, 2027 | 13–10 | CFP | Review and score proposals | Data, RDR | |
+| Fri, Nov 19, 2027 | 12 | Keynotes | Bios, headshots, Keynotes page | Data, CE | |
+| Fri, Nov 19, 2027 | 12 | Sponsors | Close active recruiting; Ask 3 ends | Data | |
+| Fri, Dec 3, 2027 | 10 | Logistics | Venue confirmations (rooms, parking, catering, AV) | Events | |
+| Fri, Dec 10, 2027 | 9 | CFP | Notify speakers | Data | |
+| Fri, Dec 17, 2027 | 8 | CFP | Acceptances confirmed; waitlist backfill | Data | |
+| Fri, Dec 17, 2027 | 8 | Champions | Facilitator cheat sheet and run-of-show | Data | |
+| Fri, Jan 7, 2028 | 5 | Program | **Agenda final**; intern/poster submissions due | Data | |
+| Fri, Jan 7, 2028 | 5 | Sponsors | Confirm sponsorships; collect logos | Events, Data | |
+| Mon, Jan 10–Fri, Jan 14, 2028 | 5–4 | Champions | Ask 5: assign day-of roles | Data | |
+| Fri, Jan 14, 2028 | 4 | Website | **Agenda live**; registration push 2 | CE, Data | |
+| Fri, Jan 14, 2028 | 4 | Program | Intern Showcase and poster selections | Data | |
+| Fri, Jan 14, 2028 | 4 | Sponsors | Invoice sponsors | Events | |
+| Tue, Jan 18, 2028 | 4 | Keynotes | Final details; panel questions; slide request | Data | |
+| Fri, Jan 21, 2028 | 3 | Sessions | Collect session slide decks | Data | |
+| Fri, Jan 21, 2028 | 3 | Logistics | Finalize catering | Events | |
+| Fri, Jan 21, 2028 | 3 | Survey | Draft 2028 survey | Data | |
+| Wed, Jan 26, 2028 | 3 | Planning | RDR Q1 update (confirm date); internal team meeting | Data | |
+| Fri, Jan 28, 2028 | 2 | Program | Program brochure to print | CE | |
+| Mon, Jan 31, 2028 | 2 | Logistics | Order signage | CE | |
+| Mon, Jan 31, 2028 | 2 | Registration | Push 3: last call | CE, Data | |
+| Mon, Jan 31–Fri, Feb 4, 2028 | 2–1 | Champions | Facilitators connect with speakers | Champions, Data | |
+| Fri, Feb 4, 2028 | 1 | Survey | Finalize survey and QR code | Data | |
+| Sun, Feb 6, 2028 | 1 | Registration | Close registration | Events | |
+| Fri, Feb 11, 2028 | 0 | Registration | Final attendee email | Events | |
+| Fri, Feb 11, 2028 | 0 | Logistics | All event slides | CE, Data | |
+| Tue, Feb 15, 2028 | 0 | Logistics | Laptops; day-of briefing; name tags | IT, Data, Events | |
+| Wed, Feb 16, 2028 | 0 | Logistics | Final venue check | Events | |
+| **Thu, Feb 17, 2028** | **0** | **Event** | **Data Day 2028** | All | |
+| Fri, Feb 18, 2028 | −1 | Survey | Email attendee survey | Data | |
+| Tue, Feb 22–Fri, Feb 25, 2028 | −1 | Recognition | Thank-yous; Champion recognition; Champion survey; recap post | Data, CE | |
+| Thu, Feb 24, 2028 | −1 | Survey | Reminder | Data | |
+| Fri, Mar 3, 2028 | −2 | Survey | Close surveys | Data | |
+| Fri, Mar 17, 2028 | −4 | Evaluation | Results summary to RDR; ratings to speakers; invoices paid | Data, Events | |
+| Wed, Mar 22, 2028 | −5 | Evaluation | Internal debrief | All | |
+| Fri, Mar 24, 2028 | −5 | Repo | Archive 2028; update historical reference; roll plan to 2029 | Data | |
+| Fri, Apr 28, 2028 | −10 | 2029 | Pick 2029 date and venue | Events, Data | |
+
+---
+
+## Appendix B. Shifting the schedule
+
+If the event date changes, move every date by the same number of days, then fix weekends and
+holidays. Default offsets from event day:
+
+| Milestone | Offset |
+|---|---|
+| Kickoff | ~44 weeks before |
+| Date and venue locked | ~40 weeks before |
+| Champion kits for Asks 1–3 | ~28 weeks before |
+| Theme locked | ~25 weeks before |
+| Keynote invitations | ~20 weeks before |
+| CFP open (six weeks) | ~19 weeks before |
+| Registration open | ~15 weeks before |
+| Keynotes confirmed | ~13 weeks before |
+| Speakers notified | ~9 weeks before |
+| Agenda live | ~5 weeks before |
+| Registration closes | ~11 days before |
+| Survey closes | ~2 weeks after |
+| Debrief | ~5 weeks after |
+
+> **Prompt (reschedule):** "The 2028 event moved to [date]. Shift every date in
+> PROJECT_PLAN.md by the same offset, move anything that lands on a weekend or federal holiday
+> to the nearest weekday, and update the weekday labels. List any task whose new date
+> conflicts with another."
+
+---
+
+## Appendix C. Reusable assets from 2027
+
+| Asset | Location | Roll forward by |
+|---|---|---|
+| Champions handout, FAQ, recruitment emails, sign-up form | `Champions/Recruitment/` | Update dates and theme |
+| Keynote kit (criteria, form, intro template, request and reminder emails) | `Champions/Engagements/Keynotes/` | Update theme and dates; reset form |
+| Sponsor intro template | `Champions/Engagements/Sponsors/` | Update tiers |
+| Launch checklist | `Champions/launch_checklist.md` | Reset checkboxes; keep the phases |
+| CFP, tagging model, formats | `Breakouts/` | Update theme, dates, tags |
+| Program grid and venue details | `Logistics-Venue/` | Confirm rooms and times |
+| Sponsorship brochure | `Sponsors/` | Update tiers and stats |
+| Testimonials one-pager | `Marketing/` | Add 2027 quotes and stats |
+| Design system (palette, logo, icons, brief) | `Design/` | Keep; add theme motif |
+| Website | `docs/` | Copy; update content per Section 11 |
+| PDF builder | `.claude/skills/create-pdf/` | Keep |
+| Historical reference workbook | `Archive/` (local only) | Add 2027 and 2028 rows |
