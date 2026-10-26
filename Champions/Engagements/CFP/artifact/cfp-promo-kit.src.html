@@ -428,29 +428,14 @@ No pressure either way, but I'd love to see you on the program.
 
   function drawSlide(mark, qr, ddLogo, morpc) {
     const [cv, ctx] = canvas(1920, 1080);
-    const split = 840;
+    const split = 1080;
 
-    // Left panel (navy): the event, set like the homepage hero, with the mark centered over the title.
-    eyebrow(ctx, "Data Day 2027 · 5th annual", 120, 156, 24);
-    const titleSize = fitSize(ctx, "Plotting What's Next", 800, 80, 640);
-    ctx.font = `800 ${titleSize}px ${SANS}`;
-    const titleW = ctx.measureText("Plotting What's Next").width;
-    const markSize = 250;
-    ctx.drawImage(mark, 120 + titleW / 2 - markSize / 2, 196, markSize, markSize);
-    text(ctx, "Plotting What's Next", 120, 536, titleSize, 800, C.teal300);
-    text(ctx, "Five years forward for", 120, 592, 33, 700, C.white, SANS, "0.66px");
-    text(ctx, "Central Ohio's data community", 120, 635, 33, 700, C.white, SANS, "0.66px");
-    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 120, 750, 28, true);
-    fact(ctx, "place", "", "CSCC Center for Workforce Development", 120, 806, 28);
-    fact(ctx, "time", "", "9:00 AM – 3:45 PM", 120, 862, 28);
-    text(ctx, "morpc.org/dataday", 120, 972, 36, 700, C.teal300);
-
-    // Right panel (light): the call for proposals, dark on light.
-    ctx.fillStyle = C.fog; ctx.fillRect(split, 0, 1920 - split, 1080);
-    const x = split + 96;
+    // Left panel (light): the call for proposals, dark on light.
+    ctx.fillStyle = C.fog; ctx.fillRect(0, 0, split, 1080);
+    const x = 96;
     text(ctx, "CALL FOR PROPOSALS · NOW OPEN", x, 156, 24, 400, C.blue600, MONO, `${24 * 0.14}px`);
     text(ctx, "Share your work", x, 280, 96, 800, C.band);
-    text(ctx, "at Data Day", x, 382, 96, 800, C.band);
+    text(ctx, "at Data Day 2027", x, 382, 96, 800, C.band);
     pill(ctx, "Proposals due Friday, November 27", x, 430, 38);
 
     ctx.fillStyle = C.white; ctx.strokeStyle = C.mist; ctx.lineWidth = 2;
@@ -466,11 +451,27 @@ No pressure either way, but I'd love to see you on the program.
     text(ctx, "All topics and", x + 308, 710, 30, 500, C.slate);
     text(ctx, "skill levels welcome", x + 308, 756, 30, 500, C.slate);
 
-    // Bottom of the right panel: Data Day and MORPC logos, filling the width.
-    const right = 1920 - 96, logoH = 108, logoTop = 900;
+    // Base of the left panel: Data Day and MORPC logos, filling the width.
+    const right = split - 96, logoH = 108, logoTop = 900;
     ctx.fillStyle = C.mist; ctx.fillRect(x, 870, right - x, 2);
     ctx.drawImage(ddLogo, x, logoTop, logoH * DD_RATIO, logoH);
     ctx.drawImage(morpc, right - logoH * MORPC_RATIO, logoTop, logoH * MORPC_RATIO, logoH);
+
+    // Right panel (navy): the event, set like the homepage hero, with the mark centered over the title.
+    const ex = split + 96;
+    eyebrow(ctx, "Data Day 2027 · 5th annual", ex, 156, 24);
+    const titleSize = fitSize(ctx, "Plotting What's Next", 800, 80, 1920 - 80 - ex);
+    ctx.font = `800 ${titleSize}px ${SANS}`;
+    const titleW = ctx.measureText("Plotting What's Next").width;
+    const markSize = 250;
+    ctx.drawImage(mark, ex + titleW / 2 - markSize / 2, 196, markSize, markSize);
+    text(ctx, "Plotting What's Next", ex, 536, titleSize, 800, C.teal300);
+    text(ctx, "Five years forward for", ex, 592, 33, 700, C.white, SANS, "0.66px");
+    text(ctx, "Central Ohio's data community", ex, 635, 33, 700, C.white, SANS, "0.66px");
+    fact(ctx, "date", "Date", "Thursday, February 18, 2027", ex, 750, 28, true);
+    fact(ctx, "place", "", "CSCC Center for Workforce Development", ex, 806, 28);
+    fact(ctx, "time", "", "9:00 AM – 3:45 PM", ex, 862, 28);
+    text(ctx, "morpc.org/dataday", ex, 972, 36, 700, C.teal300);
     return cv.toDataURL("image/png");
   }
 
