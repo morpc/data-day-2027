@@ -6,13 +6,15 @@
 
 ---
 
-[October 2026]
+<div class="center" markdown="1">
 
 ## Data Day 2027: Call for Proposals
 ### Plotting What's Next
 *Five years forward for Central Ohio's data community*
 
-**Proposals due [Friday, November 13, 2026]**
+</div>
+
+**Proposals due Friday, November 13, 2026**
 
 For five years, Data Day has convened Central Ohio's data community: the local governments, nonprofits,
 educational institutions, and civic-minded businesses working to make Central Ohio a leader in using data to
@@ -29,7 +31,7 @@ topics, which appear in the agenda so attendees can find the sessions they came 
 | **When** | Thursday, February 18, 2027 · 9:00 AM–3:45 PM |
 | **Where** | Center for Workforce Development, Columbus State Community College |
 | **Sessions** | 45 minutes, with significant time for Q&A and audience engagement |
-| **Submit** | Data Day 2027 Submission Form **[link]** |
+| **Submit** | [Data Day 2027 Submission Form](https://forms.cloud.microsoft/r/p5reURxZpZ) |
 
 Strong proposals are practical and interactive. Every submission should state clear takeaways for attendees
 and explain how presenters will engage the room.
@@ -46,6 +48,8 @@ The Regional Data Roundtable (RDR)
 | Executive Director | [Chair] | [Vice Chair] | [Secretary] |
 
 ---
+
+<div class="page-break"></div>
 
 ## Submission questions
 
@@ -83,6 +87,8 @@ Where does your session fit?
 ### Topic tags (select up to two)
 Which topics best describe your session? Tags appear in the agenda and brochure.
 
+<div class="two-col" markdown="1">
+
 - Data Governance & Stewardship
 - Data Management & Quality
 - Data Infrastructure & Engineering
@@ -94,6 +100,8 @@ Which topics best describe your session? Tags appear in the agenda and brochure.
 - Privacy, Ethics & Security
 - Program Evaluation & Research Methods
 - Data Literacy & Workforce
+
+</div>
 
 ### Audience engagement (limit: 100 words)
 How will you engage the audience and encourage participation during the session?
