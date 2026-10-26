@@ -59,7 +59,7 @@ Help text: *Only if you'd prefer we reach you by phone for anything time-sensiti
 Help text: *Pick as many or as few as you like. Each one is a specific, time-bound opportunity, and we'll share what you need before anything's due. Not sure yet? Check "I'm interested: help me find the right fit."*
 Options:
 - **Connect us with potential keynote speakers** (Aug–Oct): suggest names and open doors where you have a relationship.
-- **Share the Call for Proposals and recruit speakers** (late Sep–early Nov): spread the CFP and nudge strong presenters to submit.
+- **Share the Call for Proposals and recruit speakers** (late Sep–Nov 27): spread the CFP and nudge strong presenters to submit.
 - **Help solicit sponsors** (Sep–Nov): suggest organizations and make warm introductions; staff handle the package and the ask.
 - **Encourage registration** (Nov–late Jan): invite your network and colleagues once registration opens.
 - **Take a day-of role** (Feb 18): session facilitator, workshop session assistant, greeter, or social/photo.

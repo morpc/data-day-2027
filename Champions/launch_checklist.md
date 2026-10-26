@@ -64,7 +64,7 @@ The model rests on "every ask comes with a kit." Build the systems and the kits 
 For each ask: confirm the kit is ready, make the right ask to the right Champion at the right time, and confirm a **staff fallback owner** so the critical path is never dependent on a volunteer.
 
 - [ ] **Keynote connections** *(Aug–Oct; finalize mid-Nov)* — Champions suggest/intro candidates. **Staff fallback owner: ______.**
-- [ ] **CFP promotion & speaker recruiting** *(late Sep–early Nov)* — Champions share and nudge. **Staff fallback owner: ______.**
+- [ ] **CFP promotion & speaker recruiting** *(late Sep–Nov 27)* — Champions share and nudge. **Staff fallback owner: ______.**
 - [ ] **Sponsor solicitation** *(Sep–Nov)* — open to all Champions, same as every other ask; introductions only, financials routed to staff. **Staff fallback owner: ______.**
 - [ ] **Registration drive** *(Nov–late Jan, ramping after the agenda publishes)* — Champions share and invite teams. **Staff fallback owner: ______.**
 - [ ] **Day-of roles** *(assign in Jan; execute Feb 18)* — facilitators connect with speakers in early February; brief all roles before the event. **Staff fallback owner: ______.**
