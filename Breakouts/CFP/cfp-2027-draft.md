@@ -6,13 +6,15 @@
 
 ---
 
-[October 2026]
+<div class="center" markdown="1">
 
 ## Data Day 2027: Call for Proposals
 ### Plotting What's Next
 *Five years forward for Central Ohio's data community*
 
-**Proposals due [Friday, November 13, 2026]**
+</div>
+
+**Proposals due Friday, November 13, 2026**
 
 For five years, Data Day has convened Central Ohio's data community: the local governments, nonprofits,
 educational institutions, and civic-minded businesses working to make Central Ohio a leader in using data to
@@ -46,6 +48,8 @@ The Regional Data Roundtable (RDR)
 | Executive Director | [Chair] | [Vice Chair] | [Secretary] |
 
 ---
+
+<div class="page-break"></div>
 
 ## Submission questions
 
@@ -83,6 +87,8 @@ Where does your session fit?
 ### Topic tags (select up to two)
 Which topics best describe your session? Tags appear in the agenda and brochure.
 
+<div class="two-col" markdown="1">
+
 - Data Governance & Stewardship
 - Data Management & Quality
 - Data Infrastructure & Engineering
@@ -94,6 +100,8 @@ Which topics best describe your session? Tags appear in the agenda and brochure.
 - Privacy, Ethics & Security
 - Program Evaluation & Research Methods
 - Data Literacy & Workforce
+
+</div>
 
 ### Audience engagement (limit: 100 words)
 How will you engage the audience and encourage participation during the session?

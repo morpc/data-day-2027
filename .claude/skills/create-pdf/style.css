@@ -127,3 +127,9 @@ code {
 /* Avoid awkward breaks */
 h1, h2, h3 { break-after: avoid; }
 table, blockquote, li { break-inside: avoid; }
+
+/* Opt-in layout helpers, used from Markdown via <div class="..." markdown="1"> */
+.center { text-align: center; }
+.two-col { columns: 2; }
+.two-col ul { margin-top: 0; }
+.page-break { break-after: page; }

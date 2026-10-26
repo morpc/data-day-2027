@@ -52,8 +52,15 @@ table { width: auto; font-size: inherit; }
 th, td { border: none; background: none; color: #000; padding: 0 1rem 0.1rem 0; }
 tr:nth-child(even) td { background: none; }
 thead:has(th:empty) { display: none; }
-a { text-decoration: underline; }
+a { color: var(--blue); text-decoration: underline; }
 hr { border: none; margin: 0.4rem 0; }
+/* A letter followed by a page break gets roomier type on its own page; what
+   follows the break (e.g. a form's questions) keeps the compact size. */
+.page-break ~ * { font-size: 9.5pt; line-height: 1.35; }
+.page-break ~ h2 { font-size: 11pt; }
+body:has(.page-break) { font-size: 10.5pt; line-height: 1.5; }
+body:has(.page-break) p { margin-bottom: 0.75rem; }
+body:has(.page-break) .page-break ~ p { margin-bottom: 0.45rem; }
 """
 
 CHROMIUM_CANDIDATES = ["chromium", "chromium-browser", "google-chrome", "google-chrome-stable"]

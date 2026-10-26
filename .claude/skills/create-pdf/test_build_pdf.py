@@ -58,6 +58,12 @@ class LetterheadTest(unittest.TestCase):
         self.assertIn("Paragraph", page2)
         self.assertNotIn("Ben Kessler", page2)  # continuation footer has no officer line
 
+    def test_page_break_div_starts_a_new_page(self):
+        out = self.build('# Letter\n\nFirst page.\n\n<div class="page-break"></div>\n\nSecond page.\n')
+        self.assertEqual(page_count(out), 2)
+        self.assertNotIn("Second page.", page_text(out, 1))
+        self.assertIn("Second page.", page_text(out, 2))
+
     def test_letterhead_html_has_no_logo_header(self):
         sys.path.insert(0, str(SKILL_DIR))
         import build_pdf
