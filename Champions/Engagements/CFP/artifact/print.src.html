@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{TITLE}}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+  /* One graphic per page at its pixel size, so the PDF page matches the image exactly. */
+  @page { size: {{W}}px {{H}}px; margin: 0; }
+  html, body { margin: 0; padding: 0; }
+  .shot { position: relative; width: {{W}}px; height: {{H}}px; overflow: hidden; }
+  .shot img { display: block; width: 100%; height: 100%; }
+  .hotspot { position: absolute; }
+</style>
+</head>
+<body>
+<div class="shot"><img id="graphic" alt=""></div>
+<script>
+{{GRAPHICS_JS}}
+
+  const ASSETS = { qr: "{{QR}}", ddLogo: "{{LOGO_PRIMARY}}", morpc: "{{MORPC_LOGO}}" };
+  renderGraphics(ASSETS).then((graphics) => showGraphic(document.getElementById("graphic"), graphics["{{WHICH}}"]));
+</script>
+</body>
+</html>
