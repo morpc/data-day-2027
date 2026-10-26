@@ -15,7 +15,7 @@ python3 .claude/skills/create-pdf/build_pdf.py INPUT.md [-o OUTPUT.pdf] [--no-lo
 
 - Default output is `INPUT.pdf` (same name, next to the source).
 - Default logo is `Assets/MORPC_HORIZONTAL LOGO_PRIMARY COLOR (1).png`; override with `--logo` or omit with `--no-logo`.
-- `--letterhead DOCX` prints the doc on a Word letterhead (e.g. `Assets/2026-MORPC-Letterhead-Final-Updated 5-19.docx`): page 1 gets the letterhead's first-page design, later pages its continuation design, and the MORPC logo is dropped. Needs LibreOffice (`soffice`) and `pdftk`. Content margins are set in `LETTERHEAD_CSS` in `build_pdf.py`.
+- `--letterhead DOCX` prints the doc on a Word letterhead (e.g. `Assets/2026-MORPC-Letterhead-Final-Updated 5-19.docx`): page 1 gets the letterhead's first-page design, later pages its continuation design. It drops the logo header and uses a plain, compact Arial style (`LETTERHEAD_CSS`). Needs LibreOffice (`soffice`) and `pdftk`.
 
 Tests for letterhead mode: `python3 .claude/skills/create-pdf/test_build_pdf.py`.
 

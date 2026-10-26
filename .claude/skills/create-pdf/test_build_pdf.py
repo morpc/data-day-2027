@@ -58,6 +58,17 @@ class LetterheadTest(unittest.TestCase):
         self.assertIn("Paragraph", page2)
         self.assertNotIn("Ben Kessler", page2)  # continuation footer has no officer line
 
+    def test_letterhead_html_has_no_logo_header(self):
+        sys.path.insert(0, str(SKILL_DIR))
+        import build_pdf
+        tmp = Path(tempfile.mkdtemp(dir=SKILL_DIR, prefix=".test-"))
+        self.addCleanup(subprocess.run, ["rm", "-rf", str(tmp)])
+        src = tmp / "doc.md"
+        src.write_text("# Title\n", encoding="utf-8")
+        html = build_pdf.build_html(src, None, letterhead=True)
+        self.assertNotIn("doc-header", html.split("</style>")[1])
+        self.assertIn("<h1>Title</h1>", html)
+
     def test_missing_letterhead_is_reported(self):
         result = subprocess.run(
             [sys.executable, str(SCRIPT), str(SCRIPT), "--letterhead", "/nonexistent.docx"],

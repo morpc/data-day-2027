@@ -14,8 +14,9 @@ Defaults: OUTPUT is INPUT with a .pdf extension; the logo is the MORPC
 horizontal logo in the repo's Assets/ folder.
 
 --letterhead lays the document over a Word letterhead: page 1 gets the
-letterhead's first-page design, later pages its continuation design. The
-MORPC logo is dropped, since the letterhead already carries it.
+letterhead's first-page design, later pages its continuation design. It
+drops the logo header and uses a plain, compact style, since the letterhead
+carries the branding.
 """
 import argparse
 import base64
@@ -34,11 +35,25 @@ REPO_ROOT = SKILL_DIR.parents[2]  # .claude/skills/create-pdf -> repo root
 DEFAULT_LOGO = REPO_ROOT / "Assets" / "MORPC_HORIZONTAL LOGO_PRIMARY COLOR (1).png"
 STYLE = SKILL_DIR / "style.css"
 
-# Content margins that clear the letterhead art: page 1 starts below the
-# logo/address block and every page stops above the officer line / footer art.
+# Letterhead mode: margins that clear the letterhead art (page 1 starts below
+# the logo/address block; every page stops above the officer line / footer
+# art), plus a plain, compact Arial style to sit under the letterhead's own
+# branding: black text, no rules, fills, or colored table headers.
 LETTERHEAD_CSS = """
 @page { margin: 1.6in 1in 1.65in 1in; }
 @page :first { margin-top: 2.3in; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 9.5pt; line-height: 1.35; }
+h1 { font-size: 14pt; font-weight: 700; margin: 0.4rem 0 0.2rem; padding: 0; border: none; }
+h2 { font-size: 11pt; margin: 0.9rem 0 0.2rem; padding: 0; border: none; }
+h3 { font-size: 9.5pt; margin: 0.6rem 0 0.1rem; }
+p, ul, ol, table { margin: 0 0 0.45rem; }
+li { margin: 0; }
+table { width: auto; font-size: inherit; }
+th, td { border: none; background: none; color: #000; padding: 0 1rem 0.1rem 0; }
+tr:nth-child(even) td { background: none; }
+thead:has(th:empty) { display: none; }
+a { text-decoration: underline; }
+hr { border: none; margin: 0.4rem 0; }
 """
 
 CHROMIUM_CANDIDATES = ["chromium", "chromium-browser", "google-chrome", "google-chrome-stable"]
@@ -61,12 +76,18 @@ def data_uri(path: Path) -> str:
     return f"data:{mime};base64,{b64}"
 
 
-def build_html(md_path: Path, logo: Path | None, extra_css: str = "") -> str:
+def build_html(md_path: Path, logo: Path | None, letterhead: bool = False) -> str:
     body = markdown.markdown(
         md_path.read_text(encoding="utf-8"),
         extensions=["extra", "sane_lists", "smarty"],
     )
     css = STYLE.read_text(encoding="utf-8")
+    if letterhead:
+        # The letterhead carries the branding, so no logo header.
+        return (
+            "<!DOCTYPE html><html><head><meta charset='utf-8'>"
+            f"<style>{css}{LETTERHEAD_CSS}</style></head><body>{body}</body></html>"
+        )
     # Event lockup at left (always shown); MORPC logo at right unless --no-logo.
     if EVENT_LOCKUP.exists():
         lockup = f'<img class="event-lockup" src="{data_uri(EVENT_LOCKUP)}" alt="Data Day 2027">'
@@ -81,7 +102,7 @@ def build_html(md_path: Path, logo: Path | None, extra_css: str = "") -> str:
     header = f'<div class="doc-header">{lockup}{morpc}</div>'
     return (
         "<!DOCTYPE html><html><head><meta charset='utf-8'>"
-        f"<style>{css}{extra_css}</style></head><body>{header}{body}</body></html>"
+        f"<style>{css}</style></head><body>{header}{body}</body></html>"
     )
 
 
@@ -162,7 +183,7 @@ def main() -> None:
     out = args.output or args.input.with_suffix(".pdf")
 
     if args.letterhead:
-        html = build_html(args.input, None, LETTERHEAD_CSS)
+        html = build_html(args.input, None, letterhead=True)
         with tempfile.TemporaryDirectory(dir=str(out.resolve().parent), prefix=".pdfbuild-") as tmp:
             content = Path(tmp) / "content.pdf"
             render_pdf(html, content)
