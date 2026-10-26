@@ -41,7 +41,7 @@ before the holiday. **Send your nudges by Friday, November 20** for the best cha
 
 ## The link
 
-**Submit a proposal:** <https://forms.cloud.microsoft/r/p5reURxZpZ>
+**Submit a proposal:** <https://tinyurl.com/dataday-cfp>
 
 For slides and print, use the QR code:
 [QR code (PNG)](../../../Breakouts/CFP/QRCode%20for%20Data%20Day%202027_%20CFP_cropped.png).
@@ -64,7 +64,7 @@ Copy this into an email or post as-is, or trim it to fit.
 **Short version (one line):**
 
 > Doing data work the region should hear about? Data Day 2027 wants your session
-> proposal by November 30: <https://forms.cloud.microsoft/r/p5reURxZpZ>
+> proposal by November 30: <https://tinyurl.com/dataday-cfp>
 
 ### Reasons that land with hesitant presenters
 
@@ -100,7 +100,7 @@ please use the graphics as provided.
 >
 > Data Day: Thursday, February 18, 2027, Center for Workforce Development, Columbus State
 >
-> Submit here: https://forms.cloud.microsoft/r/p5reURxZpZ
+> Submit here: https://tinyurl.com/dataday-cfp
 >
 > \#DataDay2027 \#CentralOhio \#PublicSectorData
 
@@ -115,7 +115,7 @@ Attach the [square social graphic](graphics/cfp-social-1080.png).
 > is seeking 45-minute session proposals that share the tools, analyses, projects, and
 > lessons advancing data work in Central Ohio. All topics and skill levels are welcome.
 > Proposals are due Monday, November 30, 2026.
-> [Submit a proposal](https://forms.cloud.microsoft/r/p5reURxZpZ).
+> [Submit a proposal](https://tinyurl.com/dataday-cfp).
 
 ### Team meeting or presentation
 
@@ -147,7 +147,7 @@ any post.
 > room would want to hear how you [what they did / what they learned].
 >
 > Sessions are 45 minutes with plenty of time for questions, and the form is short:
-> <https://forms.cloud.microsoft/r/p5reURxZpZ>
+> <https://tinyurl.com/dataday-cfp>
 >
 > No pressure either way, but I'd love to see you on the program.
 >
@@ -157,7 +157,7 @@ any post.
 
 > Hi [Name], the Data Day 2027 Call for Proposals is open through November 30. Your work
 > on [thing] would make a great session, and the form only takes a few minutes:
-> https://forms.cloud.microsoft/r/p5reURxZpZ
+> https://tinyurl.com/dataday-cfp
 
 ### In person or by phone
 
@@ -169,7 +169,7 @@ any post.
 
 > Hi [Name], a quick reminder that Data Day proposals are due Monday, November 30 (right
 > after Thanksgiving). Here's the link again if you're still thinking it over:
-> <https://forms.cloud.microsoft/r/p5reURxZpZ>
+> <https://tinyurl.com/dataday-cfp>
 
 ---
 

@@ -5,7 +5,7 @@
 > **Status:** draft. Attach [cfp-promo-kit.pdf](cfp-promo-kit.pdf),
 > [cfp-slide-1920x1080.png](graphics/cfp-slide-1920x1080.png), and
 > [cfp-social-1080.png](graphics/cfp-social-1080.png). Links to the
-> [CFP submission form](https://forms.cloud.microsoft/r/p5reURxZpZ) (open through
+> [CFP submission form](https://tinyurl.com/dataday-cfp) (open through
 > November 30, 2026).
 
 ---
@@ -23,7 +23,7 @@ The ask is small:
 
 Everything you need is attached: the promo kit (ready-to-use posts, a "why present" blurb, and message templates), a promo slide with a QR code, and a social graphic.
 
-**Submission form:** <https://forms.cloud.microsoft/r/p5reURxZpZ>
+**Submission form:** <https://tinyurl.com/dataday-cfp>
 
 One timing note: the deadline is the Monday after Thanksgiving, so nudges sent by **Friday, November 20** have the best chance of landing. MORPC staff review every proposal and make the selections, so once you've shared or nudged, your part is done.
 
