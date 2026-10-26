@@ -430,41 +430,41 @@ No pressure either way, but I'd love to see you on the program.
     const [cv, ctx] = canvas(1920, 1080);
     const split = 1080;
 
-    // Left panel (light): the call for proposals, dark on light.
+    // Left panel (light): the call for proposals, dark on light. Headline, pill, QR block,
+    // and logo row are spaced evenly between 96px top and bottom margins.
     ctx.fillStyle = C.fog; ctx.fillRect(0, 0, split, 1080);
     const x = 96;
-    text(ctx, "CALL FOR PROPOSALS · NOW OPEN", x, 156, 24, 400, C.blue600, MONO, `${24 * 0.14}px`);
-    text(ctx, "Share your work", x, 280, 96, 800, C.band);
-    text(ctx, "at Data Day 2027", x, 382, 96, 800, C.band);
-    pill(ctx, "Proposals due Friday, November 27", x, 430, 38);
+    text(ctx, "Share your work", x, 166, 96, 800, C.band);
+    text(ctx, "at Data Day 2027", x, 268, 96, 800, C.band);
+    pill(ctx, "Proposals due Friday, November 27", x, 355, 38);
 
+    const qrTop = 492;
     ctx.fillStyle = C.white; ctx.strokeStyle = C.mist; ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.roundRect(x, 556, 260, 288, 20); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.roundRect(x, qrTop, 260, 288, 20); ctx.fill(); ctx.stroke();
     ctx.imageSmoothingEnabled = false;
-    ctx.drawImage(qr, x + 22, 578, 216, 216);
+    ctx.drawImage(qr, x + 22, qrTop + 22, 216, 216);
     ctx.imageSmoothingEnabled = true;
     ctx.textAlign = "center";
-    text(ctx, "Scan to submit", x + 130, 826, 24, 800, C.band);
+    text(ctx, "Scan to submit", x + 130, qrTop + 270, 24, 800, C.band);
     ctx.textAlign = "left";
 
-    text(ctx, "45-minute sessions", x + 308, 664, 30, 500, C.slate);
-    text(ctx, "All topics and", x + 308, 710, 30, 500, C.slate);
-    text(ctx, "skill levels welcome", x + 308, 756, 30, 500, C.slate);
+    text(ctx, "45-minute sessions", x + 308, qrTop + 108, 30, 500, C.slate);
+    text(ctx, "All topics and", x + 308, qrTop + 154, 30, 500, C.slate);
+    text(ctx, "skill levels welcome", x + 308, qrTop + 200, 30, 500, C.slate);
 
     // Base of the left panel: Data Day and MORPC logos, filling the width.
-    const right = split - 96, logoH = 108, logoTop = 900;
-    ctx.fillStyle = C.mist; ctx.fillRect(x, 870, right - x, 2);
+    const right = split - 96, logoH = 108, logoTop = 876;
+    ctx.fillStyle = C.mist; ctx.fillRect(x, logoTop - 32, right - x, 2);
     ctx.drawImage(ddLogo, x, logoTop, logoH * DD_RATIO, logoH);
     ctx.drawImage(morpc, right - logoH * MORPC_RATIO, logoTop, logoH * MORPC_RATIO, logoH);
 
     // Right panel (navy): the event, set like the homepage hero, with the mark centered over the title.
     const ex = split + 96;
-    eyebrow(ctx, "Data Day 2027 · 5th annual", ex, 156, 24);
     const titleSize = fitSize(ctx, "Plotting What's Next", 800, 80, 1920 - 80 - ex);
     ctx.font = `800 ${titleSize}px ${SANS}`;
     const titleW = ctx.measureText("Plotting What's Next").width;
-    const markSize = 250;
-    ctx.drawImage(mark, ex + titleW / 2 - markSize / 2, 196, markSize, markSize);
+    const markSize = 340;
+    ctx.drawImage(mark, ex + titleW / 2 - markSize / 2, 100, markSize, markSize);
     text(ctx, "Plotting What's Next", ex, 536, titleSize, 800, C.teal300);
     text(ctx, "Five years forward for", ex, 592, 33, 700, C.white, SANS, "0.66px");
     text(ctx, "Central Ohio's data community", ex, 635, 33, 700, C.white, SANS, "0.66px");
