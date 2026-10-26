@@ -156,6 +156,25 @@ function moreInfo(ctx, x, y, leadSize, urlSize) {
   return { href: LINKS.site, label: "morpc.org/dataday", x: x + lead, y: y - urlSize * 0.85, w, h: urlSize * 1.2 };
 }
 
+// White QR card: the code, "Scan to submit", and the short form link under it.
+// Returns the card's link region (its h is the card height).
+function qrCard(ctx, qr, x, y, card, qrSize, scanSize, urlSize) {
+  const pad = (card - qrSize) / 2;
+  const scanY = y + pad + qrSize + scanSize * 1.15;
+  const urlY = scanY + urlSize * 1.8;
+  const h = urlY - y + pad;
+  ctx.fillStyle = C.white; ctx.strokeStyle = C.mist; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.roundRect(x, y, card, h, card * 0.0625); ctx.fill(); ctx.stroke();
+  ctx.imageSmoothingEnabled = false;
+  ctx.drawImage(qr, x + pad, y + pad, qrSize, qrSize);
+  ctx.imageSmoothingEnabled = true;
+  ctx.textAlign = "center";
+  text(ctx, "Scan to submit", x + card / 2, scanY, scanSize, 800, C.band);
+  text(ctx, "or visit tinyurl.com/dataday-cfp", x + card / 2, urlY, urlSize, 600, C.blue600);
+  ctx.textAlign = "left";
+  return { href: LINKS.form, label: "Submit a proposal: tinyurl.com/dataday-cfp", x, y, w: card, h };
+}
+
 // Largest size up to max at which str fits in width.
 function fitSize(ctx, str, weight, max, width) {
   ctx.font = `${weight} ${max}px ${SANS}`;
@@ -183,17 +202,10 @@ function drawSlide(mark, qr, ddLogo, morpc) {
   text(ctx, "at Data Day 2027", x, 268, 96, 800, C.band);
   pill(ctx, "Proposals due Monday, November 30", x, 325, 38);
 
-  const qrTop = 428, card = 320, cardH = 384, qrSize = 276;
-  ctx.fillStyle = C.white; ctx.strokeStyle = C.mist; ctx.lineWidth = 2;
-  ctx.beginPath(); ctx.roundRect(x, qrTop, card, cardH, 20); ctx.fill(); ctx.stroke();
-  ctx.imageSmoothingEnabled = false;
-  ctx.drawImage(qr, x + (card - qrSize) / 2, qrTop + 22, qrSize, qrSize);
-  ctx.imageSmoothingEnabled = true;
-  ctx.textAlign = "center";
-  text(ctx, "Scan to submit", x + card / 2, qrTop + 328, 26, 800, C.band);
-  text(ctx, "or visit tinyurl.com/dataday-cfp", x + card / 2, qrTop + 362, 19, 600, C.blue600);
-  ctx.textAlign = "left";
-  links.push({ href: LINKS.form, label: "Submit a proposal: tinyurl.com/dataday-cfp", x, y: qrTop, w: card, h: cardH });
+  const qrTop = 428, card = 320;
+  const qrLink = qrCard(ctx, qr, x, qrTop, card, 276, 26, 19);
+  links.push(qrLink);
+  const cardH = qrLink.h;
 
   bullets(ctx, [
     "45-minute sessions",
@@ -224,7 +236,7 @@ function drawSlide(mark, qr, ddLogo, morpc) {
   return { src: cv.toDataURL("image/png"), width: 1920, height: 1080, links };
 }
 
-function drawSocial(mark, ddLogo, morpc) {
+function drawSocial(mark, qr, ddLogo, morpc) {
   const [cv, ctx] = canvas(1080, 1080);
   const links = [];
   const x = 80, right = 1000, split = 446;
@@ -235,19 +247,24 @@ function drawSocial(mark, ddLogo, morpc) {
   fact(ctx, "place", "", "CSCC Center for Workforce Development", x, 328, 26);
   links.push(moreInfo(ctx, x, 392, 28, 38));
 
-  // Bottom panel (light): the call for proposals, dark on light, with the logos at its base.
+  // Bottom panel (light): the call for proposals, dark on light. Bullets on the left,
+  // QR card on the right, logos at the base.
   ctx.fillStyle = C.fog; ctx.fillRect(0, split, 1080, 1080 - split);
-  text(ctx, "Share your work", x, 572, 82, 800, C.band);
-  text(ctx, "at Data Day 2027", x, 660, 82, 800, C.band);
-  pill(ctx, "Proposals due Monday, November 30", x, 694, 32);
+  text(ctx, "Share your work", x, 560, 76, 800, C.band);
+  text(ctx, "at Data Day 2027", x, 642, 76, 800, C.band);
+  pill(ctx, "Proposals due Monday, November 30", x, 672, 32);
+
+  const card = 236, cardX = right - card;
+  const qrLink = qrCard(ctx, qr, cardX, 640, card, 176, 18, 14);
+  links.push(qrLink);
   bullets(ctx, [
     "45-minute sessions",
     "All topics and skill levels welcome",
     "Focus on interaction and audience engagement",
-  ], x, 838, 26, right - x);
+  ], x, 820, 26, cardX - 36 - x);
 
-  const logoH = 74, logoTop = 950;
-  ctx.fillStyle = C.mist; ctx.fillRect(x, logoTop - 24, right - x, 2);
+  const logoH = 70, logoTop = 960;
+  ctx.fillStyle = C.mist; ctx.fillRect(x, logoTop - 22, right - x, 2);
   ctx.drawImage(ddLogo, x, logoTop, logoH * DD_RATIO, logoH);
   ctx.drawImage(morpc, right - logoH * MORPC_RATIO, logoTop, logoH * MORPC_RATIO, logoH);
   return { src: cv.toDataURL("image/png"), width: 1080, height: 1080, links };
@@ -269,7 +286,7 @@ async function renderGraphics(assets) {
   const markSrc = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(TREND_MARK);
   const [mark, qr, ddLogo, morpc] = await Promise.all(
     [markSrc, assets.qr, assets.ddLogo, assets.morpc].map(loadImage));
-  return { slide: drawSlide(mark, qr, ddLogo, morpc), social: drawSocial(mark, ddLogo, morpc) };
+  return { slide: drawSlide(mark, qr, ddLogo, morpc), social: drawSocial(mark, qr, ddLogo, morpc) };
 }
 
 // Shows a rendered graphic in an <img> and lays clickable links over its link regions.
