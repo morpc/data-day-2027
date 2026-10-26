@@ -252,8 +252,8 @@ section h2 .tick { color: var(--dd-teal-600); }
 .muted { color: var(--fg-muted); }
 .grid { display: grid; gap: 1.25rem; grid-template-columns: 1fr; }
 @media (min-width: 40rem) { .grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 40rem) { .grid.cols-4 { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 64rem) { .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 30rem) { .grid.cols-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 48rem) { .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
 .grid.auto { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .card {
@@ -347,10 +347,7 @@ footer a { color: var(--dd-blue-300); }
   .card--link { transition: none; }
 }
 
-/* ---- Breakouts: proposal-form list and submit block ---- */
-.form-asks { margin: 0.75rem 0 0; padding-left: 1.15rem; color: var(--body); max-width: 62ch; }
-.form-asks li { margin-bottom: 0.35rem; }
-.form-asks li::marker { color: var(--dd-teal-600); }
+/* ---- Breakouts: submit block ---- */
 .submit-cta { display: flex; align-items: center; gap: clamp(1.5rem, 4vw, 3rem); flex-wrap: wrap; }
 .submit-cta > div { flex: 1 1 20rem; min-width: 0; }
 .submit-cta__qr { width: 220px; max-width: 100%; height: auto; padding: 14px; background: var(--dd-white); border: 1px solid var(--border); border-radius: var(--radius); flex: none; }
