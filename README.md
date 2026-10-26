@@ -91,11 +91,11 @@ exact dates as the cycle progresses.
   - [ ] Update/finalize the call for session proposals _(Sep 2026)_ _(in progress: [2027 CFP draft](Breakouts/CFP/cfp-2027-draft.md) with topic tags and 9:00 AM–3:45 PM hours; still needs release date, deadline, form link, officer names, and the staff-only focus area / pillar / reflection questions)_
   - [ ] Convert the CFP to an online form _(Oct 2026)_
   - [x] Design the CFP promotion slide _(Oct 2026)_ — [slide](Champions/Engagements/CFP/graphics/cfp-slide-1920x1080.png)
-  - [ ] Update the CFP website section _(Oct 2026)_
+  - [x] Update the CFP website section _(Oct 2026)_ — [Breakouts page](docs/breakouts.html)
 - [ ] Launch and promote the CFP
   - [ ] Email the CFP to the list _(Oct 2026)_
   - [ ] Promote the CFP — including at the Summit on Sustainability _(Oct 2026; supported by Champions Ask 2)_
-  - [ ] Update the website with the CFP _(Oct 2026)_
+  - [x] Update the website with the CFP _(Oct 2026)_ — Breakouts page, homepage banner and card
 - [ ] Select sessions
   - [ ] Close the call for session proposals _(Nov 30, 2026)_
   - [ ] Vet and select sessions _(Dec 2026)_
