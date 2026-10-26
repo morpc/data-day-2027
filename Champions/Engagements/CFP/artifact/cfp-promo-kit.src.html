@@ -304,9 +304,27 @@ No pressure either way, but I'd love to see you on the program.
     });
   });
 
-  // Graphics: drawn on canvas in brand colors, then shown as <img> so viewers can save them.
-  const C = { navy: "#073451", divider: "#4A6B80", teal: "#00A79D", tealText: "#85D5D0", ink: "#171C21", fog: "#F2F4F6", white: "#FFFFFF" };
-  const LOGO_RATIO = 692.52 / 175.48;
+  // Graphics: drawn on canvas in the homepage hero's type system (trend mark lockup, teal
+  // Figtree 800 title, JetBrains Mono eyebrows, icon facts row), then shown as <img> so
+  // viewers can save them.
+  const C = {
+    band: "#073451", divider: "#4A6B80", teal: "#00A79D", teal300: "#85D5D0", blue300: "#89BEDF",
+    navy200: "#BFCAD2", ink: "#171C21", fog: "#F2F4F6", white: "#FFFFFF",
+  };
+  const SANS = 'Figtree, "Segoe UI", Helvetica, Arial, sans-serif';
+  const MONO = '"JetBrains Mono", ui-monospace, Menlo, monospace';
+
+  // The homepage hero's trend mark (docs/index.html), with currentColor set to Fog.
+  const TREND_MARK = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="165 113 490 490">
+    <path d="M 173.99191,559.10665 H 641.5168" fill="none" stroke="#F2F4F6" stroke-width="14.4" stroke-linecap="round"/>
+    <path d="m 211.37723,123.12357 v 467.5249" fill="none" stroke="#F2F4F6" stroke-width="14.4" stroke-linecap="round"/>
+    <circle cx="248.69173" cy="498.01663" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+    <circle cx="348.375" cy="505.53125" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+    <circle cx="407.53125" cy="406.77148" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+    <circle cx="504.25195" cy="427.41211" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+    <circle cx="516.61914" cy="296.58984" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+    <path transform="translate(0.13638047,-0.05627852)" fill="#00A79D" d="M 576.82651 204.18714 A 3.6003599 3.6003599 0 0 0 575.09799 205.31214 L 549.66245 235.31018 A 3.6003599 3.6003599 0 0 0 551.37534 241.08558 L 559.21909 243.43714 C 519.67073 364.08588 444.71797 425.09234 378.71128 456.52893 C 328.57672 480.40621 284.06451 486.94206 264.28354 488.74183 C 266.26284 491.02009 267.46909 493.9852 267.46909 497.21253 C 267.46909 499.28394 266.97063 501.24655 266.09214 502.98987 C 287.35294 500.99257 333.42188 494.04738 384.90268 469.52893 C 453.71797 436.75471 532.23539 372.19244 573.01206 247.56995 L 581.1937 250.02308 A 3.6003599 3.6003599 0 0 0 585.80503 246.17151 L 581.42026 207.23792 A 3.6003599 3.6003599 0 0 0 578.89096 204.1969 A 3.6003599 3.6003599 0 0 0 576.82651 204.18714 z"/>
+  </svg>`;
 
   function loadImage(src) {
     return new Promise((resolve, reject) => {
@@ -317,17 +335,24 @@ No pressure either way, but I'd love to see you on the program.
     });
   }
 
-  function text(ctx, str, x, y, size, weight, color, spacing) {
-    ctx.font = `${weight} ${size}px Figtree, "Segoe UI", Helvetica, Arial, sans-serif`;
+  function text(ctx, str, x, y, size, weight, color, family = SANS, spacing = "0px") {
+    ctx.font = `${weight} ${size}px ${family}`;
     ctx.fillStyle = color;
-    ctx.letterSpacing = spacing || "0px";
+    ctx.letterSpacing = spacing;
     ctx.fillText(str, x, y);
+    const w = ctx.measureText(str).width;
     ctx.letterSpacing = "0px";
-    return ctx.measureText(str).width;
+    return w;
   }
 
+  // Mono uppercase eyebrow, 0.14em tracking, Blue 300 (the hero's .eyebrow).
+  function eyebrow(ctx, str, x, y, size) {
+    return text(ctx, str.toUpperCase(), x, y, size, 400, C.blue300, MONO, `${size * 0.14}px`);
+  }
+
+  // Teal button shape with Ink text (the site's primary button).
   function pill(ctx, str, x, y, size) {
-    ctx.font = `800 ${size}px Figtree, "Segoe UI", Helvetica, Arial, sans-serif`;
+    ctx.font = `700 ${size}px ${SANS}`;
     const padX = size * 0.9, h = size * 1.9;
     const w = ctx.measureText(str).width + padX * 2;
     ctx.fillStyle = C.teal;
@@ -341,65 +366,108 @@ No pressure either way, but I'd love to see you on the program.
     return h;
   }
 
-  function drawSlide(logo, qr) {
+  // The hero facts-row icons, drawn from the same 24-unit SVG paths.
+  function icon(ctx, kind, x, y, size) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(size / 24, size / 24);
+    ctx.strokeStyle = C.blue300; ctx.fillStyle = C.blue300;
+    ctx.lineWidth = 1.75; ctx.lineCap = "round"; ctx.lineJoin = "round";
+    if (kind === "date") {
+      ctx.beginPath(); ctx.roundRect(4, 5.5, 16, 15, 2); ctx.stroke();
+      ctx.stroke(new Path2D("M4 10H20M8 3.5V7.5M16 3.5V7.5"));
+      ctx.beginPath(); ctx.roundRect(13.3, 13, 3, 3, 0.6); ctx.fill();
+    } else if (kind === "place") {
+      ctx.stroke(new Path2D("M12 21C12 21 6 15.5 6 10.5C6 6.9 8.9 4 12 4C15.1 4 18 6.9 18 10.5C18 15.5 12 21 12 21Z"));
+      ctx.beginPath(); ctx.arc(12, 10.5, 2, 0, Math.PI * 2); ctx.fill();
+    } else {
+      ctx.beginPath(); ctx.arc(12, 12, 8.5, 0, Math.PI * 2); ctx.stroke();
+      ctx.stroke(new Path2D("M12 7.5V12L15 14"));
+    }
+    ctx.restore();
+  }
+
+  // One facts-row item: icon, optional white label, value (Teal 300 when highlighted).
+  function fact(ctx, kind, label, value, x, y, size, highlight) {
+    const s = size * 1.15;
+    icon(ctx, kind, x, y - size * 0.92, s);
+    let tx = x + s + size * 0.45;
+    if (label) tx += text(ctx, label, tx, y, size, 600, C.white) + size * 0.4;
+    text(ctx, value, tx, y, size, 600, highlight ? C.teal300 : C.white);
+  }
+
+  // Trend mark beside the teal title and white subhead (the hero lockup).
+  function lockup(ctx, mark, x, y, markSize, titleLines, titleSize, subLines, subSize) {
+    ctx.drawImage(mark, x, y, markSize, markSize);
+    const tx = x + markSize + markSize * 0.22;
+    let ty = y + titleSize * 0.82;
+    titleLines.forEach((line, i) => {
+      if (i) ty += titleSize * 1.04;
+      text(ctx, line, tx, ty, titleSize, 800, C.teal300);
+    });
+    ty += subSize * 1.55;
+    subLines.forEach((line) => { text(ctx, line, tx, ty, subSize, 700, C.white, SANS, `${subSize * 0.02}px`); ty += subSize * 1.3; });
+  }
+
+  function canvas(w, h) {
     const cv = document.createElement("canvas");
-    cv.width = 1920; cv.height = 1080;
+    cv.width = w; cv.height = h;
     const ctx = cv.getContext("2d");
-    ctx.fillStyle = C.navy; ctx.fillRect(0, 0, 1920, 1080);
+    ctx.fillStyle = C.band; ctx.fillRect(0, 0, w, h);
+    return [cv, ctx];
+  }
 
-    // Left column: the event.
-    ctx.drawImage(logo, 120, 112, 104 * LOGO_RATIO, 104);
-    text(ctx, "Plotting What's Next", 120, 470, 66, 800, C.white);
-    text(ctx, "Five years forward for", 120, 536, 34, 400, C.fog);
-    text(ctx, "Central Ohio's data community", 120, 580, 34, 400, C.fog);
-    text(ctx, "Thursday, February 18, 2027", 120, 672, 34, 700, C.white);
-    text(ctx, "Center for Workforce Development", 120, 718, 32, 400, C.fog);
-    text(ctx, "Columbus State Community College", 120, 762, 32, 400, C.fog);
-    text(ctx, "morpc.org/dataday", 120, 968, 38, 700, C.tealText);
+  function drawSlide(mark, qr) {
+    const [cv, ctx] = canvas(1920, 1080);
 
-    ctx.fillStyle = C.divider; ctx.fillRect(880, 0, 2, 1080);
+    // Left column: the event, set like the homepage hero.
+    eyebrow(ctx, "Data Day 2027 · 5th annual", 120, 176, 24);
+    lockup(ctx, mark, 120, 232, 150, ["Plotting", "What's Next"], 80, ["Five years forward for", "Central Ohio's data community"], 33);
+    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 120, 690, 28, true);
+    fact(ctx, "place", "", "CSCC Center for Workforce Development", 120, 750, 28);
+    fact(ctx, "time", "", "9:00 AM – 3:45 PM", 120, 810, 28);
+    text(ctx, "morpc.org/dataday", 120, 964, 36, 700, C.teal300);
+
+    ctx.fillStyle = C.divider; ctx.fillRect(880, 120, 2, 840);
 
     // Right column: the call for proposals.
     const x = 976;
-    text(ctx, "CALL FOR PROPOSALS NOW OPEN", x, 192, 30, 700, C.tealText, "4px");
-    text(ctx, "Share your work", x, 304, 96, 800, C.white);
-    text(ctx, "at Data Day", x, 404, 96, 800, C.white);
-    pill(ctx, "Proposals due Friday, November 27", x, 456, 40);
+    eyebrow(ctx, "Call for Proposals · Now open", x, 176, 24);
+    text(ctx, "Share your work", x, 312, 96, 800, C.white);
+    text(ctx, "at Data Day", x, 414, 96, 800, C.white);
+    pill(ctx, "Proposals due Friday, November 27", x, 468, 38);
 
     ctx.fillStyle = C.white;
-    ctx.beginPath(); ctx.roundRect(x, 616, 300, 344, 24); ctx.fill();
+    ctx.beginPath(); ctx.roundRect(x, 620, 300, 340, 22); ctx.fill();
     ctx.imageSmoothingEnabled = false;
-    ctx.drawImage(qr, x + 24, 640, 252, 252);
+    ctx.drawImage(qr, x + 24, 644, 252, 252);
     ctx.imageSmoothingEnabled = true;
     ctx.textAlign = "center";
-    text(ctx, "Scan to submit", x + 150, 932, 28, 800, C.navy);
+    text(ctx, "Scan to submit", x + 150, 934, 26, 800, C.band);
     ctx.textAlign = "left";
 
-    text(ctx, "45-minute sessions", x + 348, 752, 32, 400, C.fog);
-    text(ctx, "All topics and", x + 348, 798, 32, 400, C.fog);
-    text(ctx, "skill levels welcome", x + 348, 844, 32, 400, C.fog);
+    text(ctx, "45-minute sessions", x + 348, 752, 30, 500, C.navy200);
+    text(ctx, "All topics and", x + 348, 798, 30, 500, C.navy200);
+    text(ctx, "skill levels welcome", x + 348, 844, 30, 500, C.navy200);
     return cv.toDataURL("image/png");
   }
 
-  function drawSocial(logo) {
-    const cv = document.createElement("canvas");
-    cv.width = 1080; cv.height = 1080;
-    const ctx = cv.getContext("2d");
-    ctx.fillStyle = C.navy; ctx.fillRect(0, 0, 1080, 1080);
+  function drawSocial(mark) {
+    const [cv, ctx] = canvas(1080, 1080);
 
-    ctx.drawImage(logo, 80, 80, 84 * LOGO_RATIO, 84);
-    text(ctx, "CALL FOR PROPOSALS NOW OPEN", 80, 290, 30, 700, C.tealText, "4px");
-    text(ctx, "Share your work", 80, 398, 100, 800, C.white);
-    text(ctx, "at Data Day 2027", 80, 500, 100, 800, C.white);
-    text(ctx, "Plotting What's Next", 80, 578, 34, 700, C.white);
-    text(ctx, "Five years forward for Central Ohio's data community", 80, 622, 30, 400, C.fog);
-    pill(ctx, "Proposals due Friday, November 27", 80, 672, 38);
+    eyebrow(ctx, "Data Day 2027 · 5th annual", 80, 112, 22);
+    lockup(ctx, mark, 80, 150, 118, ["Plotting What's Next"], 62, ["Five years forward for", "Central Ohio's data community"], 28);
 
-    text(ctx, "Thursday, February 18, 2027", 80, 836, 32, 700, C.white);
-    text(ctx, "Center for Workforce Development, Columbus State", 80, 880, 30, 400, C.fog);
+    ctx.fillStyle = C.divider; ctx.fillRect(80, 360, 920, 2);
 
-    ctx.fillStyle = C.divider; ctx.fillRect(80, 930, 920, 2);
-    text(ctx, "morpc.org/dataday", 80, 1000, 38, 700, C.tealText);
+    eyebrow(ctx, "Call for Proposals · Now open", 80, 440, 22);
+    text(ctx, "Share your work", 80, 550, 96, 800, C.white);
+    text(ctx, "at Data Day", 80, 650, 96, 800, C.white);
+    pill(ctx, "Proposals due Friday, November 27", 80, 702, 36);
+
+    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 80, 872, 28, true);
+    fact(ctx, "place", "", "CSCC Center for Workforce Development", 80, 926, 28);
+    text(ctx, "morpc.org/dataday", 80, 994, 30, 700, C.teal300);
     return cv.toDataURL("image/png");
   }
 
@@ -408,12 +476,15 @@ No pressure either way, but I'd love to see you on the program.
       await Promise.all([
         document.fonts.load('800 96px "Figtree"'),
         document.fonts.load('700 32px "Figtree"'),
-        document.fonts.load('400 32px "Figtree"'),
+        document.fonts.load('600 28px "Figtree"'),
+        document.fonts.load('500 30px "Figtree"'),
+        document.fonts.load('400 24px "JetBrains Mono"'),
       ]);
-    } catch (e) { /* fall back to system sans */ }
-    const [logo, qr] = await Promise.all([loadImage("{{LOGO_WHITE}}"), loadImage("{{QR}}")]);
-    document.getElementById("slide-img").src = drawSlide(logo, qr);
-    document.getElementById("social-img").src = drawSocial(logo);
+    } catch (e) { /* fall back to system fonts */ }
+    const markSrc = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(TREND_MARK);
+    const [mark, qr] = await Promise.all([loadImage(markSrc), loadImage("{{QR}}")]);
+    document.getElementById("slide-img").src = drawSlide(mark, qr);
+    document.getElementById("social-img").src = drawSocial(mark);
   }
   drawGraphics();
 </script>
