@@ -14,7 +14,7 @@
 
 </div>
 
-**Proposals due Friday, November 27, 2026**
+**Proposals due Monday, November 30, 2026**
 
 For five years, Data Day has convened Central Ohio's data community: the local governments, nonprofits,
 educational institutions, and civic-minded businesses working to make Central Ohio a leader in using data to

@@ -6,7 +6,7 @@
 > [cfp-slide-1920x1080.png](graphics/cfp-slide-1920x1080.png), and
 > [cfp-social-1080.png](graphics/cfp-social-1080.png). Links to the
 > [CFP submission form](https://forms.cloud.microsoft/r/p5reURxZpZ) (open through
-> November 27, 2026).
+> November 30, 2026).
 
 ---
 
@@ -14,7 +14,7 @@
 
 Hello Data Day Champion,
 
-Thank you again for being part of Data Day 2027! The **Call for Proposals is now open**. Proposals are due **Friday, November 27**.
+Thank you again for being part of Data Day 2027! The **Call for Proposals is now open**. Proposals are due **Monday, November 30**.
 
 The ask is small:
 
@@ -25,7 +25,7 @@ Everything you need is attached: the promo kit (ready-to-use posts, a "why prese
 
 **Submission form:** <https://forms.cloud.microsoft/r/p5reURxZpZ>
 
-One timing note: the deadline is the day after Thanksgiving, so nudges sent by **Friday, November 20** have the best chance of landing. MORPC staff review every proposal and make the selections, so once you've shared or nudged, your part is done.
+One timing note: the deadline is the Monday after Thanksgiving, so nudges sent by **Friday, November 20** have the best chance of landing. MORPC staff review every proposal and make the selections, so once you've shared or nudged, your part is done.
 
 Thanks for helping make the fifth Data Day a great one!
 

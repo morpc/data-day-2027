@@ -30,12 +30,12 @@ review the same way as any other proposal.
 | Milestone | Date |
 |---|---|
 | **Call open** | Now |
-| **Proposals due** | Friday, November 27, 2026 |
+| **Proposals due** | Monday, November 30, 2026 |
 | **Speakers hear back** | December 2026 |
 | **Data Day 2027** | Thursday, February 18, 2027 |
 
-The deadline is the day after Thanksgiving, so most people will need to submit the week
-before. **Send your nudges by Friday, November 20** for the best chance of landing them.
+The deadline is the Monday after Thanksgiving, so many people will want to submit
+before the holiday. **Send your nudges by Friday, November 20** for the best chance of landing them.
 
 ---
 
@@ -59,12 +59,12 @@ Copy this into an email or post as-is, or trim it to fit.
 > lesson learned in front of the practitioners and decision-makers who can use it. Every
 > data topic and every skill level is welcome, and this year the program especially
 > encourages proposals on data governance, data management, data analysis, and data
-> infrastructure. Proposals are due Friday, November 27, 2026.
+> infrastructure. Proposals are due Monday, November 30, 2026.
 
 **Short version (one line):**
 
 > Doing data work the region should hear about? Data Day 2027 wants your session
-> proposal by November 27: <https://forms.cloud.microsoft/r/p5reURxZpZ>
+> proposal by November 30: <https://forms.cloud.microsoft/r/p5reURxZpZ>
 
 ### Reasons that land with hesitant presenters
 
@@ -96,7 +96,7 @@ please use the graphics as provided.
 > Every data topic is welcome, with extra interest this year in data governance,
 > management, analysis, and infrastructure.
 >
-> Proposals due: Friday, November 27
+> Proposals due: Monday, November 30
 >
 > Data Day: Thursday, February 18, 2027, Center for Workforce Development, Columbus State
 >
@@ -114,7 +114,7 @@ Attach the [square social graphic](graphics/cfp-social-1080.png).
 > Workforce Development at Columbus State Community College. The Regional Data Roundtable
 > is seeking 45-minute session proposals that share the tools, analyses, projects, and
 > lessons advancing data work in Central Ohio. All topics and skill levels are welcome.
-> Proposals are due Friday, November 27, 2026.
+> Proposals are due Monday, November 30, 2026.
 > [Submit a proposal](https://forms.cloud.microsoft/r/p5reURxZpZ).
 
 ### Team meeting or presentation
@@ -122,7 +122,7 @@ Attach the [square social graphic](graphics/cfp-social-1080.png).
 Drop the [promo slide](graphics/cfp-slide-1920x1080.png) into your deck. It carries the
 QR code, so people can scan it from their seats. Something to say over it:
 
-> Data Day's Call for Proposals is open through November 27. If you've done something
+> Data Day's Call for Proposals is open through November 30. If you've done something
 > this year that another city, county, or nonprofit could use, it's worth 45 minutes.
 > Grab the QR code or ask me for the link.
 
@@ -141,7 +141,7 @@ any post.
 >
 > I'm helping spread the word about Data Day 2027, MORPC's annual conference for Central
 > Ohio's data community. It's February 18, and the Call for Proposals is open through
-> Friday, November 27.
+> Monday, November 30.
 >
 > Your work on [specific project] came to mind right away. I think a lot of people in the
 > room would want to hear how you [what they did / what they learned].
@@ -155,19 +155,19 @@ any post.
 
 ### LinkedIn message or chat
 
-> Hi [Name], the Data Day 2027 Call for Proposals is open through November 27. Your work
+> Hi [Name], the Data Day 2027 Call for Proposals is open through November 30. Your work
 > on [thing] would make a great session, and the form only takes a few minutes:
 > https://forms.cloud.microsoft/r/p5reURxZpZ
 
 ### In person or by phone
 
-> Have you thought about presenting at Data Day? Proposals are due November 27, and what
+> Have you thought about presenting at Data Day? Proposals are due November 30, and what
 > you did with [thing] is exactly the kind of session people get a lot out of. I can send
 > you the link.
 
 ### Reminder, the week before the deadline
 
-> Hi [Name], a quick reminder that Data Day proposals are due Friday, November 27 (the day
+> Hi [Name], a quick reminder that Data Day proposals are due Monday, November 30 (right
 > after Thanksgiving). Here's the link again if you're still thinking it over:
 > <https://forms.cloud.microsoft/r/p5reURxZpZ>
 
