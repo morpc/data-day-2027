@@ -1,0 +1,419 @@
+<title>Data Day CFP Promo Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: navy masthead band, then one reading column of kit sections; graphics and templates sit in white cards. */
+  :root {
+    --navy: #073451;
+    --blue-link: #07588B;
+    --teal: #00A79D;
+    --teal-text: #007C74;
+    --teal-wash: #E6F6F5;
+    --ink: #171C21;
+    --slate: #5F6B75;
+    --mist: #DDE2E7;
+    --fog: #F2F4F6;
+    --card: #FFFFFF;
+    --bg: var(--fog);
+    --fg: var(--ink);
+    --muted: var(--slate);
+    --line: var(--mist);
+    --link: var(--blue-link);
+    --accent-text: var(--teal-text);
+    --wash: var(--teal-wash);
+    --band: var(--navy);
+    --band-fg: #FFFFFF;
+    --band-muted: #BFCAD2;
+    --pill-bg: var(--teal);
+    --pill-fg: var(--ink);
+    --focus: #0977BC;
+    --font: "Figtree", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #171C21; --fg: #F2F4F6; --muted: #889EAB; --line: #2A3238; --card: #1F262C;
+      --link: #89BEDF; --accent-text: #85D5D0; --wash: #12302F; --band: #041C2B;
+      --band-muted: #889EAB; --focus: #89BEDF; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #171C21; --fg: #F2F4F6; --muted: #889EAB; --line: #2A3238; --card: #1F262C;
+    --link: #89BEDF; --accent-text: #85D5D0; --wash: #12302F; --band: #041C2B;
+    --band-muted: #889EAB; --focus: #89BEDF; color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 1rem; line-height: 1.6; }
+  a { color: var(--link); }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  h1, h2, h3 { text-wrap: balance; line-height: 1.15; margin: 0; }
+
+  .wrap { max-width: 52rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+  .masthead { background: var(--band); color: var(--band-fg); }
+  .masthead .wrap { padding-block: 2rem 2.5rem; display: grid; gap: 1.25rem; }
+  .masthead img { width: 9rem; height: auto; display: block; }
+  .eyebrow { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: #85D5D0; margin: 0; }
+  .masthead h1 { font-size: clamp(2rem, 5vw, 2.9rem); font-weight: 800; }
+  .masthead p.lede { margin: 0; color: var(--band-muted); max-width: 38rem; font-size: 1.08rem; }
+  .pill { display: inline-block; background: var(--pill-bg); color: var(--pill-fg); font-weight: 800; border-radius: 999px; padding: 0.4rem 1rem; justify-self: start; }
+
+  main .wrap { padding-block: 2rem 4rem; display: grid; gap: 3rem; }
+  section { display: grid; gap: 1rem; min-width: 0; }
+  section > h2 { font-size: 1.5rem; font-weight: 800; color: var(--fg); padding-bottom: 0.5rem; border-bottom: 2px solid var(--line); }
+  h3 { font-size: 1.08rem; font-weight: 700; }
+  p { margin: 0; max-width: 65ch; }
+  .muted { color: var(--muted); }
+
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+  .step { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.2rem; display: grid; gap: 0.35rem; align-content: start; }
+  .step b { font-size: 1.05rem; }
+  .rules { background: var(--wash); border-radius: 10px; padding: 1rem 1.2rem; }
+
+  .dates { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card); }
+  .date { padding: 1rem 1.1rem; border-right: 1px solid var(--line); display: grid; gap: 0.15rem; }
+  .date:last-child { border-right: 0; }
+  .date .k { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .date .v { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .date.due .v { color: var(--accent-text); }
+
+  .link-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; }
+  .link-row code { font-family: var(--mono); font-size: 0.9rem; overflow-wrap: anywhere; min-width: 0; flex: 1 1 16rem; }
+
+  .tpl { background: var(--card); border: 1px solid var(--line); border-radius: 10px; display: grid; min-width: 0; }
+  .tpl header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.7rem 0.8rem 0.7rem 1.1rem; border-bottom: 1px solid var(--line); }
+  .tpl header h3 { font-size: 1rem; }
+  .tpl .body { padding: 1rem 1.1rem 1.1rem; white-space: pre-wrap; overflow-wrap: anywhere; min-width: 0; }
+  .tpl .note { padding: 0 1.1rem 1rem; color: var(--muted); font-size: 0.92rem; }
+
+  button.copy { font: 600 0.88rem var(--font); color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 0.35rem 0.9rem; cursor: pointer; white-space: nowrap; }
+  button.copy:hover { border-color: var(--accent-text); color: var(--accent-text); }
+  button.copy[data-done] { background: var(--pill-bg); border-color: var(--pill-bg); color: var(--pill-fg); }
+
+  .reasons { display: grid; gap: 0.6rem; padding: 0; margin: 0; list-style: none; }
+  .reasons li { padding-left: 1.1rem; position: relative; max-width: 65ch; }
+  .reasons li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--teal); }
+
+  .graphics { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1rem; align-items: start; }
+  figure { margin: 0; display: grid; gap: 0.5rem; min-width: 0; }
+  figure img { width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid var(--line); background: var(--navy); }
+  figure img:not([src]) { aspect-ratio: var(--ratio); }
+  figcaption { font-size: 0.9rem; color: var(--muted); }
+  figcaption b { color: var(--fg); }
+
+  .contact { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.2rem; display: grid; gap: 0.25rem; }
+  .select { user-select: all; font-family: var(--mono); font-size: 0.92rem; }
+
+  @media (max-width: 760px) {
+    .graphics { grid-template-columns: 1fr; }
+    .dates { grid-template-columns: 1fr; }
+    .date { border-right: 0; border-bottom: 1px solid var(--line); }
+    .date:last-child { border-bottom: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2OTIuNTIgMTc1LjQ4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMwOTc3YmM7CiAgICAgIH0KCiAgICAgIC5jbHMtMyB7CiAgICAgICAgZmlsbDogIzdjYjQ2YTsKICAgICAgfQoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjMDBhNzlkOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPgogICAgPGcgaWQ9IlByaW1hcnlfTG9nb19Ib3Jpem9udGFsX3dfb19UYWdsaW5lIiBkYXRhLW5hbWU9IlByaW1hcnkgTG9nbyBIb3Jpem9udGFsIHcvbyBUYWdsaW5lIj4KICAgICAgPGc+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjc3LjQzLDUxLjg5Yy45Ni0uMTMsMi4xNy0uMjcsMy42NS0uNDMsMS40Ny0uMTYsMy4wNy0uMyw0LjgtLjQzLDEuNzMtLjEzLDMuNS0uMjQsNS4zMy0uMzRzMy42LS4xNCw1LjMzLS4xNGMxMi4wOSwwLDIxLjI3LDMuMDIsMjcuNTQsOS4wNyw2LjI3LDYuMDQsOS40LDE1LjA1LDkuNCwyNy4wMXMtMy4yLDIxLjA2LTkuNTksMjYuNzJjLTYuNCw1LjY2LTE1Ljg3LDguNDktMjguNCw4LjQ5LTMuMiwwLTYuMjgtLjE0LTkuMjYtLjQzcy01LjktLjYyLTguNzgtMS4wMVY1MS44OVpNMjk0LjQxLDEwNi43OGMuNDUuMDYuOTYuMSwxLjU0LjFoMS44MmMyLjUsMCw0Ljg1LS4zLDcuMDUtLjkxLDIuMjEtLjYxLDQuMTEtMS42OCw1LjcxLTMuMjEsMS42LTEuNTQsMi44Ni0zLjYxLDMuNzktNi4yNC45My0yLjYyLDEuMzktNS45OCwxLjM5LTEwLjA4cy0uNDgtNy4zOS0xLjQ0LTEwLjA4Yy0uOTYtMi42OS0yLjIyLTQuODEtMy43OS02LjM4LTEuNTctMS41Ny0zLjQxLTIuNjktNS41Mi0zLjM2LTIuMTEtLjY3LTQuMzItMS4wMS02LjYyLTEuMDEtMS4yOCwwLTIuMjEuMDItMi43OC4wNS0uNTguMDMtLjk2LjA1LTEuMTUuMDV2NDEuMDdaIi8+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMzU3LjQ1LDUxLjhjMS42Ni0uMTksMy4yMS0uMzUsNC42NS0uNDgsMS40NC0uMTMsMi44OS0uMTksNC4zNy0uMTksMS4yMSwwLDIuNTQuMDYsMy45OC4xOSwxLjQ0LjEzLDMuMDkuMjksNC45NC40OGwyMS4yMSw2OC42MWMtMy42NS41OC02Ljg1Ljg2LTkuNi44Ni0xLjI4LDAtMi41Ni0uMDYtMy44NC0uMTktMS4yOC0uMTMtMi42Ni0uMzItNC4xMy0uNThsLTMuNjUtMTMuMzRjLTEuNzkuNTEtMy41LjktNS4xMywxLjE1LTEuNjMuMjYtMy4yNS4zOC00Ljg0LjM4LTEuNDcsMC0yLjk3LS4xMS00LjUxLS4zNC0xLjU0LS4yMi0zLjE0LS41Ni00LjgtMS4wMWwtMy41NSwxMy4xNGMtMS40Ny4yNS0yLjgyLjQ1LTQuMDMuNTgtMS4yMi4xMy0yLjQuMTktMy41NS4xOXMtMi40OC0uMDgtMy45OC0uMjRjLTEuNS0uMTYtMy4xOC0uNC01LjA0LS43MmwyMS40OS02OC41MVpNMzY1Ljk5LDY5Ljg0bC02LjQzLDI0LjY2YzEuMDkuMzIsMi4xMS41OCwzLjA3Ljc3Ljk2LjE5LDEuOTUuMjksMi45Ny4yOSwxLjA5LDAsMi4xNi0uMDgsMy4yMS0uMjQsMS4wNS0uMTYsMi4xNi0uNCwzLjMxLS43MmwtNi4xNC0yNC43NloiLz4KICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00MDYuNzcsNjYuNjdoLTE2LjAyYy0uNTgtMi43NS0uODYtNS4yOC0uODYtNy41OCwwLTIuMTEuMjktNC41Ny44Ni03LjM5aDQ5LjAzYy4yNSwxLjQxLjQ1LDIuNzIuNTgsMy45My4xMywxLjIyLjE5LDIuMzcuMTksMy40NSwwLDIuMTEtLjI2LDQuNjQtLjc3LDcuNThoLTE2LjAydjUzLjczYy0zLjM5LjU4LTYuMjEuODYtOC40NC44Ni0yLjM3LDAtNS4yMS0uMjktOC41NC0uODZ2LTUzLjczWiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ1NS4zMiw1MS44YzEuNjYtLjE5LDMuMjEtLjM1LDQuNjUtLjQ4LDEuNDQtLjEzLDIuODktLjE5LDQuMzctLjE5LDEuMjEsMCwyLjU0LjA2LDMuOTguMTksMS40NC4xMywzLjA5LjI5LDQuOTQuNDhsMjEuMjEsNjguNjFjLTMuNjUuNTgtNi44NS44Ni05LjYuODYtMS4yOCwwLTIuNTYtLjA2LTMuODQtLjE5LTEuMjgtLjEzLTIuNjYtLjMyLTQuMTMtLjU4bC0zLjY1LTEzLjM0Yy0xLjc5LjUxLTMuNS45LTUuMTMsMS4xNS0xLjYzLjI2LTMuMjUuMzgtNC44NC4zOC0xLjQ3LDAtMi45Ny0uMTEtNC41MS0uMzQtMS41NC0uMjItMy4xNC0uNTYtNC44LTEuMDFsLTMuNTUsMTMuMTRjLTEuNDcuMjUtMi44Mi40NS00LjAzLjU4LTEuMjIuMTMtMi40LjE5LTMuNTUuMTlzLTIuNDgtLjA4LTMuOTgtLjI0Yy0xLjUtLjE2LTMuMTgtLjQtNS4wNC0uNzJsMjEuNDktNjguNTFaTTQ2My44Niw2OS44NGwtNi40MywyNC42NmMxLjA5LjMyLDIuMTEuNTgsMy4wNy43Ny45Ni4xOSwxLjk1LjI5LDIuOTcuMjksMS4wOSwwLDIuMTYtLjA4LDMuMjEtLjI0LDEuMDUtLjE2LDIuMTYtLjQsMy4zMS0uNzJsLTYuMTQtMjQuNzZaIi8+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTIxLjgyLDUxLjg5Yy45Ni0uMTMsMi4xNy0uMjcsMy42NS0uNDMsMS40Ny0uMTYsMy4wNy0uMyw0LjgtLjQzLDEuNzMtLjEzLDMuNS0uMjQsNS4zMy0uMzRzMy42LS4xNCw1LjMzLS4xNGMxMi4wOSwwLDIxLjI3LDMuMDIsMjcuNTQsOS4wNyw2LjI3LDYuMDQsOS40LDE1LjA1LDkuNCwyNy4wMXMtMy4yLDIxLjA2LTkuNTksMjYuNzJjLTYuNCw1LjY2LTE1Ljg3LDguNDktMjguNCw4LjQ5LTMuMiwwLTYuMjgtLjE0LTkuMjYtLjQzcy01LjktLjYyLTguNzgtMS4wMVY1MS44OVpNNTM4LjgsMTA2Ljc4Yy40NS4wNi45Ni4xLDEuNTQuMWgxLjgyYzIuNSwwLDQuODUtLjMsNy4wNS0uOTEsMi4yMS0uNjEsNC4xMS0xLjY4LDUuNzEtMy4yMSwxLjYtMS41NCwyLjg2LTMuNjEsMy43OS02LjI0LjkzLTIuNjIsMS4zOS01Ljk4LDEuMzktMTAuMDhzLS40OC03LjM5LTEuNDQtMTAuMDhjLS45Ni0yLjY5LTIuMjItNC44MS0zLjc5LTYuMzgtMS41Ny0xLjU3LTMuNDEtMi42OS01LjUyLTMuMzYtMi4xMS0uNjctNC4zMi0xLjAxLTYuNjItMS4wMS0xLjI4LDAtMi4yMS4wMi0yLjc4LjA1LS41OC4wMy0uOTYuMDUtMS4xNS4wNXY0MS4wN1oiLz4KICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik02MDEuODQsNTEuOGMxLjY2LS4xOSwzLjIxLS4zNSw0LjY1LS40OCwxLjQ0LS4xMywyLjg5LS4xOSw0LjM3LS4xOSwxLjIxLDAsMi41NC4wNiwzLjk4LjE5LDEuNDQuMTMsMy4wOS4yOSw0Ljk0LjQ4bDIxLjIxLDY4LjYxYy0zLjY1LjU4LTYuODUuODYtOS42Ljg2LTEuMjgsMC0yLjU2LS4wNi0zLjg0LS4xOS0xLjI4LS4xMy0yLjY2LS4zMi00LjEzLS41OGwtMy42NS0xMy4zNGMtMS43OS41MS0zLjUuOS01LjEzLDEuMTUtMS42My4yNi0zLjI1LjM4LTQuODQuMzgtMS40NywwLTIuOTctLjExLTQuNTEtLjM0LTEuNTQtLjIyLTMuMTQtLjU2LTQuOC0xLjAxbC0zLjU1LDEzLjE0Yy0xLjQ3LjI1LTIuODIuNDUtNC4wMy41OC0xLjIyLjEzLTIuNC4xOS0zLjU1LjE5cy0yLjQ4LS4wOC0zLjk4LS4yNGMtMS41LS4xNi0zLjE4LS40LTUuMDQtLjcybDIxLjQ5LTY4LjUxWk02MTAuMzgsNjkuODRsLTYuNDMsMjQuNjZjMS4wOS4zMiwyLjExLjU4LDMuMDcuNzcuOTYuMTksMS45NS4yOSwyLjk3LjI5LDEuMDksMCwyLjE2LS4wOCwzLjIxLS4yNCwxLjA1LS4xNiwyLjE2LS40LDMuMzEtLjcybC02LjE0LTI0Ljc2WiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTY1NC4xNCw5NS45NGMtMS42Ni0zLjQ1LTMuNDEtNy4wNS01LjIzLTEwLjc5LTEuODItMy43NC0zLjY1LTcuNDgtNS40Ny0xMS4yM3MtMy42My03LjQ4LTUuNDItMTEuMjNjLTEuNzktMy43NC0zLjUyLTcuMzQtNS4xOC0xMC43OSwxLjA5LS4xOSwyLjU2LS4zNyw0LjQxLS41MywxLjg1LS4xNiwzLjYxLS4yNCw1LjI4LS4yNCwxLjM0LDAsMi44My4wOCw0LjQ2LjI0LDEuNjMuMTYsMy4wNS4zNCw0LjI3LjUzbDExLjgsMjYuNjcsMTEuMzItMjYuNjdjMS40Ny0uMjUsMy4wMS0uNDUsNC42MS0uNTgsMS42LS4xMywzLjIzLS4xOSw0Ljg5LS4xOSwxLjA5LDAsMi40OS4wOCw0LjIyLjI0LDEuNzMuMTYsMy4yLjM0LDQuNDEuNTNsLTIxLjQsNDQuMDR2MjQuNDdjLTMuMzkuNTgtNi4yMS44Ni04LjQ0Ljg2LTIuMzcsMC01LjIxLS4yOS04LjU0LS44NnYtMjQuNDdaIi8+CiAgICAgIDwvZz4KICAgICAgPGc+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjguNDEsMTA5LjI4Yy0zLjgtNS4yOC02LjEtMTEuNzItNi4xLTE4LjcyLDAtMTcuNzcsMTQuNDEtMzIuMTgsMzIuMTgtMzIuMThzMzIuMTgsMTQuNDEsMzIuMTgsMzIuMThjMCwyLjMyLS4yNyw0LjU3LS43NCw2Ljc1bDE0LjI5LDcuMTZjNS45LTcuMDYsMTQuNjctMTEuNjUsMjQuNTktMTEuNjUsNS41LDAsMTAuNjEsMS41MSwxNS4xNCwzLjk1bDE4LjMyLTIwLjUxYy0zLjQyLTUuMTEtNS40My0xMS4yNi01LjQzLTE3Ljg3LDAtMTcuNzcsMTQuNDEtMzIuMTgsMzIuMTgtMzIuMTgsMTQuMTQsMCwyNi4wMiw5LjE4LDMwLjM0LDIxLjg2bDExLjY4LS44N3YtMTguNDhjMC00Ljg0LTMuNzItOC44Ny04LjU1LTkuMjVMMTkuMDYuMDNjLTUuNC0uNDMtMTAuMDEsMy44NC0xMC4wMSw5LjI1djExNi42OEwwLDE0My4xOWw0LjY0LTUuNCwyMy43Ny0yOC41WiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTIxNi42Myw2NC4wOWMtMi43LDE1LjA0LTE1Ljc5LDI2LjQ3LTMxLjYsMjYuNDctNS4zMSwwLTEwLjI1LTEuNDEtMTQuNjctMy42OWwtMTguNTMsMjAuNzRjMy4yNCw1LjAyLDUuMTcsMTAuOTcsNS4xNywxNy4zOSwwLDE3Ljc3LTE0LjQxLDMyLjE4LTMyLjE4LDMyLjE4cy0zMi4xOC0xNC40MS0zMi4xOC0zMi4xOGMwLTIuMDcuMjQtNC4wOC42MS02LjA0bC0xNC42Mi03LjMyYy01LjksNi43NS0xNC40NywxMS4xLTI0LjE0LDExLjEtNC45MywwLTkuNTQtMS4yLTEzLjcyLTMuMThsLTMxLjcyLDM4LjA0djguNmMwLDUuNDEsNC42MSw5LjY4LDEwLjAxLDkuMjVsMTk5LjQzLTE5LjQzYzQuODMtLjM4LDguNTUtNC40MSw4LjU1LTkuMjV2LTc4LjkzbDYuMzctNS0xNi43OCwxLjI1WiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTU0LjQ5LDEwNy43OWM5LjUyLDAsMTcuMjQtNy43MiwxNy4yNC0xNy4yNHMtNy43Mi0xNy4yNC0xNy4yNC0xNy4yNC0xNy4yNCw3LjcyLTE3LjI0LDE3LjI0LDcuNzIsMTcuMjQsMTcuMjQsMTcuMjRaIi8+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy00IiBkPSJNMTA3LjU4LDEyNC45OWMwLDkuNTIsNy43MiwxNy4yNCwxNy4yNCwxNy4yNHMxNy4yNC03LjcyLDE3LjI0LTE3LjI0LTcuNzItMTcuMjQtMTcuMjQtMTcuMjQtMTcuMjQsNy43Mi0xNy4yNCwxNy4yNFoiLz4KICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODUuMDMsNzUuNjFjOS41MiwwLDE3LjI0LTcuNzIsMTcuMjQtMTcuMjRzLTcuNzItMTcuMjQtMTcuMjQtMTcuMjQtMTcuMjQsNy43Mi0xNy4yNCwxNy4yNCw3LjcyLDE3LjI0LDE3LjI0LDE3LjI0WiIvPgogICAgICA8L2c+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4=" alt="Data Day" width="692" height="175">
+    <p class="eyebrow">Champions kit · Call for Proposals</p>
+    <h1>Help fill the Data Day 2027 program</h1>
+    <p class="lede">The Call for Proposals is open. Everything you need to share it and to nudge a few great presenters is on this page, ready to copy.</p>
+    <span class="pill">Proposals due Friday, November 27</span>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section aria-labelledby="how">
+      <h2 id="how">How this works</h2>
+      <div class="steps">
+        <div class="step"><b>Share the call</b><span class="muted">Post or forward it through your channels: LinkedIn, email, a newsletter, a team meeting.</span></div>
+        <div class="step"><b>Nudge two or three people</b><span class="muted">Think of a colleague or team doing work the region should hear about, and ask them to submit.</span></div>
+      </div>
+      <p>Do one or both. MORPC staff review every proposal and make every selection, so your part ends once you've shared or nudged.</p>
+      <p class="rules"><b>Please don't</b> promise anyone a slot, offer to review or score proposals, or share what others have submitted. If your own team is submitting, that's great. Staff review it the same way as any other proposal.</p>
+    </section>
+
+    <section aria-labelledby="dates">
+      <h2 id="dates">Key dates</h2>
+      <div class="dates">
+        <div class="date"><span class="k">Call open</span><span class="v">Now</span></div>
+        <div class="date"><span class="k">Nudge by</span><span class="v">Fri, Nov 20, 2026</span></div>
+        <div class="date due"><span class="k">Proposals due</span><span class="v">Fri, Nov 27, 2026</span></div>
+        <div class="date"><span class="k">Speakers hear back</span><span class="v">December 2026</span></div>
+        <div class="date"><span class="k">Data Day 2027</span><span class="v">Thu, Feb 18, 2027</span></div>
+      </div>
+      <p class="muted">The deadline is the day after Thanksgiving, so most people will submit the week before. Nudges sent by November 20 have the best chance of landing.</p>
+    </section>
+
+    <section aria-labelledby="link">
+      <h2 id="link">The submission link</h2>
+      <div class="link-row">
+        <code id="form-url">https://forms.cloud.microsoft/r/p5reURxZpZ</code>
+        <button class="copy" type="button" data-copy="form-url">Copy link</button>
+      </div>
+      <p class="muted">Event details live at <b>morpc.org/dataday</b>. The slide below carries a QR code for the form.</p>
+    </section>
+
+    <section aria-labelledby="graphics">
+      <h2 id="graphics">Slide and social graphic</h2>
+      <p>Right-click (or long-press on a phone) and save the image. Please use them as they are, without editing.</p>
+      <div class="graphics">
+        <figure>
+          <img id="slide-img" alt="Promo slide: Data Day 2027, Plotting What's Next, Thursday, February 18, 2027. Call for Proposals now open, due Friday, November 27, with a QR code to submit." style="--ratio: 16 / 9">
+          <figcaption><b>Promo slide</b> · 1920 × 1080 for a deck or meeting screen</figcaption>
+        </figure>
+        <figure>
+          <img id="social-img" alt="Square social graphic: Call for Proposals now open. Share your work at Data Day 2027. Proposals due Friday, November 27." style="--ratio: 1 / 1">
+          <figcaption><b>Social graphic</b> · 1080 × 1080 for LinkedIn and other feeds</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="why">
+      <h2 id="why">Why present at Data Day</h2>
+      <article class="tpl">
+        <header><h3>"Why present" blurb</h3><button class="copy" type="button" data-copy="t-why">Copy</button></header>
+        <div class="body" id="t-why">Present at Data Day 2027. Data Day is Central Ohio's annual conference for the public-sector data community, and 2027 is its fifth year. Each year it draws 200+ people from 75+ organizations across local governments, nonprofits, educational institutions, and civic-minded businesses. A 45-minute session puts your project, method, tool, or lesson learned in front of the practitioners and decision-makers who can use it. Every data topic and every skill level is welcome, and this year the program especially encourages proposals on data governance, data management, data analysis, and data infrastructure. Proposals are due Friday, November 27, 2026.</div>
+      </article>
+      <article class="tpl">
+        <header><h3>One-line version</h3><button class="copy" type="button" data-copy="t-short">Copy</button></header>
+        <div class="body" id="t-short">Doing data work the region should hear about? Data Day 2027 wants your session proposal by November 27: https://forms.cloud.microsoft/r/p5reURxZpZ</div>
+      </article>
+      <h3>Reasons that land with hesitant presenters</h3>
+      <ul class="reasons">
+        <li><b>Your work doesn't have to be finished or flashy.</b> Lessons learned, a method that saved time, or a project that went sideways all make strong sessions.</li>
+        <li><b>The room is your peers.</b> Attendees do the same kind of work across the region, so practical detail is welcome.</li>
+        <li><b>Any level works.</b> Sessions range from "no technical background needed" to advanced.</li>
+        <li><b>The form is short.</b> A title, up to three objectives, a 100-word description, a 300-word abstract, speakers, skill level, up to two topic tags, and how you'll engage the room.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="share">
+      <h2 id="share">Copy for sharing</h2>
+      <p class="muted">Adapt freely. Your own voice works better than ours. Post from your own account.</p>
+      <article class="tpl">
+        <header><h3>LinkedIn post</h3><button class="copy" type="button" data-copy="t-linkedin">Copy</button></header>
+        <div class="body" id="t-linkedin">The Call for Proposals for Data Day 2027 is open.
+
+Data Day is Central Ohio's annual conference for the public-sector data community, hosted by MORPC, and this February marks its fifth year. If you're working on a project, method, or tool that others in the region could learn from, this is a great room to share it in.
+
+Every data topic is welcome, with extra interest this year in data governance, management, analysis, and infrastructure.
+
+Proposals due: Friday, November 27
+Data Day: Thursday, February 18, 2027, Center for Workforce Development, Columbus State
+
+Submit here: https://forms.cloud.microsoft/r/p5reURxZpZ
+More at morpc.org/dataday
+
+#DataDay2027 #CentralOhio #PublicSectorData</div>
+        <p class="note">Attach the social graphic.</p>
+      </article>
+      <article class="tpl">
+        <header><h3>Newsletter or email blurb</h3><button class="copy" type="button" data-copy="t-news">Copy</button></header>
+        <div class="body" id="t-news">Data Day 2027: Call for Proposals now open
+
+MORPC's fifth annual Data Day returns Thursday, February 18, 2027, at the Center for Workforce Development at Columbus State Community College. The Regional Data Roundtable is seeking 45-minute session proposals that share the tools, analyses, projects, and lessons advancing data work in Central Ohio. All topics and skill levels are welcome. Proposals are due Friday, November 27, 2026.
+
+Submit a proposal: https://forms.cloud.microsoft/r/p5reURxZpZ</div>
+      </article>
+      <article class="tpl">
+        <header><h3>Team meeting talking point</h3><button class="copy" type="button" data-copy="t-meeting">Copy</button></header>
+        <div class="body" id="t-meeting">Data Day's Call for Proposals is open through November 27. If you've done something this year that another city, county, or nonprofit could use, it's worth 45 minutes. Scan the QR code or ask me for the link.</div>
+        <p class="note">Put the promo slide on screen while you say it.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="nudge">
+      <h2 id="nudge">Nudging a potential presenter</h2>
+      <p>A personal ask from you is far more persuasive than any post.</p>
+      <article class="tpl">
+        <header><h3>Email</h3><button class="copy" type="button" data-copy="t-email">Copy</button></header>
+        <div class="body" id="t-email">Subject: You should present at Data Day
+
+Hi [Name],
+
+I'm helping spread the word about Data Day 2027, MORPC's annual conference for Central Ohio's data community. It's February 18, and the Call for Proposals is open through Friday, November 27.
+
+Your work on [specific project] came to mind right away. I think a lot of people in the room would want to hear how you [what they did / what they learned].
+
+Sessions are 45 minutes with plenty of time for questions, and the form is short: https://forms.cloud.microsoft/r/p5reURxZpZ
+
+No pressure either way, but I'd love to see you on the program.
+
+[Your name]</div>
+      </article>
+      <article class="tpl">
+        <header><h3>LinkedIn message or chat</h3><button class="copy" type="button" data-copy="t-dm">Copy</button></header>
+        <div class="body" id="t-dm">Hi [Name], the Data Day 2027 Call for Proposals is open through November 27. Your work on [thing] would make a great session, and the form only takes a few minutes: https://forms.cloud.microsoft/r/p5reURxZpZ</div>
+      </article>
+      <article class="tpl">
+        <header><h3>In person or by phone</h3><button class="copy" type="button" data-copy="t-person">Copy</button></header>
+        <div class="body" id="t-person">Have you thought about presenting at Data Day? Proposals are due November 27, and what you did with [thing] is exactly the kind of session people get a lot out of. I can send you the link.</div>
+      </article>
+      <article class="tpl">
+        <header><h3>Reminder, the week before</h3><button class="copy" type="button" data-copy="t-remind">Copy</button></header>
+        <div class="body" id="t-remind">Hi [Name], a quick reminder that Data Day proposals are due Friday, November 27 (the day after Thanksgiving). Here's the link again if you're still thinking it over: https://forms.cloud.microsoft/r/p5reURxZpZ</div>
+      </article>
+    </section>
+
+    <section aria-labelledby="ask">
+      <h2 id="ask">Questions you can hand off</h2>
+      <p>Whether an idea fits, how many sessions there are, when people hear back, co-presenting, speaker fees: send all of them to Jordan.</p>
+      <div class="contact">
+        <b>Jordan Inskeep, Mid-Ohio Regional Planning Commission</b>
+        <span class="select" id="email">jinskeep@morpc.org</span>
+        <span class="muted">Happy to take a second look at anything before you send it.</span>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script>
+  // Copy buttons: copy the text of the element named by data-copy.
+  document.querySelectorAll("button.copy").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const el = document.getElementById(btn.dataset.copy);
+      const text = el.innerText.trim();
+      const label = btn.textContent;
+      const done = () => {
+        btn.dataset.done = "";
+        btn.textContent = "Copied";
+        setTimeout(() => { delete btn.dataset.done; btn.textContent = label; }, 1600);
+      };
+      const selectFallback = () => {
+        const range = document.createRange();
+        range.selectNodeContents(el);
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        btn.textContent = "Selected, press Ctrl+C";
+        setTimeout(() => { btn.textContent = label; }, 2400);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, selectFallback);
+      } else {
+        selectFallback();
+      }
+    });
+  });
+
+  // Graphics: drawn on canvas in brand colors, then shown as <img> so viewers can save them.
+  const C = { navy: "#073451", divider: "#4A6B80", teal: "#00A79D", tealText: "#85D5D0", ink: "#171C21", fog: "#F2F4F6", white: "#FFFFFF" };
+  const LOGO_RATIO = 692.52 / 175.48;
+
+  function loadImage(src) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = reject;
+      img.src = src;
+    });
+  }
+
+  function text(ctx, str, x, y, size, weight, color, spacing) {
+    ctx.font = `${weight} ${size}px Figtree, "Segoe UI", Helvetica, Arial, sans-serif`;
+    ctx.fillStyle = color;
+    ctx.letterSpacing = spacing || "0px";
+    ctx.fillText(str, x, y);
+    ctx.letterSpacing = "0px";
+    return ctx.measureText(str).width;
+  }
+
+  function pill(ctx, str, x, y, size) {
+    ctx.font = `800 ${size}px Figtree, "Segoe UI", Helvetica, Arial, sans-serif`;
+    const padX = size * 0.9, h = size * 1.9;
+    const w = ctx.measureText(str).width + padX * 2;
+    ctx.fillStyle = C.teal;
+    ctx.beginPath();
+    ctx.roundRect(x, y, w, h, h / 2);
+    ctx.fill();
+    ctx.fillStyle = C.ink;
+    ctx.textBaseline = "middle";
+    ctx.fillText(str, x + padX, y + h / 2 + size * 0.04);
+    ctx.textBaseline = "alphabetic";
+    return h;
+  }
+
+  function drawSlide(logo, qr) {
+    const cv = document.createElement("canvas");
+    cv.width = 1920; cv.height = 1080;
+    const ctx = cv.getContext("2d");
+    ctx.fillStyle = C.navy; ctx.fillRect(0, 0, 1920, 1080);
+
+    // Left column: the event.
+    ctx.drawImage(logo, 120, 112, 104 * LOGO_RATIO, 104);
+    text(ctx, "Plotting What's Next", 120, 470, 66, 800, C.white);
+    text(ctx, "Five years forward for", 120, 536, 34, 400, C.fog);
+    text(ctx, "Central Ohio's data community", 120, 580, 34, 400, C.fog);
+    text(ctx, "Thursday, February 18, 2027", 120, 672, 34, 700, C.white);
+    text(ctx, "Center for Workforce Development", 120, 718, 32, 400, C.fog);
+    text(ctx, "Columbus State Community College", 120, 762, 32, 400, C.fog);
+    text(ctx, "morpc.org/dataday", 120, 968, 38, 700, C.tealText);
+
+    ctx.fillStyle = C.divider; ctx.fillRect(880, 0, 2, 1080);
+
+    // Right column: the call for proposals.
+    const x = 976;
+    text(ctx, "CALL FOR PROPOSALS NOW OPEN", x, 192, 30, 700, C.tealText, "4px");
+    text(ctx, "Share your work", x, 304, 96, 800, C.white);
+    text(ctx, "at Data Day", x, 404, 96, 800, C.white);
+    pill(ctx, "Proposals due Friday, November 27", x, 456, 40);
+
+    ctx.fillStyle = C.white;
+    ctx.beginPath(); ctx.roundRect(x, 616, 300, 344, 24); ctx.fill();
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(qr, x + 24, 640, 252, 252);
+    ctx.imageSmoothingEnabled = true;
+    ctx.textAlign = "center";
+    text(ctx, "Scan to submit", x + 150, 932, 28, 800, C.navy);
+    ctx.textAlign = "left";
+
+    text(ctx, "45-minute sessions", x + 348, 752, 32, 400, C.fog);
+    text(ctx, "All topics and", x + 348, 798, 32, 400, C.fog);
+    text(ctx, "skill levels welcome", x + 348, 844, 32, 400, C.fog);
+    return cv.toDataURL("image/png");
+  }
+
+  function drawSocial(logo) {
+    const cv = document.createElement("canvas");
+    cv.width = 1080; cv.height = 1080;
+    const ctx = cv.getContext("2d");
+    ctx.fillStyle = C.navy; ctx.fillRect(0, 0, 1080, 1080);
+
+    ctx.drawImage(logo, 80, 80, 84 * LOGO_RATIO, 84);
+    text(ctx, "CALL FOR PROPOSALS NOW OPEN", 80, 290, 30, 700, C.tealText, "4px");
+    text(ctx, "Share your work", 80, 398, 100, 800, C.white);
+    text(ctx, "at Data Day 2027", 80, 500, 100, 800, C.white);
+    text(ctx, "Plotting What's Next", 80, 578, 34, 700, C.white);
+    text(ctx, "Five years forward for Central Ohio's data community", 80, 622, 30, 400, C.fog);
+    pill(ctx, "Proposals due Friday, November 27", 80, 672, 38);
+
+    text(ctx, "Thursday, February 18, 2027", 80, 836, 32, 700, C.white);
+    text(ctx, "Center for Workforce Development, Columbus State", 80, 880, 30, 400, C.fog);
+
+    ctx.fillStyle = C.divider; ctx.fillRect(80, 930, 920, 2);
+    text(ctx, "morpc.org/dataday", 80, 1000, 38, 700, C.tealText);
+    return cv.toDataURL("image/png");
+  }
+
+  async function drawGraphics() {
+    try {
+      await Promise.all([
+        document.fonts.load('800 96px "Figtree"'),
+        document.fonts.load('700 32px "Figtree"'),
+        document.fonts.load('400 32px "Figtree"'),
+      ]);
+    } catch (e) { /* fall back to system sans */ }
+    const [logo, qr] = await Promise.all([loadImage("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2OTIuNTIgMTc1LjQ4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMwOTc3YmM7CiAgICAgIH0KCiAgICAgIC5jbHMtMyB7CiAgICAgICAgZmlsbDogIzdjYjQ2YTsKICAgICAgfQoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjMDBhNzlkOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPgogICAgPGcgaWQ9IlByaW1hcnlfTG9nb19Ib3Jpem9udGFsX3dfb19UYWdsaW5lIiBkYXRhLW5hbWU9IlByaW1hcnkgTG9nbyBIb3Jpem9udGFsIHcvbyBUYWdsaW5lIj4KICAgICAgPGc+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjc3LjQzLDUxLjg5Yy45Ni0uMTMsMi4xNy0uMjcsMy42NS0uNDMsMS40Ny0uMTYsMy4wNy0uMyw0LjgtLjQzLDEuNzMtLjEzLDMuNS0uMjQsNS4zMy0uMzRzMy42LS4xNCw1LjMzLS4xNGMxMi4wOSwwLDIxLjI3LDMuMDIsMjcuNTQsOS4wNyw2LjI3LDYuMDQsOS40LDE1LjA1LDkuNCwyNy4wMXMtMy4yLDIxLjA2LTkuNTksMjYuNzJjLTYuNCw1LjY2LTE1Ljg3LDguNDktMjguNCw4LjQ5LTMuMiwwLTYuMjgtLjE0LTkuMjYtLjQzcy01LjktLjYyLTguNzgtMS4wMVY1MS44OVpNMjk0LjQxLDEwNi43OGMuNDUuMDYuOTYuMSwxLjU0LjFoMS44MmMyLjUsMCw0Ljg1LS4zLDcuMDUtLjkxLDIuMjEtLjYxLDQuMTEtMS42OCw1LjcxLTMuMjEsMS42LTEuNTQsMi44Ni0zLjYxLDMuNzktNi4yNC45My0yLjYyLDEuMzktNS45OCwxLjM5LTEwLjA4cy0uNDgtNy4zOS0xLjQ0LTEwLjA4Yy0uOTYtMi42OS0yLjIyLTQuODEtMy43OS02LjM4LTEuNTctMS41Ny0zLjQxLTIuNjktNS41Mi0zLjM2LTIuMTEtLjY3LTQuMzItMS4wMS02LjYyLTEuMDEtMS4yOCwwLTIuMjEuMDItMi43OC4wNS0uNTguMDMtLjk2LjA1LTEuMTUuMDV2NDEuMDdaIi8+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMzU3LjQ1LDUxLjhjMS42Ni0uMTksMy4yMS0uMzUsNC42NS0uNDgsMS40NC0uMTMsMi44OS0uMTksNC4zNy0uMTksMS4yMSwwLDIuNTQuMDYsMy45OC4xOSwxLjQ0LjEzLDMuMDkuMjksNC45NC40OGwyMS4yMSw2OC42MWMtMy42NS41OC02Ljg1Ljg2LTkuNi44Ni0xLjI4LDAtMi41Ni0uMDYtMy44NC0uMTktMS4yOC0uMTMtMi42Ni0uMzItNC4xMy0uNThsLTMuNjUtMTMuMzRjLTEuNzkuNTEtMy41LjktNS4xMywxLjE1LTEuNjMuMjYtMy4yNS4zOC00Ljg0LjM4LTEuNDcsMC0yLjk3LS4xMS00LjUxLS4zNC0xLjU0LS4yMi0zLjE0LS41Ni00LjgtMS4wMWwtMy41NSwxMy4xNGMtMS40Ny4yNS0yLjgyLjQ1LTQuMDMuNTgtMS4yMi4xMy0yLjQuMTktMy41NS4xOXMtMi40OC0uMDgtMy45OC0uMjRjLTEuNS0uMTYtMy4xOC0uNC01LjA0LS43MmwyMS40OS02OC41MVpNMzY1Ljk5LDY5Ljg0bC02LjQzLDI0LjY2YzEuMDkuMzIsMi4xMS41OCwzLjA3Ljc3Ljk2LjE5LDEuOTUuMjksMi45Ny4yOSwxLjA5LDAsMi4xNi0uMDgsMy4yMS0uMjQsMS4wNS0uMTYsMi4xNi0uNCwzLjMxLS43MmwtNi4xNC0yNC43NloiLz4KICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00MDYuNzcsNjYuNjdoLTE2LjAyYy0uNTgtMi43NS0uODYtNS4yOC0uODYtNy41OCwwLTIuMTEuMjktNC41Ny44Ni03LjM5aDQ5LjAzYy4yNSwxLjQxLjQ1LDIuNzIuNTgsMy45My4xMywxLjIyLjE5LDIuMzcuMTksMy40NSwwLDIuMTEtLjI2LDQuNjQtLjc3LDcuNThoLTE2LjAydjUzLjczYy0zLjM5LjU4LTYuMjEuODYtOC40NC44Ni0yLjM3LDAtNS4yMS0uMjktOC41NC0uODZ2LTUzLjczWiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ1NS4zMiw1MS44YzEuNjYtLjE5LDMuMjEtLjM1LDQuNjUtLjQ4LDEuNDQtLjEzLDIuODktLjE5LDQuMzctLjE5LDEuMjEsMCwyLjU0LjA2LDMuOTguMTksMS40NC4xMywzLjA5LjI5LDQuOTQuNDhsMjEuMjEsNjguNjFjLTMuNjUuNTgtNi44NS44Ni05LjYuODYtMS4yOCwwLTIuNTYtLjA2LTMuODQtLjE5LTEuMjgtLjEzLTIuNjYtLjMyLTQuMTMtLjU4bC0zLjY1LTEzLjM0Yy0xLjc5LjUxLTMuNS45LTUuMTMsMS4xNS0xLjYzLjI2LTMuMjUuMzgtNC44NC4zOC0xLjQ3LDAtMi45Ny0uMTEtNC41MS0uMzQtMS41NC0uMjItMy4xNC0uNTYtNC44LTEuMDFsLTMuNTUsMTMuMTRjLTEuNDcuMjUtMi44Mi40NS00LjAzLjU4LTEuMjIuMTMtMi40LjE5LTMuNTUuMTlzLTIuNDgtLjA4LTMuOTgtLjI0Yy0xLjUtLjE2LTMuMTgtLjQtNS4wNC0uNzJsMjEuNDktNjguNTFaTTQ2My44Niw2OS44NGwtNi40MywyNC42NmMxLjA5LjMyLDIuMTEuNTgsMy4wNy43Ny45Ni4xOSwxLjk1LjI5LDIuOTcuMjksMS4wOSwwLDIuMTYtLjA4LDMuMjEtLjI0LDEuMDUtLjE2LDIuMTYtLjQsMy4zMS0uNzJsLTYuMTQtMjQuNzZaIi8+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTIxLjgyLDUxLjg5Yy45Ni0uMTMsMi4xNy0uMjcsMy42NS0uNDMsMS40Ny0uMTYsMy4wNy0uMyw0LjgtLjQzLDEuNzMtLjEzLDMuNS0uMjQsNS4zMy0uMzRzMy42LS4xNCw1LjMzLS4xNGMxMi4wOSwwLDIxLjI3LDMuMDIsMjcuNTQsOS4wNyw2LjI3LDYuMDQsOS40LDE1LjA1LDkuNCwyNy4wMXMtMy4yLDIxLjA2LTkuNTksMjYuNzJjLTYuNCw1LjY2LTE1Ljg3LDguNDktMjguNCw4LjQ5LTMuMiwwLTYuMjgtLjE0LTkuMjYtLjQzcy01LjktLjYyLTguNzgtMS4wMVY1MS44OVpNNTM4LjgsMTA2Ljc4Yy40NS4wNi45Ni4xLDEuNTQuMWgxLjgyYzIuNSwwLDQuODUtLjMsNy4wNS0uOTEsMi4yMS0uNjEsNC4xMS0xLjY4LDUuNzEtMy4yMSwxLjYtMS41NCwyLjg2LTMuNjEsMy43OS02LjI0LjkzLTIuNjIsMS4zOS01Ljk4LDEuMzktMTAuMDhzLS40OC03LjM5LTEuNDQtMTAuMDhjLS45Ni0yLjY5LTIuMjItNC44MS0zLjc5LTYuMzgtMS41Ny0xLjU3LTMuNDEtMi42OS01LjUyLTMuMzYtMi4xMS0uNjctNC4zMi0xLjAxLTYuNjItMS4wMS0xLjI4LDAtMi4yMS4wMi0yLjc4LjA1LS41OC4wMy0uOTYuMDUtMS4xNS4wNXY0MS4wN1oiLz4KICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik02MDEuODQsNTEuOGMxLjY2LS4xOSwzLjIxLS4zNSw0LjY1LS40OCwxLjQ0LS4xMywyLjg5LS4xOSw0LjM3LS4xOSwxLjIxLDAsMi41NC4wNiwzLjk4LjE5LDEuNDQuMTMsMy4wOS4yOSw0Ljk0LjQ4bDIxLjIxLDY4LjYxYy0zLjY1LjU4LTYuODUuODYtOS42Ljg2LTEuMjgsMC0yLjU2LS4wNi0zLjg0LS4xOS0xLjI4LS4xMy0yLjY2LS4zMi00LjEzLS41OGwtMy42NS0xMy4zNGMtMS43OS41MS0zLjUuOS01LjEzLDEuMTUtMS42My4yNi0zLjI1LjM4LTQuODQuMzgtMS40NywwLTIuOTctLjExLTQuNTEtLjM0LTEuNTQtLjIyLTMuMTQtLjU2LTQuOC0xLjAxbC0zLjU1LDEzLjE0Yy0xLjQ3LjI1LTIuODIuNDUtNC4wMy41OC0xLjIyLjEzLTIuNC4xOS0zLjU1LjE5cy0yLjQ4LS4wOC0zLjk4LS4yNGMtMS41LS4xNi0zLjE4LS40LTUuMDQtLjcybDIxLjQ5LTY4LjUxWk02MTAuMzgsNjkuODRsLTYuNDMsMjQuNjZjMS4wOS4zMiwyLjExLjU4LDMuMDcuNzcuOTYuMTksMS45NS4yOSwyLjk3LjI5LDEuMDksMCwyLjE2LS4wOCwzLjIxLS4yNCwxLjA1LS4xNiwyLjE2LS40LDMuMzEtLjcybC02LjE0LTI0Ljc2WiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTY1NC4xNCw5NS45NGMtMS42Ni0zLjQ1LTMuNDEtNy4wNS01LjIzLTEwLjc5LTEuODItMy43NC0zLjY1LTcuNDgtNS40Ny0xMS4yM3MtMy42My03LjQ4LTUuNDItMTEuMjNjLTEuNzktMy43NC0zLjUyLTcuMzQtNS4xOC0xMC43OSwxLjA5LS4xOSwyLjU2LS4zNyw0LjQxLS41MywxLjg1LS4xNiwzLjYxLS4yNCw1LjI4LS4yNCwxLjM0LDAsMi44My4wOCw0LjQ2LjI0LDEuNjMuMTYsMy4wNS4zNCw0LjI3LjUzbDExLjgsMjYuNjcsMTEuMzItMjYuNjdjMS40Ny0uMjUsMy4wMS0uNDUsNC42MS0uNTgsMS42LS4xMywzLjIzLS4xOSw0Ljg5LS4xOSwxLjA5LDAsMi40OS4wOCw0LjIyLjI0LDEuNzMuMTYsMy4yLjM0LDQuNDEuNTNsLTIxLjQsNDQuMDR2MjQuNDdjLTMuMzkuNTgtNi4yMS44Ni04LjQ0Ljg2LTIuMzcsMC01LjIxLS4yOS04LjU0LS44NnYtMjQuNDdaIi8+CiAgICAgIDwvZz4KICAgICAgPGc+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjguNDEsMTA5LjI4Yy0zLjgtNS4yOC02LjEtMTEuNzItNi4xLTE4LjcyLDAtMTcuNzcsMTQuNDEtMzIuMTgsMzIuMTgtMzIuMThzMzIuMTgsMTQuNDEsMzIuMTgsMzIuMThjMCwyLjMyLS4yNyw0LjU3LS43NCw2Ljc1bDE0LjI5LDcuMTZjNS45LTcuMDYsMTQuNjctMTEuNjUsMjQuNTktMTEuNjUsNS41LDAsMTAuNjEsMS41MSwxNS4xNCwzLjk1bDE4LjMyLTIwLjUxYy0zLjQyLTUuMTEtNS40My0xMS4yNi01LjQzLTE3Ljg3LDAtMTcuNzcsMTQuNDEtMzIuMTgsMzIuMTgtMzIuMTgsMTQuMTQsMCwyNi4wMiw5LjE4LDMwLjM0LDIxLjg2bDExLjY4LS44N3YtMTguNDhjMC00Ljg0LTMuNzItOC44Ny04LjU1LTkuMjVMMTkuMDYuMDNjLTUuNC0uNDMtMTAuMDEsMy44NC0xMC4wMSw5LjI1djExNi42OEwwLDE0My4xOWw0LjY0LTUuNCwyMy43Ny0yOC41WiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTIxNi42Myw2NC4wOWMtMi43LDE1LjA0LTE1Ljc5LDI2LjQ3LTMxLjYsMjYuNDctNS4zMSwwLTEwLjI1LTEuNDEtMTQuNjctMy42OWwtMTguNTMsMjAuNzRjMy4yNCw1LjAyLDUuMTcsMTAuOTcsNS4xNywxNy4zOSwwLDE3Ljc3LTE0LjQxLDMyLjE4LTMyLjE4LDMyLjE4cy0zMi4xOC0xNC40MS0zMi4xOC0zMi4xOGMwLTIuMDcuMjQtNC4wOC42MS02LjA0bC0xNC42Mi03LjMyYy01LjksNi43NS0xNC40NywxMS4xLTI0LjE0LDExLjEtNC45MywwLTkuNTQtMS4yLTEzLjcyLTMuMThsLTMxLjcyLDM4LjA0djguNmMwLDUuNDEsNC42MSw5LjY4LDEwLjAxLDkuMjVsMTk5LjQzLTE5LjQzYzQuODMtLjM4LDguNTUtNC40MSw4LjU1LTkuMjV2LTc4LjkzbDYuMzctNS0xNi43OCwxLjI1WiIvPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTU0LjQ5LDEwNy43OWM5LjUyLDAsMTcuMjQtNy43MiwxNy4yNC0xNy4yNHMtNy43Mi0xNy4yNC0xNy4yNC0xNy4yNC0xNy4yNCw3LjcyLTE3LjI0LDE3LjI0LDcuNzIsMTcuMjQsMTcuMjQsMTcuMjRaIi8+CiAgICAgICAgPHBhdGggY2xhc3M9ImNscy00IiBkPSJNMTA3LjU4LDEyNC45OWMwLDkuNTIsNy43MiwxNy4yNCwxNy4yNCwxNy4yNHMxNy4yNC03LjcyLDE3LjI0LTE3LjI0LTcuNzItMTcuMjQtMTcuMjQtMTcuMjQtMTcuMjQsNy43Mi0xNy4yNCwxNy4yNFoiLz4KICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODUuMDMsNzUuNjFjOS41MiwwLDE3LjI0LTcuNzIsMTcuMjQtMTcuMjRzLTcuNzItMTcuMjQtMTcuMjQtMTcuMjQtMTcuMjQsNy43Mi0xNy4yNCwxNy4yNCw3LjcyLDE3LjI0LDE3LjI0LDE3LjI0WiIvPgogICAgICA8L2c+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4="), loadImage("data:image/png;base64,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")]);
+    document.getElementById("slide-img").src = drawSlide(logo, qr);
+    document.getElementById("social-img").src = drawSocial(logo);
+  }
+  drawGraphics();
+</script>
