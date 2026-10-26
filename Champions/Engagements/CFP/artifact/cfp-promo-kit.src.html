@@ -412,6 +412,31 @@ No pressure either way, but I'd love to see you on the program.
     subLines.forEach((line) => { text(ctx, line, tx, ty, subSize, 700, C.white, SANS, `${subSize * 0.02}px`); ty += subSize * 1.3; });
   }
 
+  // Teal-dot bulleted list, wrapped to width (or at "\n") and vertically centered on midY.
+  function bullets(ctx, items, x, midY, size, width) {
+    ctx.font = `500 ${size}px ${SANS}`;
+    const indent = size * 0.9, lineH = size * 1.3, itemGap = size * 0.6;
+    const wrapped = items.map((item) => item.split("\n").flatMap((para) => {
+      const lines = [];
+      let line = "";
+      para.split(" ").forEach((word) => {
+        const next = line ? `${line} ${word}` : word;
+        if (line && ctx.measureText(next).width > width - indent) { lines.push(line); line = word; }
+        else line = next;
+      });
+      lines.push(line);
+      return lines;
+    }));
+    const total = wrapped.reduce((h, l) => h + l.length * lineH, 0) + itemGap * (items.length - 1);
+    let y = midY - total / 2 + size * 0.95;
+    wrapped.forEach((lines) => {
+      ctx.fillStyle = C.teal;
+      ctx.beginPath(); ctx.arc(x + size * 0.22, y - size * 0.33, size * 0.2, 0, Math.PI * 2); ctx.fill();
+      lines.forEach((line) => { text(ctx, line, x + indent, y, size, 500, C.slate); y += lineH; });
+      y += itemGap;
+    });
+  }
+
   // Largest size up to max at which str fits in width.
   function fitSize(ctx, str, weight, max, width) {
     ctx.font = `${weight} ${max}px ${SANS}`;
@@ -436,24 +461,26 @@ No pressure either way, but I'd love to see you on the program.
     const x = 96;
     text(ctx, "Share your work", x, 166, 96, 800, C.band);
     text(ctx, "at Data Day 2027", x, 268, 96, 800, C.band);
-    pill(ctx, "Proposals due Friday, November 27", x, 355, 38);
+    pill(ctx, "Proposals due Friday, November 27", x, 335, 38);
 
-    const qrTop = 492;
+    const qrTop = 452, card = 320, qrSize = 276;
     ctx.fillStyle = C.white; ctx.strokeStyle = C.mist; ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.roundRect(x, qrTop, 260, 288, 20); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.roundRect(x, qrTop, card, 348, 20); ctx.fill(); ctx.stroke();
     ctx.imageSmoothingEnabled = false;
-    ctx.drawImage(qr, x + 22, qrTop + 22, 216, 216);
+    ctx.drawImage(qr, x + (card - qrSize) / 2, qrTop + 22, qrSize, qrSize);
     ctx.imageSmoothingEnabled = true;
     ctx.textAlign = "center";
-    text(ctx, "Scan to submit", x + 130, qrTop + 270, 24, 800, C.band);
+    text(ctx, "Scan to submit", x + card / 2, qrTop + 328, 26, 800, C.band);
     ctx.textAlign = "left";
 
-    text(ctx, "45-minute sessions", x + 308, qrTop + 108, 30, 500, C.slate);
-    text(ctx, "All topics and", x + 308, qrTop + 154, 30, 500, C.slate);
-    text(ctx, "skill levels welcome", x + 308, qrTop + 200, 30, 500, C.slate);
+    bullets(ctx, [
+      "45-minute sessions",
+      "All topics and skill levels welcome",
+      "Focus on interaction and\naudience engagement",
+    ], x + card + 52, qrTop + 174, 30, 984 - (x + card + 52));
 
     // Base of the left panel: Data Day and MORPC logos, filling the width.
-    const right = split - 96, logoH = 108, logoTop = 876;
+    const right = split - 96, logoH = 108, logoTop = 877;
     ctx.fillStyle = C.mist; ctx.fillRect(x, logoTop - 32, right - x, 2);
     ctx.drawImage(ddLogo, x, logoTop, logoH * DD_RATIO, logoH);
     ctx.drawImage(morpc, right - logoH * MORPC_RATIO, logoTop, logoH * MORPC_RATIO, logoH);
