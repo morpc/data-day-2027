@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Rising scatter points resolving into a trend line with an arrow (theme motif). -->
+  <g fill="none" stroke-linecap="round">
+    <line x1="40" y1="460" x2="760" y2="460" stroke="#4A6B80" stroke-width="3"/>
+    <line x1="40" y1="460" x2="40" y2="40" stroke="#4A6B80" stroke-width="3"/>
+    <path d="M70 420 C 260 400, 420 300, 700 90" stroke="#00A79D" stroke-width="6"/>
+    <path d="M660 88 L 712 82 L 700 134" stroke="#00A79D" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <circle cx="90" cy="430" r="11" fill="#0977BC"/>
+    <circle cx="170" cy="395" r="11" fill="#7CB46A"/>
+    <circle cx="250" cy="405" r="11" fill="#0977BC"/>
+    <circle cx="330" cy="350" r="11" fill="#00A79D"/>
+    <circle cx="410" cy="330" r="11" fill="#7CB46A"/>
+    <circle cx="490" cy="270" r="11" fill="#0977BC"/>
+    <circle cx="570" cy="220" r="11" fill="#00A79D"/>
+    <circle cx="630" cy="175" r="11" fill="#7CB46A"/>
+  </g>
+</svg>
