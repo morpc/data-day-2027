@@ -12,7 +12,7 @@ In 2027, the standing monthly Working Group is replaced by **Data Day Champions*
 
 ### The five ways to help (agreed scope)
 1. **Connect with potential keynote speakers** (Aug–Oct; keynotes finalize mid-Nov). Scouts/connectors only; staff invite and negotiate.
-2. **Share the CFP & recruit session speakers** (late Sep–early Nov). Amplify the Call for Proposals and personally nudge strong presenters; staff review/select.
+2. **Share the CFP & recruit session speakers** (late Sep–Nov 30). Amplify the Call for Proposals and personally nudge strong presenters; staff review/select.
 3. **Solicit sponsors** (Sep–Nov). Treated like any other ask — open to all Champions. Introductions only; staff own package/pricing/ask/invoicing. A shared contact log remains good practice to avoid collisions.
 4. **Encourage registration** (Nov–late Jan). Amplification and peer/team invitation once registration opens.
 5. **Take a day-of role** (assign Jan, execute Feb 18). Facilitator is the anchor role; also workshop session assistant, greeter, room host, social/photo.
@@ -25,6 +25,7 @@ In 2027, the standing monthly Working Group is replaced by **Data Day Champions*
 - **`Recruitment/faq.md`** — champion-facing FAQ grouped into role / time & commitment / who can help / the asks / logistics. *Status: final (md + PDF); all placeholders filled, including the registration-comp and recognition decisions.*
 - **`launch_checklist.md`** — internal staff checklist in five phases (foundations / infrastructure / recruit / run the asks / recognize & evaluate) plus metrics and a critical-path coverage rule. *Status: live working document, reviewed Sep 14, 2026. Phase 1 decisions all locked; staff fallback owners still unnamed.*
 - **Recruitment emails (two variants)** — "Broad open call" and "Personal targeted ask," written in the Regional Data Agenda voice. *Status: final (md + PDF). Broad call sent Aug 2026 to 205 contacts; targeted asks not yet sent.*
+- **`Engagements/CFP/`** — Ask 2 kit: `cfp-promo-kit.md` (key dates, "why present" blurb, sharing copy, presenter nudge templates) with PDF, `cfp-request-email.md` (staff → Champions ask), and a promo slide + square social graphic in `graphics/`. Rebuild all outputs with `build-kit.sh`. *Status: draft; request email not yet sent.* The Champion-facing kit is the artifact page at https://claude.ai/artifact/EENv8uv7arWm2ot7MczNY6, built from `Engagements/CFP/artifact/` by `build-artifact.py`, which also writes linked PDFs of the slide and social graphic to `artifact/pdf/`.
 - **Forms (built and live)** — [Champion sign-up](https://forms.cloud.microsoft/r/7cFXhbQeMc) and [suggest a keynote](https://forms.cloud.microsoft/r/mYmz1bctPH); specs in `Recruitment/signup-form.md` and `Engagements/Keynotes/keynote-suggestion-form.md`.
 
 ---

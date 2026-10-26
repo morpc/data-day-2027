@@ -37,7 +37,7 @@ The model rests on "every ask comes with a kit." Build the systems and the kits 
 - [ ] **Resource kits** — draft each before its ask window opens:
   - [x] Theme + keynote-criteria one-pager and "suggest a keynote" form — [live form](https://forms.cloud.microsoft/r/mYmz1bctPH); spec in [keynote-suggestion-form.md](Engagements/Keynotes/keynote-suggestion-form.md)
   - [x] Warm-intro templates (keynote and sponsor) — [keynote](Engagements/Keynotes/keynote-intro-template.md) and [sponsor](Engagements/Sponsors/sponsor-intro-template.md), both with PDFs
-  - [ ] CFP promo kit (slide, social graphic, suggested copy, "why present" blurb, key dates)
+  - [x] CFP promo kit (slide, social graphic, suggested copy, "why present" blurb, key dates) — [cfp-promo-kit.md](Engagements/CFP/cfp-promo-kit.md) with PDF, [request email](Engagements/CFP/cfp-request-email.md), and [graphics](Engagements/CFP/graphics/); rebuild with `build-kit.sh`
   - [x] Sponsorship brochure + one-line tier/benefit summary — [DataDay2027_SponsorshipBrochure.md](../Sponsors/DataDay2027_SponsorshipBrochure.md)
   - [ ] Registration promo kit (email + social copy and graphics for each push moment)
   - [ ] Facilitator / day-of cheat sheet (intro template, time cues, Q&A prompts, AV contact, run-of-show)
@@ -64,7 +64,7 @@ The model rests on "every ask comes with a kit." Build the systems and the kits 
 For each ask: confirm the kit is ready, make the right ask to the right Champion at the right time, and confirm a **staff fallback owner** so the critical path is never dependent on a volunteer.
 
 - [ ] **Keynote connections** *(Aug–Oct; finalize mid-Nov)* — Champions suggest/intro candidates. **Staff fallback owner: ______.**
-- [ ] **CFP promotion & speaker recruiting** *(late Sep–early Nov)* — Champions share and nudge. **Staff fallback owner: ______.**
+- [ ] **CFP promotion & speaker recruiting** *(late Sep–Nov 30)* — Champions share and nudge. **Staff fallback owner: ______.**
 - [ ] **Sponsor solicitation** *(Sep–Nov)* — open to all Champions, same as every other ask; introductions only, financials routed to staff. **Staff fallback owner: ______.**
 - [ ] **Registration drive** *(Nov–late Jan, ramping after the agenda publishes)* — Champions share and invite teams. **Staff fallback owner: ______.**
 - [ ] **Day-of roles** *(assign in Jan; execute Feb 18)* — facilitators connect with speakers in early February; brief all roles before the event. **Staff fallback owner: ______.**

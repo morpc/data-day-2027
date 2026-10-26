@@ -34,7 +34,7 @@ Below are five ways to help.
 - Share the CFP through your channels: email, LinkedIn, your organization's newsletter, etc.  
 - Personally encourage two or three people or teams you think would present well.  
 
-**When:** Late September through early November, about a six-week window.  
+**When:** Late September through November 30, when proposals are due.  
 **Time:** An hour or two, spread across a few nudges.  
 **What you'll have:** The CFP link, a ready-made promo slide and social graphic with suggested copy, a short "why present at Data Day" blurb, and the key dates.  
 

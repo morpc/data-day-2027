@@ -66,12 +66,12 @@ exact dates as the cycle progresses.
 - [ ] Build resource kits _(kit-before-ask gate)_
   - [x] Keynote criteria one-pager + "suggest a keynote" form _(Aug 2026)_
   - [x] Sponsorship brochure + one-line tier/benefit summary _(Aug 2026)_
-  - [ ] CFP promo kit (slide, social graphic, copy, "why present" blurb, key dates) _(Sep 2026)_
+  - [x] CFP promo kit (slide, social graphic, copy, "why present" blurb, key dates) _(Oct 2026)_ — [kit](Champions/Engagements/CFP/cfp-promo-kit.md)
   - [ ] Registration promo kit (email + social copy/graphics per push) _(Oct 2026)_
   - [ ] Facilitator / day-of cheat sheet + run-of-show _(Dec 2026)_
 - [ ] Run the schedule of asks
   - [x] Ask 1 — Connect with potential keynote speakers _(Aug–Oct 2026)_
-  - [ ] Ask 2 — Share the CFP & recruit session speakers _(late Sep–early Nov 2026)_
+  - [ ] Ask 2 — Share the CFP & recruit session speakers _(late Sep–Nov 30, 2026)_
   - [ ] Ask 3 — Solicit sponsors (open to all Champions; shared contact log) _(Sep–Nov 2026)_
   - [ ] Ask 4 — Encourage registration _(Nov 2026–late Jan 2027)_
   - [ ] Ask 5 — Take a day-of role _(assign Jan, execute Feb 18, 2027)_
@@ -90,14 +90,14 @@ exact dates as the cycle progresses.
 - [ ] Prepare the Call for Proposals _(after theme is set)_
   - [ ] Update/finalize the call for session proposals _(Sep 2026)_ _(in progress: [2027 CFP draft](Breakouts/CFP/cfp-2027-draft.md) with topic tags and 9:00 AM–3:45 PM hours; still needs release date, deadline, form link, officer names, and the staff-only focus area / pillar / reflection questions)_
   - [ ] Convert the CFP to an online form _(Oct 2026)_
-  - [ ] Design the CFP promotion slide _(Oct 2026)_
-  - [ ] Update the CFP website section _(Oct 2026)_
+  - [x] Design the CFP promotion slide _(Oct 2026)_ — [slide](Champions/Engagements/CFP/graphics/cfp-slide-1920x1080.png)
+  - [x] Update the CFP website section _(Oct 2026)_ — [Breakouts page](docs/breakouts.html)
 - [ ] Launch and promote the CFP
   - [ ] Email the CFP to the list _(Oct 2026)_
   - [ ] Promote the CFP — including at the Summit on Sustainability _(Oct 2026; supported by Champions Ask 2)_
-  - [ ] Update the website with the CFP _(Oct 2026)_
+  - [x] Update the website with the CFP _(Oct 2026)_ — Breakouts page, homepage banner and card
 - [ ] Select sessions
-  - [ ] Close the call for session proposals _(mid-Nov 2026)_
+  - [ ] Close the call for session proposals _(Nov 30, 2026)_
   - [ ] Vet and select sessions _(Dec 2026)_
   - [ ] Confirm/notify selected session speakers _(Dec 2026)_
 - [ ] Build the agenda and materials

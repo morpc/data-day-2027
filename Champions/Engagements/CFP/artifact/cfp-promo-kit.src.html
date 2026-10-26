@@ -1,0 +1,317 @@
+<title>Data Day CFP Promo Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: navy masthead band, then one reading column of kit sections; graphics and templates sit in white cards. */
+  :root {
+    --navy: #073451;
+    --blue-link: #07588B;
+    --teal: #00A79D;
+    --teal-text: #007C74;
+    --teal-wash: #E6F6F5;
+    --ink: #171C21;
+    --slate: #5F6B75;
+    --mist: #DDE2E7;
+    --fog: #F2F4F6;
+    --card: #FFFFFF;
+    --bg: var(--fog);
+    --fg: var(--ink);
+    --muted: var(--slate);
+    --line: var(--mist);
+    --link: var(--blue-link);
+    --accent-text: var(--teal-text);
+    --wash: var(--teal-wash);
+    --band: var(--navy);
+    --band-fg: #FFFFFF;
+    --band-muted: #BFCAD2;
+    --pill-bg: var(--teal);
+    --pill-fg: var(--ink);
+    --focus: #0977BC;
+    --font: "Figtree", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #171C21; --fg: #F2F4F6; --muted: #889EAB; --line: #2A3238; --card: #1F262C;
+      --link: #89BEDF; --accent-text: #85D5D0; --wash: #12302F; --band: #041C2B;
+      --band-muted: #889EAB; --focus: #89BEDF; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #171C21; --fg: #F2F4F6; --muted: #889EAB; --line: #2A3238; --card: #1F262C;
+    --link: #89BEDF; --accent-text: #85D5D0; --wash: #12302F; --band: #041C2B;
+    --band-muted: #889EAB; --focus: #89BEDF; color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 1rem; line-height: 1.6; }
+  a { color: var(--link); }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  h1, h2, h3 { text-wrap: balance; line-height: 1.15; margin: 0; }
+
+  .wrap { max-width: 52rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+  .masthead { background: var(--band); color: var(--band-fg); }
+  .masthead .wrap { padding-block: 2rem 2.5rem; display: grid; gap: 1.25rem; }
+  .masthead img { width: 9rem; height: auto; display: block; }
+  .eyebrow { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: #85D5D0; margin: 0; }
+  .masthead h1 { font-size: clamp(2rem, 5vw, 2.9rem); font-weight: 800; }
+  .masthead p.lede { margin: 0; color: var(--band-muted); max-width: 38rem; font-size: 1.08rem; }
+  .pill { display: inline-block; background: var(--pill-bg); color: var(--pill-fg); font-weight: 800; border-radius: 999px; padding: 0.4rem 1rem; justify-self: start; }
+
+  main .wrap { padding-block: 2rem 4rem; display: grid; gap: 3rem; }
+  section { display: grid; gap: 1rem; min-width: 0; }
+  section > h2 { font-size: 1.5rem; font-weight: 800; color: var(--fg); padding-bottom: 0.5rem; border-bottom: 2px solid var(--line); }
+  h3 { font-size: 1.08rem; font-weight: 700; }
+  p { margin: 0; max-width: 65ch; }
+  .muted { color: var(--muted); }
+
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+  .step { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.2rem; display: grid; gap: 0.35rem; align-content: start; }
+  .step b { font-size: 1.05rem; }
+  .rules { background: var(--wash); border-radius: 10px; padding: 1rem 1.2rem; }
+
+  .dates { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card); }
+  .date { padding: 1rem 1.1rem; border-right: 1px solid var(--line); display: grid; gap: 0.15rem; }
+  .date:last-child { border-right: 0; }
+  .date .k { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .date .v { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .date.due .v { color: var(--accent-text); }
+
+  .link-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; }
+  .link-row code { font-family: var(--mono); font-size: 0.9rem; overflow-wrap: anywhere; min-width: 0; flex: 1 1 16rem; }
+
+  .tpl { background: var(--card); border: 1px solid var(--line); border-radius: 10px; display: grid; min-width: 0; }
+  .tpl header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.7rem 0.8rem 0.7rem 1.1rem; border-bottom: 1px solid var(--line); }
+  .tpl header h3 { font-size: 1rem; }
+  .tpl .body { padding: 1rem 1.1rem 1.1rem; white-space: pre-wrap; overflow-wrap: anywhere; min-width: 0; }
+  .tpl .note { padding: 0 1.1rem 1rem; color: var(--muted); font-size: 0.92rem; }
+
+  button.copy { font: 600 0.88rem var(--font); color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 0.35rem 0.9rem; cursor: pointer; white-space: nowrap; }
+  button.copy:hover { border-color: var(--accent-text); color: var(--accent-text); }
+  button.copy[data-done] { background: var(--pill-bg); border-color: var(--pill-bg); color: var(--pill-fg); }
+
+  .reasons { display: grid; gap: 0.6rem; padding: 0; margin: 0; list-style: none; }
+  .reasons li { padding-left: 1.1rem; position: relative; max-width: 65ch; }
+  .reasons li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--teal); }
+
+  .graphics { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1rem; align-items: start; }
+  figure { margin: 0; display: grid; gap: 0.5rem; min-width: 0; }
+  figure img { width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid var(--line); background: var(--navy); }
+  figure img:not([src]) { aspect-ratio: var(--ratio); }
+  .shot { position: relative; }
+  .hotspot { position: absolute; border-radius: 6px; }
+  .hotspot:hover { outline: 2px solid var(--focus); outline-offset: 2px; }
+  figcaption { font-size: 0.9rem; color: var(--muted); }
+  figcaption b { color: var(--fg); }
+
+  .contact { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.2rem; display: grid; gap: 0.25rem; }
+  .select { user-select: all; font-family: var(--mono); font-size: 0.92rem; }
+
+  @media (max-width: 760px) {
+    .graphics { grid-template-columns: 1fr; }
+    .dates { grid-template-columns: 1fr; }
+    .date { border-right: 0; border-bottom: 1px solid var(--line); }
+    .date:last-child { border-bottom: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <img src="{{LOGO_WHITE}}" alt="Data Day" width="692" height="175">
+    <p class="eyebrow">Champions kit · Call for Proposals</p>
+    <h1>Help fill the Data Day 2027 program</h1>
+    <p class="lede">The Call for Proposals is open. Everything you need to share it and to nudge a few great presenters is on this page, ready to copy.</p>
+    <span class="pill">Proposals due Monday, November 30</span>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section aria-labelledby="how">
+      <h2 id="how">How this works</h2>
+      <div class="steps">
+        <div class="step"><b>Share the call</b><span class="muted">Post or forward it through your channels: LinkedIn, email, a newsletter, a team meeting.</span></div>
+        <div class="step"><b>Nudge two or three people</b><span class="muted">Think of a colleague or team doing work the region should hear about, and ask them to submit.</span></div>
+      </div>
+      <p>Do one or both. MORPC staff review every proposal and make every selection, so your part ends once you've shared or nudged.</p>
+      <p class="rules"><b>Please don't</b> promise anyone a slot, offer to review or score proposals, or share what others have submitted. If your own team is submitting, that's great. Staff review it the same way as any other proposal.</p>
+    </section>
+
+    <section aria-labelledby="dates">
+      <h2 id="dates">Key dates</h2>
+      <div class="dates">
+        <div class="date"><span class="k">Call open</span><span class="v">Now</span></div>
+        <div class="date"><span class="k">Nudge by</span><span class="v">Fri, Nov 20, 2026</span></div>
+        <div class="date due"><span class="k">Proposals due</span><span class="v">Mon, Nov 30, 2026</span></div>
+        <div class="date"><span class="k">Speakers hear back</span><span class="v">December 2026</span></div>
+        <div class="date"><span class="k">Data Day 2027</span><span class="v">Thu, Feb 18, 2027</span></div>
+      </div>
+      <p class="muted">The deadline is the Monday after Thanksgiving, so many people will want to submit before the holiday. Nudges sent by November 20 have the best chance of landing.</p>
+    </section>
+
+    <section aria-labelledby="link">
+      <h2 id="link">The submission link</h2>
+      <div class="link-row">
+        <code id="form-url">https://tinyurl.com/dataday-cfp</code>
+        <button class="copy" type="button" data-copy="form-url">Copy link</button>
+      </div>
+      <p class="muted">Event details live at <b>morpc.org/dataday</b>. The slide below carries a QR code for the form.</p>
+    </section>
+
+    <section aria-labelledby="graphics">
+      <h2 id="graphics">Slide and social graphic</h2>
+      <p>Right-click (or long-press on a phone) and save the image. Please use them as they are, without editing. The web address and QR code on each preview open their links.</p>
+      <div class="graphics">
+        <figure>
+          <div class="shot"><img id="slide-img" alt="Promo slide: Data Day 2027, Plotting What's Next, Thursday, February 18, 2027. Call for Proposals now open, due Monday, November 30, with a QR code to submit." style="--ratio: 16 / 9"></div>
+          <figcaption><b>Promo slide</b> · 1920 × 1080 for a deck or meeting screen</figcaption>
+        </figure>
+        <figure>
+          <div class="shot"><img id="social-img" alt="Square social graphic: Plotting What's Next, Thursday, February 18, 2027, CSCC Center for Workforce Development, more info at morpc.org/dataday. Share your work at Data Day 2027. Proposals due Monday, November 30, with a QR code and tinyurl.com/dataday-cfp to submit." style="--ratio: 1 / 1"></div>
+          <figcaption><b>Social graphic</b> · 1080 × 1080 for LinkedIn and other feeds</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="why">
+      <h2 id="why">Why present at Data Day</h2>
+      <article class="tpl">
+        <header><h3>"Why present" blurb</h3><button class="copy" type="button" data-copy="t-why">Copy</button></header>
+        <div class="body" id="t-why">Present at Data Day 2027. Data Day is Central Ohio's annual conference for the public-sector data community, and 2027 is its fifth year. Each year it draws 200+ people from 75+ organizations across local governments, nonprofits, educational institutions, and civic-minded businesses. A 45-minute session puts your project, method, tool, or lesson learned in front of the practitioners and decision-makers who can use it. Every data topic and every skill level is welcome, and this year the program especially encourages proposals on data governance, data management, data analysis, and data infrastructure. Proposals are due Monday, November 30, 2026.</div>
+      </article>
+      <article class="tpl">
+        <header><h3>One-line version</h3><button class="copy" type="button" data-copy="t-short">Copy</button></header>
+        <div class="body" id="t-short">Doing data work the region should hear about? Data Day 2027 wants your session proposal by November 30: https://tinyurl.com/dataday-cfp</div>
+      </article>
+      <h3>Reasons that land with hesitant presenters</h3>
+      <ul class="reasons">
+        <li><b>Your work doesn't have to be finished or flashy.</b> Lessons learned, a method that saved time, or a project that went sideways all make strong sessions.</li>
+        <li><b>The room is your peers.</b> Attendees do the same kind of work across the region, so practical detail is welcome.</li>
+        <li><b>Any level works.</b> Sessions range from "no technical background needed" to advanced.</li>
+        <li><b>The form is short.</b> A title, up to three objectives, a 100-word description, a 300-word abstract, speakers, skill level, up to two topic tags, and how you'll engage the room.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="share">
+      <h2 id="share">Copy for sharing</h2>
+      <p class="muted">Adapt freely. Your own voice works better than ours. Post from your own account.</p>
+      <article class="tpl">
+        <header><h3>LinkedIn post</h3><button class="copy" type="button" data-copy="t-linkedin">Copy</button></header>
+        <div class="body" id="t-linkedin">The Call for Proposals for Data Day 2027 is open.
+
+Data Day is Central Ohio's annual conference for the public-sector data community, hosted by MORPC, and this February marks its fifth year. If you're working on a project, method, or tool that others in the region could learn from, this is a great room to share it in.
+
+Every data topic is welcome, with extra interest this year in data governance, management, analysis, and infrastructure.
+
+Proposals due: Monday, November 30
+Data Day: Thursday, February 18, 2027, Center for Workforce Development, Columbus State
+
+Submit here: https://tinyurl.com/dataday-cfp
+More at morpc.org/dataday
+
+#DataDay2027 #CentralOhio #PublicSectorData</div>
+        <p class="note">Attach the social graphic.</p>
+      </article>
+      <article class="tpl">
+        <header><h3>Newsletter or email blurb</h3><button class="copy" type="button" data-copy="t-news">Copy</button></header>
+        <div class="body" id="t-news">Data Day 2027: Call for Proposals now open
+
+MORPC's fifth annual Data Day returns Thursday, February 18, 2027, at the Center for Workforce Development at Columbus State Community College. The Regional Data Roundtable is seeking 45-minute session proposals that share the tools, analyses, projects, and lessons advancing data work in Central Ohio. All topics and skill levels are welcome. Proposals are due Monday, November 30, 2026.
+
+Submit a proposal: https://tinyurl.com/dataday-cfp</div>
+      </article>
+      <article class="tpl">
+        <header><h3>Team meeting talking point</h3><button class="copy" type="button" data-copy="t-meeting">Copy</button></header>
+        <div class="body" id="t-meeting">Data Day's Call for Proposals is open through November 30. If you've done something this year that another city, county, or nonprofit could use, it's worth 45 minutes. Scan the QR code or ask me for the link.</div>
+        <p class="note">Put the promo slide on screen while you say it.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="nudge">
+      <h2 id="nudge">Nudging a potential presenter</h2>
+      <p>A personal ask from you is far more persuasive than any post.</p>
+      <article class="tpl">
+        <header><h3>Email</h3><button class="copy" type="button" data-copy="t-email">Copy</button></header>
+        <div class="body" id="t-email">Subject: You should present at Data Day
+
+Hi [Name],
+
+I'm helping spread the word about Data Day 2027, MORPC's annual conference for Central Ohio's data community. It's February 18, and the Call for Proposals is open through Monday, November 30.
+
+Your work on [specific project] came to mind right away. I think a lot of people in the room would want to hear how you [what they did / what they learned].
+
+Sessions are 45 minutes with plenty of time for questions, and the form is short: https://tinyurl.com/dataday-cfp
+
+No pressure either way, but I'd love to see you on the program.
+
+[Your name]</div>
+      </article>
+      <article class="tpl">
+        <header><h3>LinkedIn message or chat</h3><button class="copy" type="button" data-copy="t-dm">Copy</button></header>
+        <div class="body" id="t-dm">Hi [Name], the Data Day 2027 Call for Proposals is open through November 30. Your work on [thing] would make a great session, and the form only takes a few minutes: https://tinyurl.com/dataday-cfp</div>
+      </article>
+      <article class="tpl">
+        <header><h3>In person or by phone</h3><button class="copy" type="button" data-copy="t-person">Copy</button></header>
+        <div class="body" id="t-person">Have you thought about presenting at Data Day? Proposals are due November 30, and what you did with [thing] is exactly the kind of session people get a lot out of. I can send you the link.</div>
+      </article>
+      <article class="tpl">
+        <header><h3>Reminder, the week before</h3><button class="copy" type="button" data-copy="t-remind">Copy</button></header>
+        <div class="body" id="t-remind">Hi [Name], a quick reminder that Data Day proposals are due Monday, November 30 (right after Thanksgiving). Here's the link again if you're still thinking it over: https://tinyurl.com/dataday-cfp</div>
+      </article>
+    </section>
+
+    <section aria-labelledby="ask">
+      <h2 id="ask">Questions you can hand off</h2>
+      <p>Whether an idea fits, how many sessions there are, when people hear back, co-presenting, speaker fees: send all of them to Jordan.</p>
+      <div class="contact">
+        <b>Jordan Inskeep, Mid-Ohio Regional Planning Commission</b>
+        <span class="select" id="email">jinskeep@morpc.org</span>
+        <span class="muted">Happy to take a second look at anything before you send it.</span>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script>
+  // Copy buttons: copy the text of the element named by data-copy.
+  document.querySelectorAll("button.copy").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const el = document.getElementById(btn.dataset.copy);
+      const text = el.innerText.trim();
+      const label = btn.textContent;
+      const done = () => {
+        btn.dataset.done = "";
+        btn.textContent = "Copied";
+        setTimeout(() => { delete btn.dataset.done; btn.textContent = label; }, 1600);
+      };
+      const selectFallback = () => {
+        const range = document.createRange();
+        range.selectNodeContents(el);
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        btn.textContent = "Selected, press Ctrl+C";
+        setTimeout(() => { btn.textContent = label; }, 2400);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, selectFallback);
+      } else {
+        selectFallback();
+      }
+    });
+  });
+
+{{GRAPHICS_JS}}
+
+  const ASSETS = { qr: "{{QR}}", ddLogo: "{{LOGO_PRIMARY}}", morpc: "{{MORPC_LOGO}}" };
+  renderGraphics(ASSETS).then(({ slide, social }) => {
+    showGraphic(document.getElementById("slide-img"), slide);
+    showGraphic(document.getElementById("social-img"), social);
+  });
+</script>
