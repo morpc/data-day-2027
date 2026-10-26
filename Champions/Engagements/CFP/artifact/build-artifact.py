@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Assemble the CFP promo kit artifact page.
 
-Inlines the white Data Day logo (the website header logo), the MORPC logo
+Inlines the white and full-color Data Day logos (website assets), the MORPC logo
 (the website footer logo), and the CFP QR code as data URIs into
 cfp-promo-kit.src.html, writing cfp-promo-kit.html. The artifact sandbox
 blocks external images, so the assets must be embedded.
@@ -23,6 +23,7 @@ REPO = HERE.parents[3]
 SRC = HERE / "cfp-promo-kit.src.html"
 OUT = HERE / "cfp-promo-kit.html"
 LOGO = REPO / "docs/assets/datadaylogo-white.svg"
+LOGO_PRIMARY = REPO / "docs/assets/datadaylogo-primary.svg"
 QR = REPO / "Breakouts/CFP/QRCode for Data Day 2027_ CFP_cropped.png"
 MORPC_LOGO = REPO / "docs/assets/morpc-logo.png"
 
@@ -39,12 +40,13 @@ def qr_png() -> bytes:
 
 
 def main() -> int:
-    for path in (SRC, LOGO, QR, MORPC_LOGO):
+    for path in (SRC, LOGO, LOGO_PRIMARY, QR, MORPC_LOGO):
         if not path.exists():
             print(f"error: missing input {path}", file=sys.stderr)
             return 1
     page = SRC.read_text(encoding="utf-8")
     page = page.replace("{{LOGO_WHITE}}", data_uri("image/svg+xml", LOGO.read_bytes()))
+    page = page.replace("{{LOGO_PRIMARY}}", data_uri("image/svg+xml", LOGO_PRIMARY.read_bytes()))
     page = page.replace("{{QR}}", data_uri("image/png", qr_png()))
     page = page.replace("{{MORPC_LOGO}}", data_uri("image/png", MORPC_LOGO.read_bytes()))
     if "{{" in page:

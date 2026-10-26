@@ -310,6 +310,7 @@ No pressure either way, but I'd love to see you on the program.
   const C = {
     band: "#073451", divider: "#4A6B80", teal: "#00A79D", teal300: "#85D5D0", blue300: "#89BEDF",
     navy200: "#BFCAD2", ink: "#171C21", fog: "#F2F4F6", white: "#FFFFFF",
+    blue600: "#07588B", slate: "#5F6B75", mist: "#DDE2E7",
   };
   const SANS = 'Figtree, "Segoe UI", Helvetica, Arial, sans-serif';
   const MONO = '"JetBrains Mono", ui-monospace, Menlo, monospace';
@@ -427,45 +428,49 @@ No pressure either way, but I'd love to see you on the program.
 
   function drawSlide(mark, qr, ddLogo, morpc) {
     const [cv, ctx] = canvas(1920, 1080);
+    const split = 840;
 
-    // Left column: the event, set like the homepage hero but stacked: mark, title, subhead.
-    eyebrow(ctx, "Data Day 2027 · 5th annual", 120, 176, 24);
-    ctx.drawImage(mark, 120, 214, 210, 210);
-    const titleSize = fitSize(ctx, "Plotting What's Next", 800, 80, 700);
-    text(ctx, "Plotting What's Next", 120, 512, titleSize, 800, C.teal300);
-    text(ctx, "Five years forward for", 120, 568, 33, 700, C.white, SANS, "0.66px");
-    text(ctx, "Central Ohio's data community", 120, 611, 33, 700, C.white, SANS, "0.66px");
-    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 120, 716, 28, true);
-    fact(ctx, "place", "", "CSCC Center for Workforce Development", 120, 772, 28);
-    fact(ctx, "time", "", "9:00 AM – 3:45 PM", 120, 828, 28);
-    text(ctx, "morpc.org/dataday", 120, 964, 36, 700, C.teal300);
+    // Left panel (navy): the event, set like the homepage hero, with the mark centered over the title.
+    eyebrow(ctx, "Data Day 2027 · 5th annual", 120, 156, 24);
+    const titleSize = fitSize(ctx, "Plotting What's Next", 800, 80, 640);
+    ctx.font = `800 ${titleSize}px ${SANS}`;
+    const titleW = ctx.measureText("Plotting What's Next").width;
+    const markSize = 250;
+    ctx.drawImage(mark, 120 + titleW / 2 - markSize / 2, 196, markSize, markSize);
+    text(ctx, "Plotting What's Next", 120, 536, titleSize, 800, C.teal300);
+    text(ctx, "Five years forward for", 120, 592, 33, 700, C.white, SANS, "0.66px");
+    text(ctx, "Central Ohio's data community", 120, 635, 33, 700, C.white, SANS, "0.66px");
+    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 120, 750, 28, true);
+    fact(ctx, "place", "", "CSCC Center for Workforce Development", 120, 806, 28);
+    fact(ctx, "time", "", "9:00 AM – 3:45 PM", 120, 862, 28);
+    text(ctx, "morpc.org/dataday", 120, 972, 36, 700, C.teal300);
 
-    ctx.fillStyle = C.divider; ctx.fillRect(880, 120, 2, 840);
+    // Right panel (light): the call for proposals, dark on light.
+    ctx.fillStyle = C.fog; ctx.fillRect(split, 0, 1920 - split, 1080);
+    const x = split + 96;
+    text(ctx, "CALL FOR PROPOSALS · NOW OPEN", x, 156, 24, 400, C.blue600, MONO, `${24 * 0.14}px`);
+    text(ctx, "Share your work", x, 280, 96, 800, C.band);
+    text(ctx, "at Data Day", x, 382, 96, 800, C.band);
+    pill(ctx, "Proposals due Friday, November 27", x, 430, 38);
 
-    // Right column: the call for proposals.
-    const x = 976;
-    eyebrow(ctx, "Call for Proposals · Now open", x, 176, 24);
-    text(ctx, "Share your work", x, 312, 96, 800, C.white);
-    text(ctx, "at Data Day", x, 414, 96, 800, C.white);
-    pill(ctx, "Proposals due Friday, November 27", x, 468, 38);
-
-    ctx.fillStyle = C.white;
-    ctx.beginPath(); ctx.roundRect(x, 620, 300, 340, 22); ctx.fill();
+    ctx.fillStyle = C.white; ctx.strokeStyle = C.mist; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.roundRect(x, 556, 260, 288, 20); ctx.fill(); ctx.stroke();
     ctx.imageSmoothingEnabled = false;
-    ctx.drawImage(qr, x + 24, 644, 252, 252);
+    ctx.drawImage(qr, x + 22, 578, 216, 216);
     ctx.imageSmoothingEnabled = true;
     ctx.textAlign = "center";
-    text(ctx, "Scan to submit", x + 150, 934, 26, 800, C.band);
+    text(ctx, "Scan to submit", x + 130, 826, 24, 800, C.band);
     ctx.textAlign = "left";
 
-    text(ctx, "45-minute sessions", x + 348, 690, 30, 500, C.navy200);
-    text(ctx, "All topics and", x + 348, 736, 30, 500, C.navy200);
-    text(ctx, "skill levels welcome", x + 348, 782, 30, 500, C.navy200);
+    text(ctx, "45-minute sessions", x + 308, 664, 30, 500, C.slate);
+    text(ctx, "All topics and", x + 308, 710, 30, 500, C.slate);
+    text(ctx, "skill levels welcome", x + 308, 756, 30, 500, C.slate);
 
-    // Bottom right: Data Day and MORPC logos, as paired in the site footer.
-    const logoH = 58, morpcW = logoH * MORPC_RATIO, ddW = logoH * DD_RATIO;
-    ctx.drawImage(morpc, 1800 - morpcW, 960 - logoH, morpcW, logoH);
-    ctx.drawImage(ddLogo, 1800 - morpcW - 48 - ddW, 960 - logoH, ddW, logoH);
+    // Bottom of the right panel: Data Day and MORPC logos, filling the width.
+    const right = 1920 - 96, logoH = 108, logoTop = 900;
+    ctx.fillStyle = C.mist; ctx.fillRect(x, 870, right - x, 2);
+    ctx.drawImage(ddLogo, x, logoTop, logoH * DD_RATIO, logoH);
+    ctx.drawImage(morpc, right - logoH * MORPC_RATIO, logoTop, logoH * MORPC_RATIO, logoH);
     return cv.toDataURL("image/png");
   }
 
@@ -500,7 +505,7 @@ No pressure either way, but I'd love to see you on the program.
     } catch (e) { /* fall back to system fonts */ }
     const markSrc = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(TREND_MARK);
     const [mark, qr, ddLogo, morpc] = await Promise.all(
-      [markSrc, "{{QR}}", "{{LOGO_WHITE}}", "{{MORPC_LOGO}}"].map(loadImage));
+      [markSrc, "{{QR}}", "{{LOGO_PRIMARY}}", "{{MORPC_LOGO}}"].map(loadImage));
     document.getElementById("slide-img").src = drawSlide(mark, qr, ddLogo, morpc);
     document.getElementById("social-img").src = drawSocial(mark);
   }
