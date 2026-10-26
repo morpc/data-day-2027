@@ -313,6 +313,8 @@ No pressure either way, but I'd love to see you on the program.
   };
   const SANS = 'Figtree, "Segoe UI", Helvetica, Arial, sans-serif';
   const MONO = '"JetBrains Mono", ui-monospace, Menlo, monospace';
+  const DD_RATIO = 692.52 / 175.48;
+  const MORPC_RATIO = 500 / 175;
 
   // The homepage hero's trend mark (docs/index.html), with currentColor set to Fog.
   const TREND_MARK = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="165 113 490 490">
@@ -409,6 +411,12 @@ No pressure either way, but I'd love to see you on the program.
     subLines.forEach((line) => { text(ctx, line, tx, ty, subSize, 700, C.white, SANS, `${subSize * 0.02}px`); ty += subSize * 1.3; });
   }
 
+  // Largest size up to max at which str fits in width.
+  function fitSize(ctx, str, weight, max, width) {
+    ctx.font = `${weight} ${max}px ${SANS}`;
+    return Math.min(max, Math.floor(max * width / ctx.measureText(str).width));
+  }
+
   function canvas(w, h) {
     const cv = document.createElement("canvas");
     cv.width = w; cv.height = h;
@@ -417,15 +425,19 @@ No pressure either way, but I'd love to see you on the program.
     return [cv, ctx];
   }
 
-  function drawSlide(mark, qr) {
+  function drawSlide(mark, qr, ddLogo, morpc) {
     const [cv, ctx] = canvas(1920, 1080);
 
-    // Left column: the event, set like the homepage hero.
+    // Left column: the event, set like the homepage hero but stacked: mark, title, subhead.
     eyebrow(ctx, "Data Day 2027 · 5th annual", 120, 176, 24);
-    lockup(ctx, mark, 120, 232, 150, ["Plotting", "What's Next"], 80, ["Five years forward for", "Central Ohio's data community"], 33);
-    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 120, 690, 28, true);
-    fact(ctx, "place", "", "CSCC Center for Workforce Development", 120, 750, 28);
-    fact(ctx, "time", "", "9:00 AM – 3:45 PM", 120, 810, 28);
+    ctx.drawImage(mark, 120, 214, 210, 210);
+    const titleSize = fitSize(ctx, "Plotting What's Next", 800, 80, 700);
+    text(ctx, "Plotting What's Next", 120, 512, titleSize, 800, C.teal300);
+    text(ctx, "Five years forward for", 120, 568, 33, 700, C.white, SANS, "0.66px");
+    text(ctx, "Central Ohio's data community", 120, 611, 33, 700, C.white, SANS, "0.66px");
+    fact(ctx, "date", "Date", "Thursday, February 18, 2027", 120, 716, 28, true);
+    fact(ctx, "place", "", "CSCC Center for Workforce Development", 120, 772, 28);
+    fact(ctx, "time", "", "9:00 AM – 3:45 PM", 120, 828, 28);
     text(ctx, "morpc.org/dataday", 120, 964, 36, 700, C.teal300);
 
     ctx.fillStyle = C.divider; ctx.fillRect(880, 120, 2, 840);
@@ -446,9 +458,14 @@ No pressure either way, but I'd love to see you on the program.
     text(ctx, "Scan to submit", x + 150, 934, 26, 800, C.band);
     ctx.textAlign = "left";
 
-    text(ctx, "45-minute sessions", x + 348, 752, 30, 500, C.navy200);
-    text(ctx, "All topics and", x + 348, 798, 30, 500, C.navy200);
-    text(ctx, "skill levels welcome", x + 348, 844, 30, 500, C.navy200);
+    text(ctx, "45-minute sessions", x + 348, 690, 30, 500, C.navy200);
+    text(ctx, "All topics and", x + 348, 736, 30, 500, C.navy200);
+    text(ctx, "skill levels welcome", x + 348, 782, 30, 500, C.navy200);
+
+    // Bottom right: Data Day and MORPC logos, as paired in the site footer.
+    const logoH = 58, morpcW = logoH * MORPC_RATIO, ddW = logoH * DD_RATIO;
+    ctx.drawImage(morpc, 1800 - morpcW, 960 - logoH, morpcW, logoH);
+    ctx.drawImage(ddLogo, 1800 - morpcW - 48 - ddW, 960 - logoH, ddW, logoH);
     return cv.toDataURL("image/png");
   }
 
@@ -482,8 +499,9 @@ No pressure either way, but I'd love to see you on the program.
       ]);
     } catch (e) { /* fall back to system fonts */ }
     const markSrc = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(TREND_MARK);
-    const [mark, qr] = await Promise.all([loadImage(markSrc), loadImage("{{QR}}")]);
-    document.getElementById("slide-img").src = drawSlide(mark, qr);
+    const [mark, qr, ddLogo, morpc] = await Promise.all(
+      [markSrc, "{{QR}}", "{{LOGO_WHITE}}", "{{MORPC_LOGO}}"].map(loadImage));
+    document.getElementById("slide-img").src = drawSlide(mark, qr, ddLogo, morpc);
     document.getElementById("social-img").src = drawSocial(mark);
   }
   drawGraphics();
