@@ -437,6 +437,19 @@ No pressure either way, but I'd love to see you on the program.
     });
   }
 
+  // Link-style underline: a thin rule in the text color, with gaps around descenders
+  // (cut by stroking the glyphs in the background color before filling them).
+  function underlinedText(ctx, str, x, y, size, weight, color, bg) {
+    ctx.font = `${weight} ${size}px ${SANS}`;
+    const w = ctx.measureText(str).width;
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y + size * 0.14, w, Math.max(2, size * 0.06));
+    ctx.strokeStyle = bg; ctx.lineWidth = size * 0.16; ctx.lineJoin = "round";
+    ctx.strokeText(str, x, y);
+    ctx.fillText(str, x, y);
+    return w;
+  }
+
   // Largest size up to max at which str fits in width.
   function fitSize(ctx, str, weight, max, width) {
     ctx.font = `${weight} ${max}px ${SANS}`;
@@ -499,7 +512,7 @@ No pressure either way, but I'd love to see you on the program.
     fact(ctx, "place", "", "CSCC Center for Workforce Development", ex, 806, 28);
     fact(ctx, "time", "", "9:00 AM – 3:45 PM", ex, 862, 28);
     const lead = text(ctx, "More info at ", ex, 976, 32, 600, C.white);
-    text(ctx, "morpc.org/dataday", ex + lead, 976, 46, 600, C.teal300);
+    underlinedText(ctx, "morpc.org/dataday", ex + lead, 976, 46, 600, C.teal300, C.band);
     return cv.toDataURL("image/png");
   }
 
