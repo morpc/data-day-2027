@@ -25,9 +25,6 @@ body {
 
 .canvas { position: relative; overflow: hidden; }
 
-/* Scatter-plot motif: rising points with a trend line, per the theme concept. */
-.motif { position: absolute; pointer-events: none; }
-
 .logo { display: block; }
 
 .eyebrow {

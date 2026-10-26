@@ -7,7 +7,6 @@
 <style>
   .canvas { width: 1920px; height: 1080px; padding: 96px 120px; }
   .logo { height: 104px; }
-  .motif { right: 120px; top: 64px; width: 460px; opacity: 0.4; }
   .copy { position: relative; margin-top: 96px; width: 1060px; }
   .eyebrow { font-size: 34px; }
   .headline { font-size: 116px; margin-top: 24px; }
@@ -15,7 +14,7 @@
   .deadline { font-size: 44px; padding: 18px 40px; margin-top: 56px; }
   .details { font-size: 32px; margin-top: 40px; }
   .qr-card {
-    position: absolute; right: 120px; bottom: 96px;
+    position: absolute; right: 120px; top: 50%; transform: translateY(-50%);
     width: 460px; padding: 40px; border-radius: 32px;
   }
   .qr-card .scan { font-size: 40px; margin-top: 24px; }
@@ -24,8 +23,7 @@
 </head>
 <body>
 <div class="canvas">
-  <img class="motif" src="motif.svg" alt="">
-  <img class="logo" src="../../../../Design/logo/White%20Horizontal%20Logo.svg" alt="Data Day">
+  <img class="logo" src="../../../../docs/assets/datadaylogo-white.svg" alt="Data Day">
   <div class="copy">
     <p class="eyebrow">Call for Proposals now open</p>
     <h1 class="headline">Share your work at Data Day 2027</h1>
