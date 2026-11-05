@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Build the CFP promo kit artifact page and the linked PDFs of its graphics.
+"""Build the CFP promo kit artifact page and exports of its graphics.
 
 Outputs:
   cfp-promo-kit.html       the artifact page (republish it with the Artifact tool)
-  pdf/cfp-slide.pdf        the 1920x1080 promo slide, with clickable links
-  pdf/cfp-social.pdf       the 1080x1080 social graphic, with clickable links
+  exports/cfp-slide.pdf    the 1920x1080 promo slide, with clickable links
+  exports/cfp-slide.png    the same slide as an image, for decks
+  exports/cfp-social.pdf   the 1080x1080 social graphic, with clickable links
+  exports/cfp-social.png   the same graphic as an image, for social posts
 
 The drawing code lives in graphics.js and is inlined into the page and into
 each PDF's print page (print.src.html). The white and full-color Data Day logos
@@ -14,9 +16,9 @@ The PDFs keep the links because headless Chromium turns <a> elements laid over
 the image into PDF link annotations.
 
 Rerun after editing the page, graphics.js, or print.src.html.
-Pass --no-pdf to rebuild only the page.
+Pass --no-exports to rebuild only the page.
 
-Usage: python3 Champions/Engagements/CFP/artifact/build-artifact.py [--no-pdf]
+Usage: python3 Champions/Engagements/CFP/artifact/build-artifact.py [--no-exports]
 """
 import base64
 import io
@@ -34,16 +36,16 @@ SRC = HERE / "cfp-promo-kit.src.html"
 PRINT_SRC = HERE / "print.src.html"
 GRAPHICS = HERE / "graphics.js"
 OUT = HERE / "cfp-promo-kit.html"
-PDF_DIR = HERE / "pdf"
+EXPORT_DIR = HERE / "exports"
 LOGO = REPO / "docs/assets/datadaylogo-white.svg"
 LOGO_PRIMARY = REPO / "docs/assets/datadaylogo-primary.svg"
 QR = REPO / "Breakouts/CFP/QRCode for Data Day 2027_ CFP_cropped.png"
 MORPC_LOGO = REPO / "docs/assets/morpc-logo.png"
 
-PDFS = [
-    # (which graphic, output name, width, height, title)
-    ("slide", "cfp-slide.pdf", 1920, 1080, "Data Day 2027 CFP Slide"),
-    ("social", "cfp-social.pdf", 1080, 1080, "Data Day 2027 CFP Social Graphic"),
+EXPORTS = [
+    # (which graphic, output file stem, width, height, title)
+    ("slide", "cfp-slide", 1920, 1080, "Data Day 2027 CFP Slide"),
+    ("social", "cfp-social", 1080, 1080, "Data Day 2027 CFP Social Graphic"),
 ]
 
 
@@ -77,7 +79,8 @@ def find_browser() -> str:
     raise SystemExit("error: no Chromium/Chrome binary found (tried chromium, chromium-browser, google-chrome)")
 
 
-def print_pdf(browser: str, page: str, out: Path) -> None:
+def render(browser: str, page: str, out: Path, mode_args: list) -> None:
+    """Load page in headless Chromium and write out (a PDF or a screenshot, per mode_args)."""
     # Snap Chromium cannot read the system temp dir, so stage the print page next to this script.
     with tempfile.TemporaryDirectory(dir=HERE, prefix=".print-") as tmp:
         html = Path(tmp) / "print.html"
@@ -85,8 +88,7 @@ def print_pdf(browser: str, page: str, out: Path) -> None:
         out.unlink(missing_ok=True)
         # Chromium can exit non-zero on harmless GPU warnings, so judge success by the file.
         result = subprocess.run(
-            [browser, "--headless", "--disable-gpu", "--no-pdf-header-footer",
-             "--virtual-time-budget=10000", f"--print-to-pdf={out}", html.as_uri()],
+            [browser, "--headless", "--disable-gpu", "--virtual-time-budget=10000", *mode_args, html.as_uri()],
             capture_output=True, text=True,
         )
         if not out.exists() or out.stat().st_size == 0:
@@ -113,17 +115,19 @@ def main() -> int:
     OUT.write_text(fill(SRC.read_text(encoding="utf-8"), assets), encoding="utf-8")
     print(f"wrote {OUT} ({OUT.stat().st_size // 1024} KB)")
 
-    if "--no-pdf" in sys.argv[1:]:
+    if "--no-exports" in sys.argv[1:]:
         return 0
 
     browser = find_browser()
-    PDF_DIR.mkdir(exist_ok=True)
+    EXPORT_DIR.mkdir(exist_ok=True)
     template = PRINT_SRC.read_text(encoding="utf-8")
-    for which, name, width, height, title in PDFS:
+    for which, stem, width, height, title in EXPORTS:
         page = fill(template, {**assets, "WHICH": which, "W": str(width), "H": str(height), "TITLE": title})
-        out = PDF_DIR / name
-        print_pdf(browser, page, out)
-        print(f"wrote {out}")
+        pdf, png = EXPORT_DIR / f"{stem}.pdf", EXPORT_DIR / f"{stem}.png"
+        render(browser, page, pdf, ["--no-pdf-header-footer", f"--print-to-pdf={pdf}"])
+        render(browser, page, png, ["--hide-scrollbars", "--force-device-scale-factor=1",
+                                    f"--window-size={width},{height}", f"--screenshot={png}"])
+        print(f"wrote {pdf} and {png.name}")
     return 0
 
 
