@@ -1,5 +1,9 @@
 # Data Day 2027 — Sponsorship Opportunities
 
+> **Reference copy.** The PDF is built from [brochure/brochure.html](brochure/brochure.html)
+> (one page, with trimmed About and Why sections) by `brochure/build-brochure.sh`. Make copy
+> changes in the HTML, mirror them here, and rebuild.
+
 **Theme: Plotting What's Next**
 
 Thursday, February 18, 2027 · Center for Workforce Development, Columbus State Community College

@@ -113,7 +113,7 @@ exact dates as the cycle progresses.
 - [ ] Collect lists of previous and potential sponsors _(Aug 2026)_
 - [ ] Integrate with MORPC-wide sponsor asks _(Aug 2026)_
 - [ ] Update/finalize the sponsorship package and tiers _(Sep 2026)_
-- [ ] Design the sponsorship brochure and update the website section _(Sep 2026)_ _(in progress: [2027 brochure](Sponsors/DataDay2027_SponsorshipBrochure.md) drafted and site section live; brochure PDF not yet linked from the page)_
+- [x] Design the sponsorship brochure and update the website section _(Sep 2026)_ — [brochure PDF](Sponsors/DataDay2027_SponsorshipBrochure.pdf), linked from the [Sponsors page](docs/sponsors.html)
 - [ ] Recruit sponsors _(Sep–Nov 2026; supported by Champions Ask 3)_
 - [ ] Confirm sponsorships _(Jan 2027)_
 - [ ] Invoice sponsors _(by event)_
