@@ -1,0 +1,175 @@
+<!doctype html>
+<!--
+  Data Day 2027 sponsorship brochure: one letter page in the CFP promo graphics' style
+  (navy hero band with the trend mark, teal Figtree title, light body, teal pill, logo row).
+  This file is the brochure source. Rebuild the PDF with build-brochure.sh after editing.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data Day 2027 Sponsorship Opportunities</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+  /* Data Day palette (docs/styles.css). */
+  :root {
+    --band: #073451; --teal: #00A79D; --teal300: #85D5D0; --teal100: #E6F6F5; --blue300: #89BEDF;
+    --blue600: #07588B; --ink: #171C21; --body: #3D474F; --slate: #5F6B75;
+    --fog: #F2F4F6; --mist: #DDE2E7; --white: #FFFFFF;
+    --sans: Figtree, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  @page { size: letter; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--sans); color: var(--body); background: var(--fog);
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page { width: 8.5in; height: 11in; display: flex; flex-direction: column; overflow: hidden; }
+  a { color: inherit; text-decoration: none; }
+
+  /* Navy hero band: the event, set like the homepage hero lockup. */
+  .hero { background: var(--band); color: var(--white); padding: 0.36in 0.6in 0.3in; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 9.5pt; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--blue300); margin: 0 0 0.16in;
+  }
+  .lockup { display: flex; align-items: center; gap: 0.2in; }
+  .lockup svg { width: 0.95in; height: 0.95in; flex: none; }
+  .title { font-weight: 800; font-size: 38pt; line-height: 1; color: var(--teal300); margin: 0; }
+  .sub { font-weight: 700; font-size: 14pt; line-height: 1.25; letter-spacing: 0.02em; margin: 0.08in 0 0; }
+  .facts { display: flex; gap: 0.32in; margin-top: 0.24in; font-weight: 600; font-size: 11pt; }
+  .fact { display: flex; align-items: center; gap: 0.08in; }
+  .fact svg { width: 15pt; height: 15pt; stroke: var(--blue300); fill: none; stroke-width: 1.75;
+    stroke-linecap: round; stroke-linejoin: round; }
+  .fact .hl { color: var(--teal300); }
+
+  /* Light body. */
+  .body { flex: 1; padding: 0.26in 0.6in 0; display: flex; flex-direction: column; }
+  h2 { font-weight: 800; font-size: 24pt; line-height: 1.05; color: var(--band); margin: 0; }
+  h3 { font-weight: 800; font-size: 13pt; color: var(--band); margin: 0 0 0.1in; }
+  .pill {
+    display: inline-block; background: var(--teal); color: var(--ink); font-weight: 700; font-size: 10.5pt;
+    border-radius: 999px; padding: 0.06in 0.18in; margin: 0.1in 0 0.12in; align-self: flex-start;
+  }
+  .intro { font-size: 10pt; line-height: 1.45; margin: 0; }
+
+  .stats { display: flex; gap: 0.16in; margin: 0.16in 0; }
+  .stat { flex: 1; background: var(--white); border: 1px solid var(--mist); border-radius: 8px; padding: 0.1in 0.14in; }
+  .stat b { display: block; font-weight: 800; font-size: 18pt; line-height: 1.05; color: var(--band); }
+  .stat span { font-size: 9pt; color: var(--slate); }
+
+  /* Teal-dot bullets, two columns. */
+  .why { list-style: none; padding: 0; margin: 0 0 0.16in; display: grid; grid-template-columns: 1fr 1fr; gap: 0.1in 0.3in; }
+  .why li { position: relative; padding-left: 0.18in; font-size: 9.5pt; line-height: 1.4; }
+  .why li::before { content: ""; position: absolute; left: 0; top: 0.06in; width: 7px; height: 7px; border-radius: 50%; background: var(--teal); }
+  .why b { color: var(--ink); }
+
+  /* Tier table. */
+  table { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--white);
+    border: 1px solid var(--mist); border-radius: 8px; overflow: hidden; font-size: 9pt; }
+  th, td { padding: 0.03in 0.1in; border-bottom: 1px solid var(--mist); }
+  tr:last-child td { border-bottom: 0; }
+  thead th { background: var(--band); color: var(--white); font-weight: 800; font-size: 10pt; text-align: center; line-height: 1.2; }
+  thead th:first-child { text-align: left; font-weight: 600; color: var(--blue300); font-family: var(--mono);
+    font-size: 8pt; letter-spacing: 0.14em; text-transform: uppercase; }
+  thead th small { display: block; font-weight: 600; font-size: 9pt; color: var(--teal300); }
+  td { color: var(--body); }
+  td:not(:first-child) { text-align: center; width: 0.95in; font-weight: 700; color: var(--band); }
+  td.y { color: var(--teal); font-size: 11pt; }
+  td.n { color: var(--mist); }
+  tbody tr:nth-child(even) td { background: #FAFBFC; }
+
+  /* Contacts and logo row at the base. */
+  .contact { display: flex; gap: 0.4in; margin-top: 0.16in; font-size: 9.5pt; line-height: 1.4; }
+  .contact b { display: block; color: var(--band); font-weight: 800; }
+  .contact a { color: var(--blue600); font-weight: 600; }
+  .logos { margin-top: auto; padding: 0.12in 0 0.3in; border-top: 2px solid var(--mist);
+    display: flex; justify-content: space-between; align-items: center; }
+  .logos img { height: 0.42in; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="hero">
+    <p class="eyebrow">Sponsorship opportunities &nbsp;·&nbsp; Data Day 2027</p>
+    <div class="lockup">
+      <!-- The homepage hero's trend mark, in Fog with the teal arrow. -->
+      <svg viewBox="165 113 490 490" aria-hidden="true">
+        <path d="M 173.99191,559.10665 H 641.5168" fill="none" stroke="#F2F4F6" stroke-width="14.4" stroke-linecap="round"/>
+        <path d="m 211.37723,123.12357 v 467.5249" fill="none" stroke="#F2F4F6" stroke-width="14.4" stroke-linecap="round"/>
+        <circle cx="248.69173" cy="498.01663" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+        <circle cx="348.375" cy="505.53125" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+        <circle cx="407.53125" cy="406.77148" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+        <circle cx="504.25195" cy="427.41211" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+        <circle cx="516.61914" cy="296.58984" r="9.2476263" fill="none" stroke="#F2F4F6" stroke-width="7.42475"/>
+        <path transform="translate(0.13638047,-0.05627852)" fill="#00A79D" d="M 576.82651 204.18714 A 3.6003599 3.6003599 0 0 0 575.09799 205.31214 L 549.66245 235.31018 A 3.6003599 3.6003599 0 0 0 551.37534 241.08558 L 559.21909 243.43714 C 519.67073 364.08588 444.71797 425.09234 378.71128 456.52893 C 328.57672 480.40621 284.06451 486.94206 264.28354 488.74183 C 266.26284 491.02009 267.46909 493.9852 267.46909 497.21253 C 267.46909 499.28394 266.97063 501.24655 266.09214 502.98987 C 287.35294 500.99257 333.42188 494.04738 384.90268 469.52893 C 453.71797 436.75471 532.23539 372.19244 573.01206 247.56995 L 581.1937 250.02308 A 3.6003599 3.6003599 0 0 0 585.80503 246.17151 L 581.42026 207.23792 A 3.6003599 3.6003599 0 0 0 578.89096 204.1969 A 3.6003599 3.6003599 0 0 0 576.82651 204.18714 z"/>
+      </svg>
+      <div>
+        <h1 class="title">Plotting What's Next</h1>
+        <p class="sub">Five years forward for Central Ohio's data community</p>
+      </div>
+    </div>
+    <div class="facts">
+      <span class="fact">
+        <svg viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="15" rx="2"/><path d="M4 10H20M8 3.5V7.5M16 3.5V7.5"/></svg>
+        Date <span class="hl">Thursday, February 18, 2027</span>
+      </span>
+      <span class="fact">
+        <svg viewBox="0 0 24 24"><path d="M12 21C12 21 6 15.5 6 10.5C6 6.9 8.9 4 12 4C15.1 4 18 6.9 18 10.5C18 15.5 12 21 12 21Z"/><circle cx="12" cy="10.5" r="2"/></svg>
+        CSCC Center for Workforce Development
+      </span>
+    </div>
+  </header>
+
+  <main class="body">
+    <h2>Sponsor our fifth year</h2>
+    <span class="pill">Put your organization in front of Central Ohio's data community</span>
+    <p class="intro">Data Day is the annual convening of the Regional Data Roundtable (RDR) at MORPC, which serves more than 95 local governments across a 15-county region. Attendees learn how Central Ohio uses, secures, governs, and visualizes data. Year five is a milestone, and a strong stage for your organization alongside a trusted MORPC signature event.</p>
+
+    <div class="stats">
+      <div class="stat"><b>200+</b><span>Attendees each year</span></div>
+      <div class="stat"><b>75+</b><span>Organizations across the region</span></div>
+      <div class="stat"><b>4.4/5</b><span>Attendee rating, two years running</span></div>
+    </div>
+
+    <ul class="why">
+      <li><b>A targeted audience.</b> Data leaders, practitioners, and analysts from local government, nonprofits, education, and civic-minded business, in one room for a full day.</li>
+      <li><b>Fifth-anniversary visibility.</b> Your logo on all event promotion. Higher tiers put your team on the plenary stage.</li>
+      <li><b>Direct engagement.</b> Host or moderate a breakout, staff an exhibitor table, and meet prospective partners, clients, and talent.</li>
+      <li><b>Support the next generation.</b> Scholarships bring college students into the regional data community and into conversation with you.</li>
+    </ul>
+
+    <h3>Sponsorship levels</h3>
+    <table>
+      <thead>
+        <tr><th>Benefit</th><th>Platinum<small>$5,000</small></th><th>Gold<small>$3,000</small></th><th>Silver<small>$1,500</small></th><th>Bronze<small>$500</small></th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Full event registrations</td><td>10</td><td>7</td><td>5</td><td>2</td></tr>
+        <tr><td>Company logo on all event promotional material</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+        <tr><td>Exhibitor table</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+        <tr><td>Scholarships for college students to attend</td><td>3</td><td>2</td><td>1</td><td class="n">–</td></tr>
+        <tr><td>Moderate a breakout session</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="n">–</td></tr>
+        <tr><td>Host a breakout session on your organization's data work</td><td class="y">✓</td><td class="n">–</td><td class="n">–</td><td class="n">–</td></tr>
+        <tr><td>Welcome remarks during the Morning Plenary</td><td class="y">✓</td><td class="n">–</td><td class="n">–</td><td class="n">–</td></tr>
+        <tr><td>Introduce the Lunch Plenary keynote speaker</td><td class="y">✓</td><td class="n">–</td><td class="n">–</td><td class="n">–</td></tr>
+        <tr><td>Closing remarks during the Lunch Plenary</td><td class="n">–</td><td class="y">✓</td><td class="n">–</td><td class="n">–</td></tr>
+      </tbody>
+    </table>
+
+    <div class="contact">
+      <div><b>Become a sponsor</b>Amanda McEldowney · <a href="mailto:amceldowney@morpc.org">amceldowney@morpc.org</a></div>
+      <div><b>Event program questions</b>Jordan Inskeep · <a href="mailto:jinskeep@morpc.org">jinskeep@morpc.org</a></div>
+    </div>
+
+    <div class="logos">
+      <img src="../../docs/assets/datadaylogo-primary.svg" alt="Data Day">
+      <img src="../../docs/assets/morpc-logo.png" alt="MORPC">
+    </div>
+  </main>
+
+</div>
+</body>
+</html>
