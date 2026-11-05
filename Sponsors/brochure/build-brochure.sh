@@ -11,4 +11,6 @@ rm -f "$OUT"
 "$BROWSER" --headless --disable-gpu --virtual-time-budget=10000 --no-pdf-header-footer \
   --print-to-pdf="$OUT" "file://$HERE/brochure.html" 2>/dev/null || true
 [ -s "$OUT" ] || { echo "error: Chromium did not produce $OUT" >&2; exit 1; }
-echo "wrote $OUT"
+# The website serves only docs/, so publish a copy there for the Sponsors page.
+cp "$OUT" "$HERE/../../docs/assets/DataDay2027_SponsorshipBrochure.pdf"
+echo "wrote $OUT and the docs/assets copy"
