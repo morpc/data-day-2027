@@ -30,7 +30,7 @@ exact dates as the cycle progresses.
 > **Maintenance note:** After every pull request merges, review this schedule and update
 > task status, dates, and checkboxes to reflect what changed.
 >
-> **Last reviewed:** September 29, 2026.
+> **Last reviewed:** November 5, 2026.
 
 ### Meetings & Planning
 - [ ] Hold recurring internal Data Day team meetings
@@ -71,7 +71,7 @@ exact dates as the cycle progresses.
   - [ ] Facilitator / day-of cheat sheet + run-of-show _(Dec 2026)_
 - [ ] Run the schedule of asks
   - [x] Ask 1 — Connect with potential keynote speakers _(Aug–Oct 2026)_
-  - [ ] Ask 2 — Share the CFP & recruit session speakers _(late Sep–Nov 30, 2026)_
+  - [x] Ask 2 — Share the CFP & recruit session speakers _(late Sep–Nov 30, 2026)_ — [request email](Champions/Engagements/CFP/cfp-request-email.md) sent
   - [ ] Ask 3 — Solicit sponsors (open to all Champions; shared contact log) _(Sep–Nov 2026)_
   - [ ] Ask 4 — Encourage registration _(Nov 2026–late Jan 2027)_
   - [ ] Ask 5 — Take a day-of role _(assign Jan, execute Feb 18, 2027)_
@@ -88,12 +88,14 @@ exact dates as the cycle progresses.
 ### Breakouts
 - [x] Explore options for lightning rounds and shorter breakout sessions _(Aug 2026)_ — resolved in [ways-to-participate-draft.md](Breakouts/ways-to-participate-draft.md): lecture, workshop, panel, intern lightning talks, posters
 - [ ] Prepare the Call for Proposals _(after theme is set)_
-  - [ ] Update/finalize the call for session proposals _(Sep 2026)_ _(in progress: [2027 CFP draft](Breakouts/CFP/cfp-2027-draft.md) with topic tags and 9:00 AM–3:45 PM hours; still needs release date, deadline, form link, officer names, and the staff-only focus area / pillar / reflection questions)_
-  - [ ] Convert the CFP to an online form _(Oct 2026)_
+  - [x] Update/finalize the call for session proposals _(Sep 2026)_ — [CFP on letterhead](Breakouts/CFP/cfp-2027-letterhead.pdf); due Nov 30, 2026
+  - [x] Convert the CFP to an online form _(Oct 2026)_ — [submission form](https://forms.cloud.microsoft/r/p5reURxZpZ)
   - [x] Design the CFP promotion slide _(Oct 2026)_ — [slide](Champions/Engagements/CFP/graphics/cfp-slide-1920x1080.png)
   - [x] Update the CFP website section _(Oct 2026)_ — [Breakouts page](docs/breakouts.html)
 - [ ] Launch and promote the CFP
-  - [ ] Email the CFP to the list _(Oct 2026)_
+  - [ ] Email the CFP to the list _(Oct–Nov 2026)_
+    - [x] RIDG — [broad email](Breakouts/CFP/cfp-recruitment-email.md) _(Nov 2026)_
+    - [ ] COGUG — [GIS-focused email](Breakouts/CFP/cfp-recruitment-email-cogug.md), sent by Cheri _(Nov 2026)_
   - [ ] Promote the CFP — including at the Summit on Sustainability _(Oct 2026; supported by Champions Ask 2)_
   - [x] Update the website with the CFP _(Oct 2026)_ — Breakouts page, homepage banner and card
 - [ ] Select sessions
@@ -118,8 +120,9 @@ exact dates as the cycle progresses.
 
 ### Registration
 - [ ] Collect the email list for the registration blast _(Oct 2026)_
+- [ ] Decide registration free vs. paid _(blocks Eventbrite setup and promo copy)_
 - [ ] Open registration _(Nov 2026; supported by Champions Ask 4)_
-  - [ ] Stand up the Eventbrite site
+  - [ ] Stand up the Eventbrite site _(owner: Amanda, Events Coordinator)_
   - [ ] Update the website with registration
 - [ ] Close registration _(Feb 7, 2027)_
 - [ ] Send final attendee email / final instructions _(Feb 12–13, 2027)_
