@@ -36,7 +36,7 @@ exact dates as the cycle progresses.
 - [ ] Hold recurring internal Data Day team meetings
   - [x] Internal Data Day team meeting — Jul 2026
   - [x] Internal Data Day team meeting — Sep 2026
-  - [ ] Internal Data Day team meeting — Nov 2026
+  - [x] Internal Data Day team meeting — Nov 2026
   - [ ] Internal Data Day team meeting — Jan 2027
   - [ ] Internal Data Day team meeting — Feb 2027
 - [ ] Provide Data Day updates at quarterly RDR meetings
@@ -114,16 +114,17 @@ exact dates as the cycle progresses.
 - [ ] Integrate with MORPC-wide sponsor asks _(Aug 2026)_
 - [ ] Update/finalize the sponsorship package and tiers _(Sep 2026)_
 - [x] Design the sponsorship brochure and update the website section _(Sep 2026)_ — [brochure PDF](Sponsors/DataDay2027_SponsorshipBrochure.pdf), linked from the [Sponsors page](docs/sponsors.html)
-- [ ] Recruit sponsors _(Sep–Nov 2026; supported by Champions Ask 3)_
+- [ ] Recruit sponsors _(Sep–Nov 2026; supported by Champions Ask 3)_ — leads and owners in [Sponsors/README.md](Sponsors/README.md)
 - [ ] Confirm sponsorships _(Jan 2027)_
 - [ ] Invoice sponsors _(by event)_
 
 ### Registration
 - [ ] Collect the email list for the registration blast _(Oct 2026)_
-- [ ] Decide registration free vs. paid _(blocks Eventbrite setup and promo copy)_
+- [x] Decide registration free vs. paid: **paid** _(decided Nov 12, 2026)_
 - [ ] Open registration _(Nov 2026; supported by Champions Ask 4)_
-  - [ ] Stand up the Eventbrite site _(owner: Amanda, Events Coordinator)_
-  - [ ] Update the website with registration
+  - [x] Stand up the Eventbrite site _(owner: Amanda, Events Coordinator)_: [Eventbrite](https://www.eventbrite.com/e/2027-data-day-plotting-whats-next-tickets-2004389389621)
+  - [x] Update the website with registration
+  - [ ] Send the registration promotion email _(Mon, Nov 16, 2026; owner: Amanda)_
 - [ ] Close registration _(Feb 7, 2027)_
 - [ ] Send final attendee email / final instructions _(Feb 12–13, 2027)_
 
