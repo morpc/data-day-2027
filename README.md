@@ -36,7 +36,7 @@ exact dates as the cycle progresses.
 - [ ] Hold recurring internal Data Day team meetings
   - [x] Internal Data Day team meeting — Jul 2026
   - [x] Internal Data Day team meeting — Sep 2026
-  - [ ] Internal Data Day team meeting — Nov 2026
+  - [x] Internal Data Day team meeting — Nov 2026
   - [ ] Internal Data Day team meeting — Jan 2027
   - [ ] Internal Data Day team meeting — Feb 2027
 - [ ] Provide Data Day updates at quarterly RDR meetings
