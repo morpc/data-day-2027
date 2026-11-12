@@ -49,7 +49,7 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 - **Champion recognition** approach — program credit, website, event thank-you (feeds the FAQ + checklist).
 - **Champion Coordinator** (named staff owner) and the **deliberative core** (RDR or a small steering group that retains theme/program judgment).
 - **Staff fallback owner** for each critical-path ask.
-- **Registration free vs. paid** (changes marketing hooks/copy).
+- ~~**Registration free vs. paid**~~ Decided: paid (Nov 12, 2026). Eventbrite is live.
 - Current **RDR name** and **board officers** for signed materials.
 
 ---
