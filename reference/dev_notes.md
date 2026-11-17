@@ -3,6 +3,7 @@
 ## 2026-11-17 09:48 — CLAUDE.md plan status
 - Marked the 2027 theme as decided ("Plotting What's Next") in CLAUDE.md, linking the theme concept doc.
 - Updated the rest of the broader-plan list: master timeline (README) and CFP marked done; marketing plan still open, with the full calendar moved to 2028.
+- Pointed the master_timeline.xlsx source entry and date convention at the archived copy; README is the 2027 timeline.
 
 ## 2026-11-17 09:46 — Lunch panel session summary
 - Added Keynotes/Lunch/session-summary-draft.md: title, objectives, description and abstract in CFP field format. This is the version sent to the panelists for review.
