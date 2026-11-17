@@ -68,7 +68,7 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 - Facilitator / day-of cheat sheet (intro template, time cues, Q&A prompts, AV contact) + run-of-show
 
 **Broader Data Day 2027 plan (not yet started):**
-- 2027 theme + concept options (next hard deadline ~late August; everything downstream keys off it). Likely direction: evolve from "People + Data" toward responsible AI in the public sector, while keeping the GIS + local research/program-evaluation preferences.
+- ~~2027 theme + concept options~~ Decided: **"Plotting What's Next"**, subhead "Five years forward for Central Ohio's data community" (subhead and palette locked). See [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md).
 - Updated master timeline with 2027 dates.
 - Refreshed Call for Proposals.
 - Full marketing/comms plan (current process is light on marketing — biggest growth opportunity for the anniversary year).
