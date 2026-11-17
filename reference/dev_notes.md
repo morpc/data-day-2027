@@ -1,5 +1,8 @@
 # Dev Notes
 
+## 2026-11-17 09:46 — Lunch panel session summary
+- Added Keynotes/Lunch/session-summary-draft.md: title, objectives, description and abstract in CFP field format. This is the version sent to the panelists for review.
+
 ## 2026-11-17 09:04 — Lunch panel summary
 - Added Keynotes/Lunch/README.md: concept, story arc, panelists, format, timeline and open items, built from the Sep 9 recruitment email and Oct 8 meeting notes.
 - Committed the Oct 8 meeting notes; corrected "Cheri" to "Sheri" (Sheri Chaney Jones).
