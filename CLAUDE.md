@@ -27,7 +27,7 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 - **Data_Day_2026_Agenda_DRAFT.pdf** — full 2026 program. Note: nearly every breakout lists a *Facilitator* (relevant — facilitation is a natural Champion day-of role). Signals AI/data leadership, GIS, digital twins, transit, housing, program evaluation as recurring topics.
 - **DataDay2026_CFP.pdf** — 2026 Call for Proposals. Theme: *People + Data = Inspired Futures*. Preference given to (1) GIS in planning/decision-making and (2) local social-science research or government/nonprofit program evaluation. Defines submission fields (title, objectives, description, abstract, speakers, skill level, audience, engagement).
 - **FINAL_DRAFT_20262028_REGIONAL_DATA_AGENDA.pdf** — RDR's governing agenda. **Primary voice/style reference for outward MORPC/RDR communications.** Four focus areas (Transportation & Mobility; Housing & Community Development; Infrastructure & Economic Development; Energy & Sustainability) and four action pillars (Promote Reliable & Trusted Data; Expand Education & Outreach; Bolster Project & Program Support; Increase Representation & Connection). Data Day is named a "Signature Event." Note: Pillar 4 uses the word "champion," which the Champions program intentionally echoes.
-- **master_timeline.xlsx** — the planning timeline. Sheets: *Master Timeline* (Category, Task, Notes, Date Due, Hours, Owner), *Time Allocations* (~208 total hours, heavily "Data" team), *Task Categories*. Dates are Excel serials; the event task = serial 46063 = Feb 10, 2026, so the 2027 cycle is the same structure shifted ~1 year. **In 2027 the monthly Working Group is being replaced by the Champions model.**
+- **master_timeline.xlsx** (archived in `Archive/`) — the 2026-cycle planning timeline, kept for reference; the 2027 working timeline is the "Master timeline / TODO" in [README.md](README.md). Sheets: *Master Timeline* (Category, Task, Notes, Date Due, Hours, Owner), *Time Allocations* (~208 total hours, heavily "Data" team), *Task Categories*. Dates are Excel serials; the event task = serial 46063 = Feb 10, 2026, so the 2027 cycle is the same structure shifted ~1 year. **In 2027 the monthly Working Group is being replaced by the Champions model.**
 
 ---
 
@@ -67,11 +67,11 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 - Registration promo kit (email + social copy and graphics for each push moment)
 - Facilitator / day-of cheat sheet (intro template, time cues, Q&A prompts, AV contact) + run-of-show
 
-**Broader Data Day 2027 plan (not yet started):**
-- 2027 theme + concept options (next hard deadline ~late August; everything downstream keys off it). Likely direction: evolve from "People + Data" toward responsible AI in the public sector, while keeping the GIS + local research/program-evaluation preferences.
-- Updated master timeline with 2027 dates.
-- Refreshed Call for Proposals.
-- Full marketing/comms plan (current process is light on marketing — biggest growth opportunity for the anniversary year).
+**Broader Data Day 2027 plan:**
+- ~~2027 theme + concept options~~ Decided: **"Plotting What's Next"**, subhead "Five years forward for Central Ohio's data community" (subhead and palette locked). See [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md).
+- ~~Updated master timeline with 2027 dates~~ Done: the "Master timeline / TODO" in [README.md](README.md) is the working 2027 timeline.
+- ~~Refreshed Call for Proposals~~ Done: released Sep 2026, submissions due Nov 30, 2026. See [Breakouts/CFP/](Breakouts/CFP/).
+- Full marketing/comms plan: still open. 2027 promotion is handled per milestone (CFP promo kit, registration promo, [What People Are Saying](Marketing/what-people-are-saying.md)); [PROJECT_PLAN.md](PROJECT_PLAN.md) moves a full marketing calendar to the 2028 kickoff.
 
 ---
 
@@ -79,4 +79,4 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 - Keep champion-facing vs. internal/staff vs. outward-public materials in distinct, clearly labeled files; don't mix audiences in one doc.
 - Preserve the boundary principle and the kit-before-ask gate in any new Champions material.
 - When filling placeholders, update *all* affected files together (e.g., a recognition decision touches both the FAQ and the checklist).
-- Decode timeline dates from `master_timeline.xlsx` using the Excel serial convention (event 2026 = 46063 = Feb 10, 2026).
+- Track 2027 dates in the README "Master timeline / TODO." When reading the archived `Archive/master_timeline.xlsx`, decode dates using the Excel serial convention (event 2026 = 46063 = Feb 10, 2026).
