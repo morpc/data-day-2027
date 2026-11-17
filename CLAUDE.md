@@ -67,11 +67,11 @@ This is a no code repository. Context and working state for the Data Day 2027 co
 - Registration promo kit (email + social copy and graphics for each push moment)
 - Facilitator / day-of cheat sheet (intro template, time cues, Q&A prompts, AV contact) + run-of-show
 
-**Broader Data Day 2027 plan (not yet started):**
+**Broader Data Day 2027 plan:**
 - ~~2027 theme + concept options~~ Decided: **"Plotting What's Next"**, subhead "Five years forward for Central Ohio's data community" (subhead and palette locked). See [Theme/theme-concept-plotting-whats-next.md](Theme/theme-concept-plotting-whats-next.md).
-- Updated master timeline with 2027 dates.
-- Refreshed Call for Proposals.
-- Full marketing/comms plan (current process is light on marketing — biggest growth opportunity for the anniversary year).
+- ~~Updated master timeline with 2027 dates~~ Done: the "Master timeline / TODO" in [README.md](README.md) is the working 2027 timeline.
+- ~~Refreshed Call for Proposals~~ Done: released Sep 2026, submissions due Nov 30, 2026. See [Breakouts/CFP/](Breakouts/CFP/).
+- Full marketing/comms plan: still open. 2027 promotion is handled per milestone (CFP promo kit, registration promo, [What People Are Saying](Marketing/what-people-are-saying.md)); [PROJECT_PLAN.md](PROJECT_PLAN.md) moves a full marketing calendar to the 2028 kickoff.
 
 ---
 
