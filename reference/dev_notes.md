@@ -1,5 +1,11 @@
 # Dev Notes
 
+## 2026-11-20 13:49 — Unlisted past agenda pages
+- Added docs/agenda-2024.html, agenda-2025.html, agenda-2026.html, transcribed from the printed programs in Archive/.
+- Unlisted by design: no links from nav or other pages, and `noindex, nofollow`. Share by direct URL.
+- 2023 skipped (brochure is image-only). 2026 includes descriptions, speakers and skill-level dots as printed; 2024/2025 programs list titles only.
+- Added a small "Past agendas" block to styles.css.
+
 ## 2026-11-17 09:48 — CLAUDE.md plan status
 - Marked the 2027 theme as decided ("Plotting What's Next") in CLAUDE.md, linking the theme concept doc.
 - Updated the rest of the broader-plan list: master timeline (README) and CFP marked done; marketing plan still open, with the full calendar moved to 2028.

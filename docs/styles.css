@@ -351,3 +351,13 @@ footer a { color: var(--dd-blue-300); }
 .submit-cta { display: flex; align-items: center; gap: clamp(1.5rem, 4vw, 3rem); flex-wrap: wrap; }
 .submit-cta > div { flex: 1 1 20rem; min-width: 0; }
 .submit-cta__qr { width: 220px; max-width: 100%; height: auto; padding: 14px; background: var(--dd-white); border: 1px solid var(--border); border-radius: var(--radius); flex: none; }
+
+/* ---------- Past agendas (unlisted archive pages: agenda-YYYY.html) ---------- */
+.slot + .slot { margin-top: 2.5rem; }
+.slot__time { font-size: 1.25rem; color: var(--dd-navy-500); padding-bottom: 0.5rem; border-bottom: 2px solid var(--dd-teal-500); }
+.slot__time span { color: var(--fg-muted); font-weight: 600; }
+.slot .kv > div { grid-template-columns: 11rem 1fr; }
+.slot .kv dd b { color: var(--fg); }
+.slot .card .meta { margin: 0 0 0.6rem; }
+.slot .card .speakers { margin-top: 0.75rem; font-size: 0.9rem; color: var(--fg-muted); }
+.dots { letter-spacing: 0.1em; color: var(--dd-teal-600); }
