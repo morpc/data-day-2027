@@ -84,6 +84,21 @@ Copy this into an email or post as-is, or trim it to fit.
 Adapt freely. Your own voice works better than ours. Post from your own account, and
 please use the graphics as provided.
 
+### Last-call post (final week)
+
+> Last call: proposals for Data Day 2027 are due Monday, November 30.
+>
+> Data Day is MORPC's annual conference for Central Ohio's public-sector data community,
+> and this February marks its fifth year. If you've built, analyzed, or learned something
+> this year that another city, county, or nonprofit could use, it's worth a 45-minute
+> session. All topics and skill levels are welcome.
+>
+> Submit here: https://tinyurl.com/dataday-cfp
+>
+> \#DataDay2027 \#CentralOhio \#PublicSectorData
+
+Attach the [square social graphic](graphics/cfp-social-1080.png).
+
 ### LinkedIn post
 
 > The Call for Proposals for Data Day 2027 is open.
