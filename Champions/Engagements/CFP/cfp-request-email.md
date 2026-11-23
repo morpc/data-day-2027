@@ -2,7 +2,7 @@
 
 > **Audience:** champion-facing. The official Ask 2 email (share the CFP and recruit
 > session speakers), sent by MORPC staff to Champions who opted into it.
-> **Status:** draft, not sent this cycle. The [last-call email](cfp-last-call-email.md) is used instead for 2027.
+> **Status:** sent to Champions who opted in (before Nov 23, 2026). Followed up by the [last-call email](cfp-last-call-email.md).
 > **Attach:**
 > [cfp-promo-kit.pdf](cfp-promo-kit.pdf),
 > [cfp-slide.pdf](artifact/exports/cfp-slide.pdf),
