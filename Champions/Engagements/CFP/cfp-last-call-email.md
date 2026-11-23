@@ -3,7 +3,7 @@
 > **Audience:** champion-facing. A follow-up to the [CFP request email](cfp-request-email.md)
 > (Ask 2: share the CFP and recruit session speakers), sent by MORPC staff to everyone who
 > received that email, in the final week before proposals close.
-> **Status:** draft, not yet sent. Send by Tue, Nov 24 so it lands before Thanksgiving.
+> **Status:** sent Nov 23, 2026.
 > **Attach:**
 > [cfp-social.png](artifact/exports/cfp-social.png) (still accurate: shows the Nov 30 deadline) and
 > [cfp-promo-kit.pdf](cfp-promo-kit.pdf) (optional; now includes this last-call post).

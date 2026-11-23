@@ -96,7 +96,7 @@ exact dates as the cycle progresses.
   - [ ] Email the CFP to the list _(Oct–Nov 2026)_
     - [x] RIDG — [broad email](Breakouts/CFP/cfp-recruitment-email.md) _(Nov 2026)_
     - [ ] COGUG — [GIS-focused email](Breakouts/CFP/cfp-recruitment-email-cogug.md), sent by Cheri _(Nov 2026)_
-  - [ ] Promote the CFP — including at the Summit on Sustainability _(Oct 2026; supported by Champions Ask 2)_
+  - [x] Promote the CFP — including at the Summit on Sustainability _(Oct 2026; supported by Champions Ask 2)_ — Champions [launch email](Champions/Engagements/CFP/cfp-request-email.md) and [last-call follow-up](Champions/Engagements/CFP/cfp-last-call-email.md) sent
   - [x] Update the website with the CFP _(Oct 2026)_ — Breakouts page, homepage banner and card
 - [ ] Select sessions
   - [ ] Close the call for session proposals _(Nov 30, 2026)_

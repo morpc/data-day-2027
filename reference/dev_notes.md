@@ -4,6 +4,7 @@
 - The launch CFP email had been sent after all; the repo status was out of date. Marked it sent.
 - Reworked cfp-last-call-email.md as a follow-up to everyone who got the launch email: references the earlier ask, thanks those who already helped, same nudge note and last-call post.
 - Updated the kit status in Champions/CLAUDE.md.
+- Follow-up sent Nov 23. Checked off "Promote the CFP" (incl. Summit on Sustainability) in the README timeline.
 
 ## 2026-11-23 10:23 — Champions CFP last-call email
 - Added Champions/Engagements/CFP/cfp-last-call-email.md: Ask 2 reframed as a last call (nudge individuals, post on socials) since the launch email was never sent and the CFP closes Nov 30.
