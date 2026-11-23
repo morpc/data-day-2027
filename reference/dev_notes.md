@@ -4,6 +4,7 @@
 - Added Champions/Engagements/CFP/cfp-last-call-email.md: Ask 2 reframed as a last call (nudge individuals, post on socials) since the launch email was never sent and the CFP closes Nov 30.
 - Kept the launch email as a reusable template; its status now points to the last-call version.
 - Updated the CFP kit status in Champions/CLAUDE.md.
+- Promo kit: moved the nudge-by date from Fri, Nov 20 to Wed, Nov 25 (md, PDF, artifact page); rebuilt and republished the artifact.
 
 ## 2026-11-20 13:49 — Unlisted past agenda pages
 - Added docs/agenda-2024.html, agenda-2025.html, agenda-2026.html, transcribed from the printed programs in Archive/.

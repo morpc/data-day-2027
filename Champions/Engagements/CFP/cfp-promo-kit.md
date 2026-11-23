@@ -35,7 +35,7 @@ review the same way as any other proposal.
 | **Data Day 2027** | Thursday, February 18, 2027 |
 
 The deadline is the Monday after Thanksgiving, so many people will want to submit
-before the holiday. **Send your nudges by Friday, November 20** for the best chance of landing them.
+before the holiday. **Send your nudges by Wednesday, November 25** for the best chance of landing them.
 
 ---
 
