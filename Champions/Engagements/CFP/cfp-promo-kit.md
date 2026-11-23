@@ -35,7 +35,7 @@ review the same way as any other proposal.
 | **Data Day 2027** | Thursday, February 18, 2027 |
 
 The deadline is the Monday after Thanksgiving, so many people will want to submit
-before the holiday. **Send your nudges by Friday, November 20** for the best chance of landing them.
+before the holiday. **Send your nudges by Wednesday, November 25** for the best chance of landing them.
 
 ---
 
@@ -83,6 +83,21 @@ Copy this into an email or post as-is, or trim it to fit.
 
 Adapt freely. Your own voice works better than ours. Post from your own account, and
 please use the graphics as provided.
+
+### Last-call post (final week)
+
+> Last call: proposals for Data Day 2027 are due Monday, November 30.
+>
+> Data Day is MORPC's annual conference for Central Ohio's public-sector data community,
+> and this February marks its fifth year. If you've built, analyzed, or learned something
+> this year that another city, county, or nonprofit could use, it's worth a 45-minute
+> session. All topics and skill levels are welcome.
+>
+> Submit here: https://tinyurl.com/dataday-cfp
+>
+> \#DataDay2027 \#CentralOhio \#PublicSectorData
+
+Attach the [square social graphic](graphics/cfp-social-1080.png).
 
 ### LinkedIn post
 
