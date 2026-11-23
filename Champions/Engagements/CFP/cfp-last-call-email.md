@@ -1,23 +1,24 @@
-# Data Day 2027 Champions: CFP Last Call Email
+# Data Day 2027 Champions: CFP Last Call Follow-Up Email
 
-> **Audience:** champion-facing. A last-call version of Ask 2 (share the CFP and recruit
-> session speakers), sent by MORPC staff to Champions who opted into it, in the final
-> week before proposals close. Replaces the launch-style [CFP request email](cfp-request-email.md)
-> for this cycle, since that one was not sent before the final week.
+> **Audience:** champion-facing. A follow-up to the [CFP request email](cfp-request-email.md)
+> (Ask 2: share the CFP and recruit session speakers), sent by MORPC staff to everyone who
+> received that email, in the final week before proposals close.
 > **Status:** draft, not yet sent. Send by Tue, Nov 24 so it lands before Thanksgiving.
 > **Attach:**
 > [cfp-social.png](artifact/exports/cfp-social.png) (still accurate: shows the Nov 30 deadline) and
-> [cfp-promo-kit.pdf](cfp-promo-kit.pdf) (optional, for more nudge templates).
+> [cfp-promo-kit.pdf](cfp-promo-kit.pdf) (optional; now includes this last-call post).
 
 ---
 
-**Subject:** Last call: one week left for Data Day proposals
+**Subject:** Re: Data Day Champions: help us fill the breakout program
+
+_(Send as a reply-all on the original email so it threads with the first ask.)_
 
 Hello Data Day Champion,
 
-Proposals for Data Day 2027 close **Monday, November 30**, the Monday after Thanksgiving. One quick push from you this week could bring in a great breakout session.
+A quick follow-up to my earlier email about the Call for Proposals. Proposals close **Monday, November 30**, the Monday after Thanksgiving, so this week is the last chance to bring in a great breakout session. If you've already shared or nudged, thank you!
 
-**The ask (10 minutes, do one or both):**
+**One last push (10 minutes, do one or both):**
 
 1. **Nudge one or two people directly.** Think of someone whose work the region should hear about and send them a short note. A personal ask from you is the most effective thing you can do.
 2. **Post a last call on your socials.** LinkedIn works best. Attach the social card.
@@ -44,7 +45,7 @@ Proposals for Data Day 2027 close **Monday, November 30**, the Monday after Than
 **What's attached:**
 
 - **Social card (PNG):** attach it to your post. It includes a QR code to the form.
-- **Promo kit (PDF):** more copy and nudge templates if you want them.
+- **Promo kit (PDF):** the same kit as before, updated with this last-call post.
 
 MORPC staff review every proposal and make the selections, so please don't promise anyone a slot. Once you've nudged or posted, your part is done.
 
